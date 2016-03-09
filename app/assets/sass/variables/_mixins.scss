@@ -1,0 +1,6 @@
+@mixin imagen-fondo($url, $ancho, $alto){
+	background-image: url($url);
+	background-repeat: no-repeat;
+	background-size: $ancho $alto;
+	background-position: center;
+}

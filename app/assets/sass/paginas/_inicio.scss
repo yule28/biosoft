@@ -1,0 +1,78 @@
+#desarrollo{
+	background-color: $desarrollo-bgc;
+	padding: 3% 0;
+	.container{
+		.des{
+			.col-md-4{
+				h2{
+					font-family: $font-site;
+					color: $desarrollo-h2-color;
+					span{
+						font-weight: bold;
+					}
+				}
+				h4{
+					font-family: $font-site;
+					margin: 10% 0;
+					color: $desarrollo-h4-color;
+				}
+				p{
+
+					margin: 10% 0;
+					color: $desarrollo-p-color;
+					a{
+						font-family: $font-site;
+					}
+				}
+			}
+		}
+	}
+}
+#capacitacion{
+	background-color: $capacitacion-bgc;
+	padding: 3% 0;
+	.container{
+		.info{
+			h2{
+				font-family: $font-site;
+				color: $capacitacion-h2-color;
+				span{
+					font-weight: bold;
+					color: $capacitacion-h2-span-color;
+				}
+			}
+			p{
+				margin-top: 20%;
+				color: $capacitacion-p-color;
+			}
+		}
+	}
+}
+#consultoria{
+	background-color: $consultoria-bgc;
+	.container{
+		h2{
+			font-family: $font-site;
+			color: $consultoria-h2-color;
+			span{
+				font-weight: bold;
+				color: $consultoria-h2-span-color;
+			}
+		}
+		.row{
+			.thumbnail{
+				.caption{
+					h4{
+						font-family: $font-site;
+						color: $consultoria-thumbnail-color;
+						font-weight: bold;
+					}
+					p{
+						font-family: $font-site;
+						color: $consultoria-thumbnail-color;
+					}
+				}
+			}
+		}
+	}
+}

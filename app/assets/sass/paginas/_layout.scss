@@ -1,0 +1,83 @@
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+display: block;
+height: auto;
+max-width: 100%;
+line-height: 1;
+width: 100%; // Add this
+}
+
+body{
+	header{
+		.navbar{
+			background-color: $header-bgc;
+		}
+		//@include region-basica(100%,$layout-header-height,$header-bgc);
+		.logo-biosoft{
+			//background-color: red;
+			margin-top: 5px;
+			margin-left: 15%;
+			float: left;
+			width: 326px;
+			height: 121px;
+			@include imagen-fondo('../images/layout/logo_header.png',326px,121px);
+		}
+		
+		.navbar-nav{
+			float: right;
+			margin-top: 77px;
+			ul{
+				li{
+					a{
+						font-family: 'Questrial', sans-serif;
+						font-size: $font-size-link-navbar;
+						color: $header-navbar-link-color;
+					}
+				}
+			}
+
+			// $screen-xs-max = 767px 
+			@media (max-width: $screen-xs-max){
+				float: left;
+				margin-top: 0;
+			}
+			// $screen-md-min = 768px Y $screen-md-max = 1199px
+			@media (min-width:  $screen-sm-min) and  (max-width: $screen-md-max) {
+				float: right;
+				margin-top: 20px;
+			}
+			
+		}
+	}
+	footer{
+		width: 100%;
+		height: $footer-height;
+		background-color: $footer-bgc;
+		.footer-menu{
+			background-color: $footer-menu-bgc;
+			height: $footer-menu-height;
+			width: 100%;
+		}
+		.footer-der{
+			#wrap-footer{
+				.row{
+					margin: 0 500px auto;
+					width: 800px;
+					#footer-logo{
+						width: 109px;
+						height: 52px;
+						@include imagen-fondo('../images/layout/footer_logo.png',109px,52px);
+					}
+					#derechos{
+						p{
+							margin-top: 15px;
+							color: $footer-right-color;
+						}
+					}
+					#social{
+						
+					}
+				}
+			}
+		}
+	}
+}

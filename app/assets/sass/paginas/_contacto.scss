@@ -1,0 +1,114 @@
+#contacto{
+	margin: 5% 0;
+	.container{
+		.title{
+			margin-bottom: 5%;
+			h2{
+				color: #6d8d28;
+			}
+		}
+		.mapa{
+			padding-left: 5%;
+		  	margin-top: 3%;
+		}
+		.direccion{
+			padding: 5% 10%;
+		}
+	}
+}
+
+#formulario{
+	margin-top: 2%;
+	padding: 2% 0;
+	background-color: #3594d6;
+	.container{
+		.title{
+			margin-bottom: 5%;
+			font-family: $font-museo-500;
+			font-size: $font-size-title-consultoria;
+			color: #FFF;
+		}
+		.form{
+		  	#form-contacto{
+			  .has-feedback .form-control-feedback {
+				position: absolute;
+				top: 0;
+				right: 15px;
+				display: block;
+				width: 34px;
+				height: 34px;
+				line-height: 34px;
+				text-align: center;
+			  }
+			}
+			margin-left: 5%;
+			.form-group{
+				> label.mensaje{
+					height: 100px;
+				} textarea.mensaje{
+					height: 100px;
+				}
+				> 
+				> .col-md-4{
+					//padding-left: 0;
+				}
+				> .control-label{
+					height: 34px;
+					background-color: #2877ae;
+					color: #FFF;
+					text-align: left;
+					//margin-right: 14px;
+				}
+				> .col-sm-12{
+					 button{
+					 	@include box-shadow($contacto-btn-box-shadow 5px 10px 1px);
+						background-color: $contacto-btn-form-bgc;
+						border-color: $contacto-btn-form-bgc;
+						&:hover{
+							background-color: darken($contacto-btn-form-bgc, 10%);
+							border-color: darken($contacto-btn-form-bgc, 12%);
+						}
+					}
+				} 
+				 
+			}
+		}
+		.separador{
+			padding-left: 50px;
+			.linea{
+				//margin-top: -50px;
+				width: 3px;
+				height: 400px;
+				background-color: #377cad;
+			}
+			//background-color: red;
+		}
+		.direccion{
+			margin-top: 3%;
+			background-color: $contacto-direcciones-bgc;
+			border-style: solid;
+    		border-width: 2px;
+			border-color: darken($contacto-direcciones-bgc, 12%);
+			.enlaces{
+				padding: 5% 0;
+				padding-left: 4%;
+				text-align: center;
+				border-color: darken($contacto-direcciones-bgc, 12%);
+				border-right-style: solid;
+				.row{
+					margin-left: 0;
+					margin-right: 0;
+				}
+			}
+			.telefonos{
+				padding: 10% 0;
+				padding-left: 10%;
+				p{
+					font-style: $font-site;
+					color: $contacto-telefonos-color;
+				}
+			}
+		}
+
+	}
+}

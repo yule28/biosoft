@@ -1,0 +1,1389 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+@import url(http://fonts.googleapis.com/css?family=Questrial);
+@font-face {
+  font-family: "museo 300";
+  src: url("../fonts/museo300regular.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "museo 500";
+  src: url("../fonts/museo500regular.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "museo 700";
+  src: url("../fonts/museo700.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+/* line 2, ../../../app/assets/sass/paginas/_layout.scss */
+p {
+  font-family: "Questrial", sans-serif;
+  font-size: 16px;
+}
+
+/* SLIDER STYLES */
+/* line 20, ../../../app/assets/sass/paginas/_layout.scss */
+.slider-wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+  width: 100%;
+  margin: 1px auto;
+  margin-top: 85px;
+  background: #3d4351;
+  box-shadow: 0 3px 5px #666;
+}
+@media (max-width: 767px) {
+  /* line 20, ../../../app/assets/sass/paginas/_layout.scss */
+  .slider-wrapper {
+    margin-top: 100px;
+    height: 400px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* line 20, ../../../app/assets/sass/paginas/_layout.scss */
+  .slider-wrapper {
+    height: 400px;
+    margin-top: 160px;
+  }
+}
+
+/* line 44, ../../../app/assets/sass/paginas/_layout.scss */
+.slider {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: #3d4351;
+}
+@media (min-width: 1199px) {
+  /* line 44, ../../../app/assets/sass/paginas/_layout.scss */
+  .slider {
+    height: 620px;
+  }
+}
+/* line 55, ../../../app/assets/sass/paginas/_layout.scss */
+.slider .slide h2 {
+  font-size: 50px;
+  color: #FFF;
+  text-shadow: rgba(0, 0, 0, 0.2) 2px 2px 0, rgba(0, 0, 0, 0.2) 3px 3px 0, rgba(0, 0, 0, 0.2) 4px 4px 0;
+}
+/* line 60, ../../../app/assets/sass/paginas/_layout.scss */
+.slider .slide h4 {
+  font-size: 30px;
+  color: #FFF;
+  text-shadow: rgba(0, 0, 0, 0.2) 2px 2px 0, rgba(0, 0, 0, 0.2) 3px 3px 0, rgba(0, 0, 0, 0.2) 4px 4px 0;
+}
+/* line 66, ../../../app/assets/sass/paginas/_layout.scss */
+.slider .slide p > a.desarrollo {
+  background-color: #b03138 !important;
+  color: #FFF;
+  width: 250px !important;
+  height: 50px !important;
+  font-size: 16px !important;
+  padding-top: 12px;
+}
+/* line 70, ../../../app/assets/sass/paginas/_layout.scss */
+.slider .slide p > a.arquitectura {
+  background-color: #7b9f6c !important;
+  color: #FFF;
+  width: 250px !important;
+  height: 50px !important;
+  font-size: 16px !important;
+  padding-top: 12px;
+}
+/* line 74, ../../../app/assets/sass/paginas/_layout.scss */
+.slider .slide p > a.gestion {
+  background-color: #7b9f6c !important;
+  color: #FFF;
+  width: 250px !important;
+  height: 50px !important;
+  font-size: 16px !important;
+  padding-top: 12px;
+}
+/* line 78, ../../../app/assets/sass/paginas/_layout.scss */
+.slider .slide p > a.biowatch {
+  background-color: #7b9f6c !important;
+  color: #FFF;
+  width: 250px !important;
+  height: 50px !important;
+  font-size: 16px !important;
+  padding-top: 12px;
+}
+/* line 82, ../../../app/assets/sass/paginas/_layout.scss */
+.slider .slide p > a.epraxis {
+  background-color: #7b9f6c !important;
+  color: #FFF;
+  width: 250px !important;
+  height: 50px !important;
+  font-size: 16px !important;
+  padding-top: 12px;
+}
+
+/* .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+display: block;
+height: auto;
+max-width: 100%;
+line-height: 1;
+width: 100%; // Add this
+} */
+/* line 139, ../../../app/assets/sass/paginas/_layout.scss */
+body header .navbar {
+  z-index: 10000;
+  background-color: #fffffa;
+}
+/* line 144, ../../../app/assets/sass/paginas/_layout.scss */
+body header .logo-biosoft {
+  margin-top: 15px;
+  margin-left: 15%;
+  float: left;
+}
+/* line 155, ../../../app/assets/sass/paginas/_layout.scss */
+body header .navbar-nav {
+  float: right;
+  margin-top: 30px;
+}
+/* line 160, ../../../app/assets/sass/paginas/_layout.scss */
+body header .navbar-nav ul li a {
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  color: #5a5a5a !important;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* line 160, ../../../app/assets/sass/paginas/_layout.scss */
+  body header .navbar-nav ul li a {
+    padding-top: 29px !important;
+    padding-bottom: 0 !important;
+  }
+}
+@media (max-width: 767px) {
+  /* line 155, ../../../app/assets/sass/paginas/_layout.scss */
+  body header .navbar-nav {
+    float: left;
+    margin-top: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* line 155, ../../../app/assets/sass/paginas/_layout.scss */
+  body header .navbar-nav {
+    float: right;
+    margin-top: 20px;
+  }
+}
+/* line 185, ../../../app/assets/sass/paginas/_layout.scss */
+body .wrap-otra {
+  margin-top: 84px;
+  min-height: 
+}
+@media (max-width: 767px) {
+  /* line 185, ../../../app/assets/sass/paginas/_layout.scss */
+  body .wrap-otra {
+    margin-top: 150px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* line 185, ../../../app/assets/sass/paginas/_layout.scss */
+  body .wrap-otra {
+    margin-top: 155px;
+  }
+}
+/* line 196, ../../../app/assets/sass/paginas/_layout.scss */
+body footer {
+  width: 100%;
+  height: auto;
+  background-color: #20232c;
+  color: #818181;
+  padding: 50px 0px 20px 0px;
+}
+@media (max-width: 767px) {
+  /* line 196, ../../../app/assets/sass/paginas/_layout.scss */
+  body footer {
+    height: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* line 196, ../../../app/assets/sass/paginas/_layout.scss */
+  body footer {
+    height: auto;
+  }
+}
+/* line 210, ../../../app/assets/sass/paginas/_layout.scss */
+body footer .footer-der #wrap-footer .row {
+  margin: 0 500px auto;
+  width: 800px;
+}
+@media (max-width: 767px) {
+  /* line 210, ../../../app/assets/sass/paginas/_layout.scss */
+  body footer .footer-der #wrap-footer .row {
+    margin-left: 100px;
+    width: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* line 210, ../../../app/assets/sass/paginas/_layout.scss */
+  body footer .footer-der #wrap-footer .row {
+    margin-left: 100px;
+    width: auto;
+  }
+}
+/* line 223, ../../../app/assets/sass/paginas/_layout.scss */
+body footer .footer-der #wrap-footer .row #footer-logo {
+  width: 109px;
+  height: 52px;
+  background-image: url("../images/layout/footer_logo.png");
+  background-repeat: no-repeat;
+  background-size: 109px 52px;
+  background-position: center;
+}
+/* line 229, ../../../app/assets/sass/paginas/_layout.scss */
+body footer .footer-der #wrap-footer .row #derechos p {
+  margin-top: 15px;
+  color: #fff;
+}
+
+/* line 1, ../../../app/assets/sass/paginas/_inicio.scss */
+#gestion {
+  background-color: #fff;
+  padding: 5% 0;
+}
+/* line 6, ../../../app/assets/sass/paginas/_inicio.scss */
+#gestion .container .row h2 {
+  font-family: "Questrial", sans-serif;
+  color: #7e7d7d;
+}
+/* line 9, ../../../app/assets/sass/paginas/_inicio.scss */
+#gestion .container .row h2 span {
+  font-weight: bold;
+  color: #96b523;
+}
+/* line 17, ../../../app/assets/sass/paginas/_inicio.scss */
+#gestion .container > .gest .col-md-4 > p {
+  margin: 10% 0;
+  color: #7e7d7d;
+}
+/* line 20, ../../../app/assets/sass/paginas/_inicio.scss */
+#gestion .container > .gest .col-md-4 > p a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+/* line 27, ../../../app/assets/sass/paginas/_inicio.scss */
+#gestion .container > .gest .col-md-4 > p.eslogan {
+  font-family: "Questrial", sans-serif;
+  font-size: 30px;
+  color: #d57d33;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+/* line 39, ../../../app/assets/sass/paginas/_inicio.scss */
+#desarrollo {
+  background-color: #5d8fb6;
+  padding: 5% 0;
+}
+/* line 45, ../../../app/assets/sass/paginas/_inicio.scss */
+#desarrollo .container .des .col-md-4 h2 {
+  font-family: "Questrial", sans-serif;
+  color: #fff;
+}
+/* line 48, ../../../app/assets/sass/paginas/_inicio.scss */
+#desarrollo .container .des .col-md-4 h2 span {
+  font-weight: bold;
+}
+/* line 52, ../../../app/assets/sass/paginas/_inicio.scss */
+#desarrollo .container .des .col-md-4 h4 {
+  font-family: "Questrial", sans-serif;
+  margin: 10% 0;
+  color: #fff;
+}
+/* line 57, ../../../app/assets/sass/paginas/_inicio.scss */
+#desarrollo .container .des .col-md-4 p {
+  margin: 10% 0;
+  color: #fff;
+}
+/* line 61, ../../../app/assets/sass/paginas/_inicio.scss */
+#desarrollo .container .des .col-md-4 p a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* line 70, ../../../app/assets/sass/paginas/_inicio.scss */
+#capacitacion {
+  background-color: #fff;
+  padding: 5% 0;
+}
+/* line 75, ../../../app/assets/sass/paginas/_inicio.scss */
+#capacitacion .container .info h2 {
+  font-family: "Questrial", sans-serif;
+  color: #424b51;
+}
+/* line 78, ../../../app/assets/sass/paginas/_inicio.scss */
+#capacitacion .container .info h2 span {
+  font-weight: bold;
+  color: #d57d33;
+}
+/* line 83, ../../../app/assets/sass/paginas/_inicio.scss */
+#capacitacion .container .info h4 {
+  font-family: "Questrial", sans-serif;
+  margin: 10% 0;
+  color: #7e7d7d;
+}
+/* line 88, ../../../app/assets/sass/paginas/_inicio.scss */
+#capacitacion .container .info p {
+  margin-top: 10%;
+  color: #7e7d7d;
+}
+/* line 89, ../../../app/assets/sass/paginas/_inicio.scss */
+#capacitacion .container .info p span {
+  font-weight: bold;
+}
+/* line 94, ../../../app/assets/sass/paginas/_inicio.scss */
+#capacitacion .container .info p a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* line 102, ../../../app/assets/sass/paginas/_inicio.scss */
+#consultoria {
+  background-color: #ebeeed;
+  padding: 3% 0;
+}
+/* line 106, ../../../app/assets/sass/paginas/_inicio.scss */
+#consultoria .container h2 {
+  padding-bottom: 3%;
+  font-family: "Questrial", sans-serif;
+  color: #424b51;
+}
+/* line 110, ../../../app/assets/sass/paginas/_inicio.scss */
+#consultoria .container h2 span {
+  font-weight: bold;
+  color: #6d8e61;
+}
+/* line 116, ../../../app/assets/sass/paginas/_inicio.scss */
+#consultoria .container .row .thumbnail {
+  height: 550px;
+}
+/* line 119, ../../../app/assets/sass/paginas/_inicio.scss */
+#consultoria .container .row .thumbnail .caption h4 {
+  height: 60px;
+  font-family: "Questrial", sans-serif;
+  color: #7e7d7d;
+  font-weight: bold;
+}
+/* line 124, ../../../app/assets/sass/paginas/_inicio.scss */
+#consultoria .container .row .thumbnail .caption h4 span {
+  font-size: 20px;
+}
+/* line 128, ../../../app/assets/sass/paginas/_inicio.scss */
+#consultoria .container .row .thumbnail .caption p {
+  height: 230px;
+  font-family: "Questrial", sans-serif;
+  color: #7e7d7d;
+}
+/* line 132, ../../../app/assets/sass/paginas/_inicio.scss */
+#consultoria .container .row .thumbnail .caption p span {
+  font-weight: bold;
+}
+/* line 135, ../../../app/assets/sass/paginas/_inicio.scss */
+#consultoria .container .row .thumbnail .caption p a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* line 146, ../../../app/assets/sass/paginas/_inicio.scss */
+#clientes {
+  background-color: #d2d6d5;
+  padding: 3% 0;
+}
+/* line 150, ../../../app/assets/sass/paginas/_inicio.scss */
+#clientes .container h2 {
+  padding-bottom: 3%;
+  font-family: "Questrial", sans-serif;
+  color: #424b51;
+}
+/* line 154, ../../../app/assets/sass/paginas/_inicio.scss */
+#clientes .container h2 span {
+  font-weight: bold;
+  color: #6d8e61;
+}
+/* line 161, ../../../app/assets/sass/paginas/_inicio.scss */
+#clientes .container .col-md-4 p {
+  margin-top: 30%;
+  margin-right: 10%;
+  color: #7e7d7d;
+  font-family: "Questrial", sans-serif;
+  line-height: 24px;
+}
+/* line 167, ../../../app/assets/sass/paginas/_inicio.scss */
+#clientes .container .col-md-4 p span {
+  font-size: 24px;
+  font-weight: bold;
+  color: #6d8e61;
+}
+
+/* line 1, ../../../app/assets/sass/paginas/_consultoria.scss */
+#modelado {
+  margin: 5% 0;
+}
+/* line 5, ../../../app/assets/sass/paginas/_consultoria.scss */
+#modelado .container > .cuerpo h2 {
+  margin-bottom: 5%;
+  font-family: "museo 500", arial, sans-serif;
+  font-size: 28px;
+  color: #6d8d28;
+}
+/* line 10, ../../../app/assets/sass/paginas/_consultoria.scss */
+#modelado .container > .cuerpo h2 span {
+  font-family: "museo 300", arial, sans-serif;
+}
+/* line 14, ../../../app/assets/sass/paginas/_consultoria.scss */
+#modelado .container > .cuerpo p {
+  color: #7e7d7d;
+  font-family: "Questrial", sans-serif;
+  font-size: 16px;
+}
+/* line 19, ../../../app/assets/sass/paginas/_consultoria.scss */
+#modelado .container > .cuerpo p .btn {
+  background-color: #6d8d28;
+  border-color: #6d8d28;
+}
+/* line 22, ../../../app/assets/sass/paginas/_consultoria.scss */
+#modelado .container > .cuerpo p .btn:hover {
+  background-color: #4e651d;
+  border-color: #485d1a;
+}
+/* line 28, ../../../app/assets/sass/paginas/_consultoria.scss */
+#modelado .container > .cuerpo .col-md-5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* line 35, ../../../app/assets/sass/paginas/_consultoria.scss */
+#arquitectura {
+  background-color: #6c70fd;
+  padding: 5% 0;
+}
+/* line 40, ../../../app/assets/sass/paginas/_consultoria.scss */
+#arquitectura .container > .cuerpo h2 {
+  margin-bottom: 5%;
+  font-family: "museo 500", arial, sans-serif;
+  font-size: 28px;
+  color: #FFF;
+}
+/* line 45, ../../../app/assets/sass/paginas/_consultoria.scss */
+#arquitectura .container > .cuerpo h2 span {
+  font-family: "museo 300", arial, sans-serif;
+}
+/* line 49, ../../../app/assets/sass/paginas/_consultoria.scss */
+#arquitectura .container > .cuerpo p {
+  font-family: "Questrial", sans-serif;
+  font-size: 16px;
+  color: #FFF;
+  margin-bottom: 5%;
+}
+/* line 54, ../../../app/assets/sass/paginas/_consultoria.scss */
+#arquitectura .container > .cuerpo p .btn {
+  background-color: #6c70fd;
+  border-color: #FFF;
+}
+/* line 57, ../../../app/assets/sass/paginas/_consultoria.scss */
+#arquitectura .container > .cuerpo p .btn:hover {
+  background-color: #3a3ffc;
+  border-color: #e0e0e0;
+}
+
+/* line 66, ../../../app/assets/sass/paginas/_consultoria.scss */
+#planificacion {
+  margin: 5% 0;
+}
+/* line 71, ../../../app/assets/sass/paginas/_consultoria.scss */
+#planificacion .container > .cuerpo .der h2 {
+  margin-bottom: 5%;
+  font-family: "museo 500", arial, sans-serif;
+  font-size: 28px;
+  color: #d98034;
+}
+/* line 76, ../../../app/assets/sass/paginas/_consultoria.scss */
+#planificacion .container > .cuerpo .der h2 span {
+  font-family: "museo 300", arial, sans-serif;
+}
+/* line 80, ../../../app/assets/sass/paginas/_consultoria.scss */
+#planificacion .container > .cuerpo .der p {
+  color: #7e7d7d;
+  font-family: "Questrial", sans-serif;
+  font-size: 16px;
+}
+/* line 85, ../../../app/assets/sass/paginas/_consultoria.scss */
+#planificacion .container > .cuerpo .der p .btn {
+  background-color: #d98034;
+  border-color: #d98034;
+}
+/* line 88, ../../../app/assets/sass/paginas/_consultoria.scss */
+#planificacion .container > .cuerpo .der p .btn:hover {
+  background-color: #b86722;
+  border-color: #af6221;
+}
+/* line 96, ../../../app/assets/sass/paginas/_consultoria.scss */
+#planificacion .container > .cuerpo .izq img {
+  margin-top: 20%;
+}
+
+/* line 103, ../../../app/assets/sass/paginas/_consultoria.scss */
+#aplicaciones {
+  background-color: #3594d6;
+  padding: 2% 0;
+}
+/* line 109, ../../../app/assets/sass/paginas/_consultoria.scss */
+#aplicaciones .container > .cuerpo .izq h2 {
+  margin-bottom: 5%;
+  font-family: "museo 300", arial, sans-serif;
+  font-size: 28px;
+  color: #FFF;
+}
+/* line 114, ../../../app/assets/sass/paginas/_consultoria.scss */
+#aplicaciones .container > .cuerpo .izq h2 span {
+  font-family: "museo 300", arial, sans-serif;
+}
+/* line 118, ../../../app/assets/sass/paginas/_consultoria.scss */
+#aplicaciones .container > .cuerpo .izq p {
+  color: #FFF;
+  font-family: "Questrial", sans-serif;
+  font-size: 16px;
+}
+/* line 123, ../../../app/assets/sass/paginas/_consultoria.scss */
+#aplicaciones .container > .cuerpo .izq p .btn {
+  background-color: #5cbad1;
+  border-color: #5cbad1;
+}
+/* line 127, ../../../app/assets/sass/paginas/_consultoria.scss */
+#aplicaciones .container > .cuerpo .izq p .btn:hover {
+  background-color: #37a7c3;
+  border-color: #35a1bb;
+}
+
+/* line 1, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#epraxis {
+  background-color: #D2D6D5;
+  padding: 5% 0;
+}
+/* line 5, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#epraxis .container p {
+  margin: 5% 0;
+  font-family: "Questrial", sans-serif;
+  font-size: 16px;
+  color: #7e7d7d;
+}
+/* line 11, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#epraxis .container p > span.mayus {
+  font-size: 20px;
+  font-weight: bold;
+}
+/* line 15, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#epraxis .container p > span.color {
+  color: #aee7fe;
+}
+
+/* line 22, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#ofrecemos {
+  color: #5b5b5b;
+  background-color: #EBEEED;
+  /* padding: 5% 0; */
+  margin-top: 5%;
+}
+#anc-ofrecemos{
+  visibility: hidden;
+  margin-top: -5%;
+}
+/* line 26, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#ofrecemos .container .titulo {
+  margin-bottom: 5%; color: #3594D6;
+}
+/* line 29, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#ofrecemos .container .descripcion {
+  margin-bottom: 3%;
+}
+/* line 33, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#ofrecemos .container .lista .row {
+  margin: 2% 0;
+}
+/* line 36, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#ofrecemos .container .lista .row .col-md-2 img {
+  padding-top: 15%;
+}
+
+/* line 45, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#areas {
+  padding: 2% 0;
+  background-color: #719ccc;
+}
+/* line 50, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#areas .container .titulo h2 {
+  color: #FFF;
+  font-family: "museo 300", arial, sans-serif;
+  margin-bottom: 2%;
+}
+/* line 56, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#areas .container .cuadro {
+  padding: 5% 0;
+  background-color: #FFF;
+  width: 80%;
+  margin: 0 auto;
+}
+/* line 61, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#areas .container .cuadro h3 {
+  outline: none;
+}
+/* line 64, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#areas .container .cuadro h3:hover, #areas .container .cuadro h3 focus {
+  text-decoration: none;
+  border: 0;
+}
+/* line 70, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#areas .container .cuadro h3 img.titulo {
+  margin-left: -110px;
+}
+/* line 75, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#areas .container .cuadro h3 .imagenes {
+  margin-top: 3%;
+}
+/* line 78, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#areas .container .cuadro h3 .descripcion {
+  padding-right: 5%;
+}
+/* line 83, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#areas .container .cuadro .lista ul {
+  margin-left: 20%;
+}
+/* line 85, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#areas .container .cuadro .lista ul li {
+  list-style-image: url('../images/capacitacion/curso-lista.png?1413832077');
+  font-size: 20px;
+}
+
+/* line 95, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#cursos {
+  background-color: #D2D6D5;
+  margin-top: 5%;
+}
+#anc-cursos{
+  visibility: hidden;
+  margin-top: -5%;
+}
+#cursos .container .titulo{
+  margin-bottom: 5%;
+}
+/* line 99, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#cursos .container .titulo h2 {
+  color: #000000;
+  font-family: "museo 300", arial, sans-serif;
+  margin-bottom: 2%;
+}
+#cursos .container p{
+  color: #333333
+}
+#cursos .lista{
+  color: #FFFFFF;
+}
+#cursos .lista img{
+  margin-top: 170%;
+  margin-left: 20%;
+}
+#cursos .lista li{
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+#cursos .lista .is{
+  background-color: #646F9F;
+  padding: 5%;
+  min-height:  700px;
+}
+#cursos .lista .gi{
+  background-color: #577F5C;
+  padding: 5%;
+  min-height:  700px;
+}
+#cursos .lista a{
+  font-size: 18px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#cursos .lista a:hover{
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #C9C9C9;
+  text-decoration: none;
+}
+/* line 105, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#cursos .container .cuadro {
+  padding: 5% 0;
+  background-color: #FFF;
+  width: 80%;
+  margin: 0 auto;
+}
+/* line 110, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#cursos .container .cuadro img.titulo {
+  margin-left: -46px;
+  margin-bottom: 2%;
+}
+/* line 114, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#cursos .container .cuadro .lista {
+  padding-left: 10%;
+}
+/* line 117, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#cursos .container .cuadro .lista .titulo p {
+  font-size: 20px;
+}
+
+/* line 1, ../../../app/assets/sass/paginas/_desarrollo.scss */
+#biowatch {
+  margin: 5% 0;
+}
+/* line 5, ../../../app/assets/sass/paginas/_desarrollo.scss */
+#biowatch .container .title h2 {
+  margin-bottom: 2%;
+  color: #6d8d28;
+  font-family: "museo 500", arial, sans-serif;
+  font-size: 28px;
+}
+/* line 14, ../../../app/assets/sass/paginas/_desarrollo.scss */
+#biowatch .container .row .col-md-6 p {
+  color: #7e7d7d;
+}
+/* line 16, ../../../app/assets/sass/paginas/_desarrollo.scss */
+#biowatch .container .row .col-md-6 p span {
+  font-weight: bold;
+}
+
+/* line 1, ../../../app/assets/sass/paginas/_contacto.scss */
+#contacto {
+  margin: 5% 0;
+}
+/* line 4, ../../../app/assets/sass/paginas/_contacto.scss */
+#contacto .container .title {
+  margin-bottom: 5%;
+}
+/* line 6, ../../../app/assets/sass/paginas/_contacto.scss */
+#contacto .container .title h2 {
+  color: #6d8d28;
+}
+/* line 10, ../../../app/assets/sass/paginas/_contacto.scss */
+#contacto .container .mapa {
+  padding-left: 5%;
+  margin-top: 3%;
+}
+/* line 14, ../../../app/assets/sass/paginas/_contacto.scss */
+#contacto .container .direccion {
+  padding: 5% 10%;
+}
+
+/* line 20, ../../../app/assets/sass/paginas/_contacto.scss */
+#formulario {
+  margin-top: 2%;
+  padding: 2% 0;
+  background-color: #3594d6;
+}
+/* line 25, ../../../app/assets/sass/paginas/_contacto.scss */
+#formulario .container .title {
+  margin-bottom: 5%;
+  font-family: "museo 500", arial, sans-serif;
+  font-size: 28px;
+  color: #FFF;
+}
+/* line 31, ../../../app/assets/sass/paginas/_contacto.scss */
+#formulario .container .form {
+  margin-left: 5%;
+}
+/* line 33, ../../../app/assets/sass/paginas/_contacto.scss */
+#formulario .container .form #form-contacto .has-feedback .form-control-feedback {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+}
+/* line 46, ../../../app/assets/sass/paginas/_contacto.scss */
+#formulario .container .form .form-group > label.mensaje {
+  height: 100px;
+}
+/* line 48, ../../../app/assets/sass/paginas/_contacto.scss */
+#formulario .container .form .form-group textarea.mensaje {
+  height: 100px;
+}
+/* line 55, ../../../app/assets/sass/paginas/_contacto.scss */
+#formulario .container .form .form-group > .control-label {
+  height: 34px;
+  background-color: #2877ae;
+  color: #FFF;
+  text-align: left;
+}
+/* line 63, ../../../app/assets/sass/paginas/_contacto.scss */
+#formulario .container .form .form-group > .col-sm-12 button {
+  -moz-box-shadow: #2d7ab0 5px 10px 1px;
+  -webkit-box-shadow: #2d7ab0 5px 10px 1px;
+  box-shadow: #2d7ab0 5px 10px 1px;
+  background-color: #64b3ea;
+  border-color: #64b3ea;
+}
+/* line 67, ../../../app/assets/sass/paginas/_contacto.scss */
+#formulario .container .form .form-group > .col-sm-12 button:hover {
+  background-color: #379de4;
+  border-color: #2e99e3;
+}
+/* line 76, ../../../app/assets/sass/paginas/_contacto.scss */
+#formulario .container .separador {
+  padding-left: 50px;
+}
+/* line 78, ../../../app/assets/sass/paginas/_contacto.scss */
+#formulario .container .separador .linea {
+  width: 3px;
+  height: 400px;
+  background-color: #377cad;
+}
+/* line 86, ../../../app/assets/sass/paginas/_contacto.scss */
+#formulario .container .direccion {
+  margin-top: 3%;
+  background-color: #2877ae;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #1d557c;
+}
+/* line 92, ../../../app/assets/sass/paginas/_contacto.scss */
+#formulario .container .direccion .enlaces {
+  padding: 5% 0;
+  padding-left: 4%;
+  text-align: center;
+  border-color: #1d557c;
+  border-right-style: solid;
+}
+/* line 98, ../../../app/assets/sass/paginas/_contacto.scss */
+#formulario .container .direccion .enlaces .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 103, ../../../app/assets/sass/paginas/_contacto.scss */
+#formulario .container .direccion .telefonos {
+  padding: 10% 0;
+  padding-left: 10%;
+}
+/* line 106, ../../../app/assets/sass/paginas/_contacto.scss */
+#formulario .container .direccion .telefonos p {
+  font-style: "Questrial", sans-serif;
+  color: #FFF;
+}
+
+/* line 1, ../../../app/assets/sass/paginas/_equipo.scss */
+#equipo {
+  margin: 2% 0;
+}
+/* line 5, ../../../app/assets/sass/paginas/_equipo.scss */
+#equipo .experiencia .descripcion p {
+  color: #7e7d7d;
+  font-family: "Questrial", sans-serif;
+  font-size: 16px;
+}
+/* line 10, ../../../app/assets/sass/paginas/_equipo.scss */
+#equipo .experiencia .descripcion h2 {
+  font-size: 32px !important;
+  color: #2478ad;
+}
+/* line 20, ../../../app/assets/sass/paginas/_equipo.scss */
+#equipo .fotos .container h2 {
+  margin: 4% 0;
+  font-family: "museo 500", arial, sans-serif;
+  font-size: 28px;
+  color: #d98034;
+}
+/* line 25, ../../../app/assets/sass/paginas/_equipo.scss */
+#equipo .fotos .container h2 span {
+  font-weight: bold;
+}
+/* line 29, ../../../app/assets/sass/paginas/_equipo.scss */
+#equipo .fotos .container .integrante {
+  margin-bottom: 4%;
+}
+@media (max-width: 767px) {
+  /* line 30, ../../../app/assets/sass/paginas/_equipo.scss */
+  #equipo .fotos .container .integrante .col-md-4 {
+    margin-top: 4%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* line 30, ../../../app/assets/sass/paginas/_equipo.scss */
+  #equipo .fotos .container .integrante .col-md-4 {
+    margin-top: 8%;
+  }
+}
+/* line 41, ../../../app/assets/sass/paginas/_equipo.scss */
+#equipo .fotos .container .integrante .nombre {
+  height: 120px;
+  margin-top: 5%;
+}
+/* line 44, ../../../app/assets/sass/paginas/_equipo.scss */
+#equipo .fotos .container .integrante .nombre p {
+  color: #7e7d7d;
+  font-family: "Questrial", sans-serif;
+  font-size: 25px;
+}
+/* line 48, ../../../app/assets/sass/paginas/_equipo.scss */
+#equipo .fotos .container .integrante .nombre p span {
+  font-weight: bold;
+}
+@media (max-width: 767px) {
+  /* line 41, ../../../app/assets/sass/paginas/_equipo.scss */
+  #equipo .fotos .container .integrante .nombre {
+    height: 140px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* line 41, ../../../app/assets/sass/paginas/_equipo.scss */
+  #equipo .fotos .container .integrante .nombre {
+    height: 140px;
+  }
+}
+/* line 62, ../../../app/assets/sass/paginas/_equipo.scss */
+#equipo .fotos .container .integrante .descripcion p {
+  color: #7e7d7d;
+  font-family: "Questrial", sans-serif;
+}
+/*----------------------------------- jhean capacitacion -------------------------------*/
+a.link-bloq-cap, a.link-bloq-cap:hover, a.link-bloq-cap:visited{
+  color:  #4D4D4D;
+}
+.bloq-cap {
+  min-height: 268px;
+  padding:30px 30px 5px 30px;
+  background-color: #FFFFFF;
+  border: 1px solid #788F84;
+  border-radius: 3px; 
+}
+.bloq-cap:hover {
+  background-color: #CCCCDC;
+  border: 1px solid #C19C87;
+  }
+.bloq-cap-tit{
+  margin-top: 20px;
+  padding-top: 20px;
+  font-family: "Questrial", sans-serif;
+  font-size: 28px;
+  line-height: 28px;
+  text-align: center;
+  border-top: 2px solid #53749B;
+}
+body footer .container .row #footer-logo {
+  width: 109px;
+  height: 52px;
+  /* background-image: url("../images/layout/footer_bio-logo.png"); */
+  background-repeat: no-repeat;
+  background-size: 109px 52px;
+  background-position: center;
+}
+#text-derechos {
+  margin-top: 15px;
+  color: #fff;
+}
+#formulario3 {
+  padding: 2% 0;
+  background-color: #2877ae;
+  color: #333333;
+}
+#formulario3 .container .title {
+  margin-bottom: 5%;
+  font-family: "museo 500", arial, sans-serif;
+  font-size: 28px;
+}
+#formulario3 .container .form .form-group > .control-label {
+    height: 34px;
+    background-color: #216290;
+    color: #FFF;
+    text-align: left;
+  }
+  #formulario3 .container .form #form-contact .has-feedback .form-control-feedback {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+  }
+#formulario3 .container .form #form-contact .help-block {
+    font-size: 12px;
+    color: #333333;
+}
+
+#cursos .iconos-cursos img{
+    float: left;
+    margin: -30% 0 0 -30%;
+    width: 40%;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+/*---------------- curso--------------------*/
+#curso {
+  background-color: #EFEFEF;
+  padding: 5% 0;
+}
+/* line 26, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#curso .container .titulo {
+  margin-bottom: 0%;
+}
+/* line 29, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#curso .container .descripcion {
+  margin-bottom: 3%;
+  text-align: justify;
+}
+/* line 33, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#curso .container .lista .row {
+  margin: 2% 0;
+}
+/* line 36, ../../../app/assets/sass/paginas/_capacitacion.scss */
+#curso .container .lista .row .col-md-2 img {
+  padding-top: 15%;
+}
+/*solicitud de informacion*/
+#formulario2 {
+  padding: 2% 0;
+  background-color: #2877ae;
+  color: #FFF;
+}
+#formulario2 .container .title {
+  margin-bottom: 5%;
+  font-family: "museo 500", arial, sans-serif;
+  font-size: 28px;
+}
+#formulario2 .container .form .form-group > .control-label {
+    height: 34px;
+    background-color: #216290;
+    color: #FFF;
+    text-align: left;
+  }
+  #formulario2 .container .form #form-contact .has-feedback .form-control-feedback {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+  }
+  #formulario2 .container .form #form-contact .help-block{
+    font-size: 12px;
+    color: #FFFFFF;
+  }
+  .enviar{
+    color: #fff;
+    background-color: #216290;
+    border-color: #185078;
+}
+.enviar:hover{
+    color: #fff;
+    background-color: #266DA0;
+    border-color: #185078;
+}
+/*------------------------------------------------------------------------------------*/
+/*-------------------------------diplomados------------------------------------------*/
+#diplomado {
+  background-color: #fff;
+  padding: 0;
+}
+.separador-dip-xs{
+  margin-top: 85px;
+}
+#diplomado .container .row h1 {
+    color: #6D8D28;
+}
+#diplomado .container .row .titulo-md {
+  font-size: 46px;
+}
+#diplomado .container .row .titulo-sm {
+  font-size: 36px;
+}
+#diplomado .container .row .titulo-xs {
+  font-size: 30px;
+}
+#diplomado .container .row .sub-titulo-md {
+  font-size: 36px;
+}
+#diplomado .container .row .sub-titulo-sm {
+  font-size: 26px;
+}
+#diplomado .container .row .sub-titulo-xs {
+  font-size: 22px;
+}
+/* line 6, ../../../app/assets/sass/paginas/_inicio.scss */
+#diplomado .container .row h2 {
+  font-family: "Questrial", sans-serif;
+  color: #7e7d7d;
+}
+.thumbnail h4 {
+  font-family: "Questrial", sans-serif;
+  color: #3594D6;
+  font-weight: bold;
+}
+/* line 9, ../../../app/assets/sass/paginas/_inicio.scss */
+#diplomado .container .row h2 span {
+  font-weight: bold;
+  color: #3594D6;
+}
+/* line 17, ../../../app/assets/sass/paginas/_inicio.scss */
+#diplomado .container > .gest .col-md-4 > p {
+  margin: 10% 0;
+  color: #7e7d7d;
+}
+/* line 20, ../../../app/assets/sass/paginas/_inicio.scss */
+#diplomado .container > .gest .col-md-4 > p a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+/* line 27, ../../../app/assets/sass/paginas/_inicio.scss */
+#diplomado .container > .row .col-md-4 > p.eslogan {
+  font-family: "Questrial", sans-serif;
+  font-size: 22px;
+  color: #3594D6;
+  line-height: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.atras{
+  float: right;
+  width:50px;
+  height:41px;
+  margin-bottom: 10px;
+}
+a:hover .atras{
+    opacity: 0.5;
+}
+.inscribete {
+  text-align: center;
+  background-color: #3594D6;
+  padding: 20px;
+  line-height: 1.5;
+}
+.inscribete a {
+  font-size: 24px;
+  color: #F0F0F0;
+}
+.inscribete a:hover, .inscribete a:focus, .inscribete a:active, .inscribete a.active, .open > .inscribete a.dropdown-toggle {
+  color: #fff;
+}
+#descr-dip{
+  background-color: #EFEFEF;
+  text-align: justify;
+  min-height: 610px;
+}
+#descr-dip .titulo{
+  padding-bottom: 20px;
+}
+.descr-dip-link{
+  color: #333333;
+}
+.descr-dip-img{
+  float: right;
+  margin: 5px 0px 15px 25px;
+}
+.dip-icons{
+  max-width: 100%;
+  margin: 10px auto;
+  display: block;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+a:hover .dip-icons{
+  -webkit-transform: scale(1.2);
+  -webkit-transition: all 0.4s ease-in-out;
+  transform: scale(1.2);
+  transition: all 0.4s ease-in-out;
+}
+.separador{
+  background: #3594D6;
+  padding: 1% 0%;
+}
+/*---------------------- Este es para los cuadros de los cursos en la nueva seccion-------*/
+.recuadro{
+    font-size: 110%;
+    font-weight: bold;
+    color: #000;
+    padding: 1.5em;
+    border-radius: 8px;
+    min-height: 115px;
+}
+.recuadro:hover{
+    color: #FFF;
+    border-radius: 22px;
+}
+.recuadro-grd{
+    font-size: 120%;
+    font-weight: bold;
+    color: #000;
+    padding: 0.3em;
+    border-radius: 8px;
+    min-height: 115px;
+}
+.recuadro-grd:hover{
+    color: #FFF;
+    border-radius: 22px;
+}
+.recuadro-dip{
+    font-size: 120%;
+    color: #000;
+    padding: 0.3em;
+    border-radius: 8px;
+    min-height: 115px;
+}
+.recuadro-dip:hover{
+    color: #3595D7;
+}
+.flecha{
+    min-height: 50px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    margin-top: 0.5em;
+}
+.flecha:hover{
+    -webkit-transition: all 0.2s ease-in-out;
+    -webkit-transform: scale(1.2);
+    transition: all 0.1s ease-in-out;
+    transform: scale(1.2);
+}
+.dip-img{
+    margin: 0 auto;
+    min-height: 50px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    margin-top: 0.5em;
+}
+.dip-img:hover{
+    -webkit-transition: all 0.2s ease-in-out;
+    -webkit-transform: scale(1.2);
+    transition: all 0.1s ease-in-out;
+    transform: scale(1.2);
+}
+/*-----------colores--------------------*/
+.verd{
+    background-color:#6b9337;
+    border: 2px solid #467e00;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.verd:hover{
+    background-color:rgba(85, 152, 0, .8);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.ocre{
+    background-color:#D57D33;
+    border: 2px solid #a5632b;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.ocre:hover{
+    background-color:rgba(213, 125, 51, .8);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.vino{
+    background-color:#811f65;
+    border: 2px solid #5d0945;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.vino:hover{
+    background-color:rgba(129, 11, 95, .8);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.azul-claro{
+    background-color:#337eb9;
+    border: 2px solid #005ea8;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.azul-claro:hover{
+    background-color:rgba(51, 126, 185, .8);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.turq-oscuro{
+    background-color:#387c93;
+    border: 2px solid #00465d;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.turq-oscuro:hover{
+    background-color:rgba(56, 124, 147, .8);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+/*------------------------------------------------------------------------------------*/
+/*----------------------------------- slide --------------------------------------------*/
+.slider .slide h3 {
+  font-size: 40px;
+  color: #FFF;
+  text-shadow: rgba(0, 0, 0, 0.2) 2px 2px 0, rgba(0, 0, 0, 0.2) 3px 3px 0, rgba(0, 0, 0, 0.2) 4px 4px 0;
+}
+/*------------------------------------------------------------------------------------------*/
+/*---------------------------------- FOOTER -----------------------------------------------*/
+footer .paginas{
+  padding-left: 10%;
+}
+footer .titulo{
+  border-bottom: 4px solid #62B376;
+  font-size: 24px;
+}
+footer a{
+  font-size: 18px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #818181;
+  text-decoration: none;
+}
+footer a:hover{
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------- MOOC ---------------------------------------*/
+#mooc {
+  background-color: rgba(96,178,116,0.8);
+  margin-top: 5%;
+  padding:5% 0;
+}
+#anc-mooc{
+  visibility: hidden;
+  margin-top: -5%;
+}
+
+#mooc .container .titulo h2 {
+  color: #FFF;
+  font-family: "museo 300", arial, sans-serif;
+  margin-bottom: 2%;
+}
+
+#mooc .container p {
+  font-size: 16px;
+}
+
+#mooc .container p .btn {
+  background-color: #132740;
+  border-color: #0C1929;
+}
+
+#mooc .container p .btn:hover {
+  background-color: #112237;
+  border-color: #0C1929;
+}
+/* rgb(19,39,64) */
+/*------------------------------------------------------------------------------------------*/

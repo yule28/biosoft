@@ -1,0 +1,136 @@
+#modelado{
+	margin: 5% 0;
+	.container{
+		> .cuerpo{
+			h2{
+				margin-bottom: 5%;
+				font-family: $font-museo-500;
+				font-size: $font-size-title-consultoria;
+				color: $modelado-h2-color;
+				span{
+					font-family: $font-museo-300;
+				}
+			}
+			p{
+				color: $modelado-p-color;
+				font-family: $font-site;
+				font-size: $font-size-p;
+				//margin-bottom: 1%;
+				.btn{
+					background-color: $modelado-btn-color-bgc;
+					border-color: $modelado-btn-color-bgc;
+					&:hover{
+						background-color: darken($modelado-btn-color-bgc, 10%);
+						border-color: darken($modelado-btn-color-bgc, 12%);
+					}
+				}
+			}
+		  	.col-md-5{
+			  margin-top: 0;
+			  margin-bottom: 0;
+			}
+		}
+	}
+}
+#arquitectura{
+	background-color: $arquitercura-bgc;
+	padding: 5% 0;
+	.container{
+		> .cuerpo{
+			h2{
+				margin-bottom: 5%;
+				font-family: $font-museo-500;
+				font-size: $font-size-title-consultoria;
+				color: $arquitectura-h2-color;
+				span{
+					font-family: $font-museo-300;
+				}
+			}
+			p{
+				font-family: $font-site;
+				font-size: $font-size-p;
+				color: $arquitectura-p-color;
+				margin-bottom: 5%;
+				.btn{
+					background-color: $arquitectura-btn-color-bgc;
+					border-color: $arquitectura-btn-borde-bgc;
+					&:hover{
+						background-color: darken($arquitectura-btn-color-bgc, 10%);
+						border-color: darken($arquitectura-btn-borde-bgc, 12%);
+					}
+				}
+			}
+		}
+	}
+}
+#planificacion{
+	margin: 5% 0;
+	.container{
+		> .cuerpo{
+			.der{
+				h2{
+					margin-bottom: 5%;
+					font-family: $font-museo-500;
+					font-size: $font-size-title-consultoria;
+					color: $planificacion-h2-color;
+					span{
+						font-family: $font-museo-300;
+					}
+				}
+				p{
+					color: $planificacion-p-color;
+					font-family: $font-site;
+					font-size: $font-size-p;
+					//margin-bottom: 1%;
+					.btn{
+						background-color: $planificacion-btn-color-bgc;
+						border-color: $planificacion-btn-color-bgc;
+						&:hover{
+							background-color: darken($planificacion-btn-color-bgc, 10%);
+							border-color: darken($planificacion-btn-color-bgc, 12%);
+						}
+					}
+				}
+			}
+			.izq{
+				img{
+					margin-top: 20%;
+				}
+			}
+		}
+	}
+}
+#aplicaciones{
+	background-color: $aplicaciones-bgc;
+	padding: 2% 0;
+	.container{
+		> .cuerpo{
+			.izq{
+				h2{
+					margin-bottom: 5%;
+					font-family: $font-museo-300;
+					font-size: $font-size-title-consultoria;
+					color: $aplicaciones-h2-color;
+					span{
+						font-family: $font-museo-300;
+					}
+				}
+				p{
+					color: $aplicaciones-p-color;
+					font-family: $font-site;
+					font-size: $font-size-p;
+					//margin-bottom: 1%;
+					.btn{
+						background-color: $aplicaciones-btn-color-bgc;
+						border-color: $aplicaciones-btn-color-bgc;
+
+						&:hover{
+							background-color: darken($aplicaciones-btn-color-bgc, 10%);
+							border-color: darken($aplicaciones-btn-color-bgc, 12%);
+						}
+					}
+				}
+			}
+		}
+	}
+}

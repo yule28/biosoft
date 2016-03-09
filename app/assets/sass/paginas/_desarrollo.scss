@@ -1,0 +1,23 @@
+#biowatch{
+	margin: 5% 0;
+	.container{
+		.title{
+			h2{
+				margin-bottom: 2%;
+				color: $desarrollo-h2-color;
+				font-family: $font-museo-500;
+				font-size: $font-size-title-desarrollo;
+			}
+		}
+	  	.row{
+		  .col-md-6{
+			p{
+			  	color: $desarrollo-p-color;
+				span{
+					font-weight: bold;
+				}
+			}
+		  }
+		}
+	}
+}

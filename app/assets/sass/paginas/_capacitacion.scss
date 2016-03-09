@@ -1,0 +1,124 @@
+#epraxis{
+	background-color: #3d4351;
+	padding: 5% 0;
+	.container{
+		p{
+			margin: 5% 0;
+			font-family: $font-site;
+			font-size: $font-size-p;
+			color: #FFF;
+
+			>span.mayus{
+				font-size: $font-size-span-epraxis;
+				font-weight: bold;
+			}
+			>span.color{
+				color: $capacitacion-epraxis-color-p;
+			}
+		}
+	}
+}
+
+#ofrecemos{
+	color: $capacitacion-ofrecemos-text-color;
+	padding: 5% 0;
+	.container{
+		.titulo{
+			margin-bottom: 5%;
+		}
+		.descripcion{
+			margin-bottom: 3%;
+		}
+		.lista{
+			.row{
+				margin: 2% 0;
+				.col-md-2{
+					img{
+						padding-top: 15%;
+					}
+				}
+			}
+		}
+	}
+}
+
+#areas{
+	padding: 2% 0;
+	background-color: #719ccc;
+	.container{
+		.titulo{
+			h2{
+				color: $areas-h2-color;
+				font-family: $font-museo-300;
+				margin-bottom: 2%;
+			}
+		}
+		.cuadro{
+			  padding: 5% 0;
+			  background-color: #FFF;
+			  width: 80%;
+			  margin: 0 auto;
+			  h3{
+
+				outline: none;
+				&:hover,focus{
+				  text-decoration: none;
+				  //outline: none;
+				  border: 0;
+
+				}
+				img.titulo{
+					margin-left: -110px;
+					//margin-top: 5%;
+				}
+
+				.imagenes{
+					margin-top: 3%;
+				}
+				.descripcion{
+					padding-right: 5%;
+				}
+			  }
+			  .lista{
+				ul{
+				  margin-left: 20%;
+				  li{
+					list-style-image: image_url('capacitacion/curso-lista.png');
+					font-size: 20px;
+				  }
+				}
+			  }
+		}
+	}
+}
+
+#cursos{
+	background-color: $cursos-bgc;
+	.container{
+		.titulo{
+			h2{
+				color: $cursos-h2-color;
+				font-family: $font-museo-300;
+				margin-bottom: 2%;
+			}
+		}
+		.cuadro{
+			padding: 5% 0;
+			background-color: #FFF;
+			width: 80%;
+			margin: 0 auto;
+			img.titulo{
+				margin-left: -46px;
+				margin-bottom: 2%;
+			}
+			.lista{
+				padding-left: 10%;
+				.titulo{
+					p{
+						font-size: 20px;
+					}
+				}
+			}
+		}
+	}
+}

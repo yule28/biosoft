@@ -1,0 +1,71 @@
+#equipo{
+  margin: 2% 0;
+  .experiencia{
+    .descripcion{
+      p{
+        color: $equipo-p-color;
+        font-family: $font-site;
+        font-size: $font-size-p;
+      }
+      h2 {
+        font-size: $font-size-title-ula-equipo !important;
+        color: $equipo-ula-color;
+      }
+
+    }
+  }
+
+  .fotos{
+    .container{
+        h2{
+          margin: 4% 0;
+          font-family: $font-museo-500;
+          font-size:$font-size-title-fotos-equipo;
+          color: $equipo-titulo-color;
+          span{
+            font-weight: bold;
+          }
+          }
+        .integrante{
+            .col-md-4{
+              // $screen-xs-max = 767px
+              @media (max-width: $screen-xs-max){
+                margin-top: 4%;
+              }
+              // $screen-md-min = 768px Y $screen-md-max = 1199px
+              @media (min-width:  $screen-sm-min) and  (max-width: $screen-md-max) {
+                margin-top: 8%;
+              }
+            }
+            margin-bottom: 4%;
+            .nombre{
+              height: 120px;
+              margin-top: 5%;
+              p{
+                color: $equipo-p-color;
+                font-family: $font-site;
+                font-size: $font-size-title-integrante;
+                span{
+                  font-weight: bold;
+                }
+              }
+              // $screen-xs-max = 767px
+              @media (max-width: $screen-xs-max){
+                height: 140px;
+              }
+              // $screen-md-min = 768px Y $screen-md-max = 1199px
+              @media (min-width:  $screen-sm-min) and  (max-width: $screen-md-max) {
+                height: 140px;
+              }
+            }
+            .descripcion{
+              p{
+                color: $equipo-p-color;
+                font-family: $font-site;
+              }
+            }
+        }
+      }
+  }
+
+}
