@@ -19,10 +19,24 @@ Route::get('/', function()
 
 Route::get('consultoria', function()
 {
-	//return Redirect::to('inicio/funcion');
 	return View::make('estaticas.consultoria');
 });
 
+Route::get('desarrollo', function()
+{
+	return View::make('estaticas.desarrollo');
+});
+
+Route::get('equipo', function()
+{
+	return View::make('estaticas.equipo');
+});
+
+Route::get('contacto', function()
+{
+	$mensaje = null;
+	return View::make('estaticas.contacto',array('mensaje' => $mensaje));
+});
 /*-------------- CAPACITACION --------------------*/
 
 Route::get('capacitacion', 'CapacitacionController@index');
@@ -54,56 +68,12 @@ Route::get('Diplomados-Cursos', 'CapacitacionController@diplomados');
 
 Route::get('Cursos-In-Company', 'CapacitacionController@cursosInCompany');
 
-    /*------------- CURSOS -------------------------*/
+/*------------- CURSOS -------------------------*/
 
-    Route::get('UML', 'CursosController@uml');
-    
-    Route::get('Metodos-Agiles', 'CursosController@metodosAgiles');
-    
-    Route::get('Modelado-Negocios', 'CursosController@modeladoNegocios');
-	
-    Route::get('Ingenieria-Requisitos', 'CursosController@ingRequisitos');
-	
-    Route::get('Arquitecturas-Software', 'CursosController@arqSoftware');
-	
-    Route::get('Análisis-Diseño-Software', 'CursosController@analDisSoft');
-	
-    Route::get('Diseño-Software', 'CursosController@disenoSoft');
-	
-    Route::get('Pruebas-Software', 'CursosController@pruebSoft');
-	
-    Route::get('Gestion-Proyectos', 'CursosController@gestProy');
-	
-    Route::get('Gestión-Riesgos', 'CursosController@gestRiesgo');
-	
-    Route::get('Arquitecturas-Empresariales', 'CursosController@arqEmpres');
-	
-    Route::get('Taller-Modelado-Arquitecturas', 'CursosController@tallModArq');
-	
-    Route::get('Fundamentos-Gestion-Procesos', 'CursosController@fundGestProc');
-	
-    Route::get('Taller-Modelado-BPMN', 'CursosController@tallModBpmn');
+Route::controller('cursos', 'CursosController');
 
 /*--------------------------------------------------*/
 
-Route::get('desarrollo', function()
-{
-	//return Redirect::to('inicio/funcion');
-	return View::make('estaticas.desarrollo');
-});
-
-Route::get('equipo', function()
-{
-	//return Redirect::to('inicio/funcion');
-	return View::make('estaticas.equipo');
-});
-
-Route::get('contacto', function()
-{
-	//return Redirect::to('inicio/funcion');
-	$mensaje = null;
-	return View::make('estaticas.contacto',array('mensaje' => $mensaje));
-});
 //FORMULARIO DE CONTACTO PARA CURSOS IN COMPANY
 Route::post('mandarCorreo', array('uses' => 'HomeController@mandarEmail'));
 

@@ -1,8 +1,8 @@
 <div class="container">
 	<div class="row title">
 		<div class="col-md-12">
-		        <a href="Cursos-In-Company">
-                    <div class="atras">{{ HTML::image('assets/images/diplomados/flecha-peq.png', $alt="Atrás") }}</div>
+		        <a href="../Cursos-In-Company">
+                    <div class="atras">{{ HTML::image('assets/images/diplomados/flecha-blanca.png', $alt="Atrás") }}</div>
                 </a>
 			<h2>Solicitud de Informaci&oacute;n</h2>
 		</div>

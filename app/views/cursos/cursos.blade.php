@@ -27,22 +27,22 @@
 				</div>
 				<h2 class="visible-xs">Ingeniería del Software</h2>
 					<ul>
-						<li><a href="UML">Lenguaje de Modelado de Software: UML 2.5</a></li>
-						<li><a href="Metodos-Agiles">Desarrollo de Software: Métodos Ágiles y Balanceados (Scrum, XP y Blue WATCH)
+						<li><a href="cursos/uml">Lenguaje de Modelado de Software: UML 2.5</a></li>
+						<li><a href="cursos/metodosagiles">Desarrollo de Software: Métodos Ágiles y Balanceados (Scrum, XP y Blue WATCH)
 						</a></li>
-						<li><a href="Modelado-Negocios">Modelado de Negocios con UML 2.5 y BPMN 2.0
+						<li><a href="cursos/modeladonegocios">Modelado de Negocios con UML 2.5 y BPMN 2.0
 						</a></li>
-						<li><a href="Ingenieria-Requisitos">Ingeniería de Requisitos con UML
+						<li><a href="cursos/ingrequisitos">Ingeniería de Requisitos con UML
 						</a></li>
-						<li><a href="Arquitecturas-Software">Diseño de Arquitecturas de Software
+						<li><a href="cursos/arqsoftware">Diseño de Arquitecturas de Software
 						</a></li>
-						<li><a href="Análisis-Diseño-Software">Análisis y Diseño de Software Orientado a Objetos</a>
+						<li><a href="cursos/analdissoft">Análisis y Diseño de Software Orientado a Objetos</a>
 						</li>
-						<li><a href="Diseño-Software">Diseño de Software Basado en Servicios (SOA)
+						<li><a href="cursos/disenosoft">Diseño de Software Basado en Servicios (SOA)
 						</a></li>
-						<li><a href="Pruebas-Software">Pruebas de Software: Técnicas y Gestión
+						<li><a href="cursos/pruebsoft">Pruebas de Software: Técnicas y Gestión
 						</a></li>
-						<li><a href="Gestion-Proyectos">Gestión de Proyectos de Software con PMBOK
+						<li><a href="cursos/gestproy">Gestión de Proyectos de Software con PMBOK
 						</a></li>
 					</ul>
 				</div>
@@ -57,16 +57,16 @@
 				</div>
 				<h2 class="visible-xs">Gestión Informática</h2>
 					<ul>
-						<li><a href="Arquitecturas-Empresariales">Arquitecturas Empresariales con TOGAF 9.1</a></li>
-						<li><a href="Taller-Modelado-Arquitecturas">Modelado de Arquitecturas Empresaiales con ArchiMate 2.0</a></li>
-						<li><a href="Fundamentos-Gestion-Procesos">Fundamentos de Gestión de Procesos de Negocio - BPM
+						<li><a href="cursos/arqempres">Arquitecturas Empresariales con TOGAF 9.1</a></li>
+						<li><a href="">Modelado de Arquitecturas Empresaiales con ArchiMate 2.0</a></li>
+						<li><a href="cursos/fundgestproc">Fundamentos de Gestión de Procesos de Negocio - BPM
 						</a></li>
-						<li><a href="Taller-Modelado-BPMN">La Notación de Modelado de Procesos de Negocio - BPMN 2.0</a></li>
-						<li><a href="Modelado-Negocios">Modelado de Negocios con UML 2.5 y BPMN 2.0</a>
+						<li><a href="cursos/tallmodbpmn">La Notación de Modelado de Procesos de Negocio - BPMN 2.0</a></li>
+						<li><a href="cursos/modeladonegocios">Modelado de Negocios con UML 2.5 y BPMN 2.0</a>
 </li>
-						<li><a href="Gestión-Riesgos">Gestión de Riesgos, Configuración y Calidad
+						<li><a href="cursos/gestriesgo">Gestión de Riesgos, Configuración y Calidad
 						</a></li>
-						<li><a href="Gestion-Proyectos">Gestión de Proyectos Informáticos con PMBOK
+						<li><a href="cursos/gestproy">Gestión de Proyectos Informáticos con PMBOK
 						</a></li>
 					</ul>
 				</div>
