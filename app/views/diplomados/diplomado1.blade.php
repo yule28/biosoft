@@ -127,6 +127,13 @@
 		</div>
 	</a>
 </div>
+<div class="row">
+    <div class="col-md-12 text-center">
+        <a href="https://vimeo.com/159283568" target="_blank" class="descr-dip-link"><h2 class="hidden-xs hidden-sm  sub-titulo-md"><span>Ver video introductorio</span></h2></a>
+        <a href="https://vimeo.com/159283568" target="_blank" class="descr-dip-link"><h2 class="hidden-xs hidden-md hidden-lg sub-titulo-sm"><span>Ver video introductorio</span></h2></a>
+        <a href="https://vimeo.com/159283568" target="_blank" class="descr-dip-link"><h2 class="hidden-sm hidden-md hidden-lg sub-titulo-xs"><span>Ver video introductorio</span></h2></a>
+    </div>
+</div>
 @stop
 <!-- Enlace para regresar -->
 @section('atras', 'capacitacion#ofrecemos')

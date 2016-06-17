@@ -1029,7 +1029,7 @@ body footer .container .row #footer-logo {
 /*---------------- curso--------------------*/
 #curso {
   background-color: #EFEFEF;
-  padding: 5% 0;
+  padding: 5% 0 0;
 }
 /* line 26, ../../../app/assets/sass/paginas/_capacitacion.scss */
 #curso .container .titulo {

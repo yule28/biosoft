@@ -8,12 +8,13 @@
 	{{ HTML::style('assets/stylesheets/styles.css')}}
 	{{ HTML::style('assets/stylesheets/bootstrap/bootstrap.css')}}
 	{{ HTML::style('assets/stylesheets/fraction/fractionslider.css')}}
-    <link rel="stylesheet" href="assets/pgwslider/pgwslider.css">
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="assets/pgwslider/pgwslider.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	{{ HTML::script('assets/javascripts/bootstrap.js')}}
-<!--	{{ HTML::script('assets/javascripts/jquery.fractionslider.min.js')}}-->
-	<!--{{ HTML::script('assets/javascripts/inicio.js')}}-->
+	 <script src="http://beaverslider.com/code/current/beaverslider.js"></script>
+	 {{ HTML::script('assets/javascripts/')}}
+	 <script src="http://beaverslider.com/code/current/beaverslider-effects.js"></script>
+	{{ HTML::script('assets/javascripts/jquery.fractionslider.min.js')}}
+	{{ HTML::script('assets/javascripts/inicio.js')}}
 </head>
 <body>
 	<header>
@@ -31,16 +32,4 @@
 		</div>
 	</footer>
 </body>
-<script>
-    $(document).ready(function() {
-        $('.pgwSlider').pgwSlider({
-            transitionEffect: 'sliding',
-            displayList: false,
-            adaptiveHeight: false,
-            maxHeight: 400,
-            transitionDuration: 1000,
-            intervalDuration: 5000
-        });
-    });
-</script>
 </html>

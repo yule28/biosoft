@@ -12,7 +12,7 @@ Arquitecturas Empresariales con TOGAF 9.1
 @stop
 @section('descripcion')
 Un objetivo estratégico de la gestión de una empresa es la alineación de sus procesos de negocio con los sistemas de información y las tecnologías de información y comunicaciones (TIC) que les sirven de apoyo. Una arquitectura empresarial describe los procesos de negocio de una empresa, los sistemas de información que apoyan tales procesos y las TIC sobre las que se implementan dichos sistemas. El desarrollo y evolución de la arquitectura de una empresa es un proceso complejo que requiere una planificación de carácter estratégico. <br>
-En este curso, se discuten los conceptos fundamentales de las arquitecturas empresariales, así como el marco de trabajo TOGAF 9.1 y el método ADM para el análisis, diseño y planificación de arquitecturas empresariales.
+En este curso, se discuten los conceptos fundamentales de las arquitecturas empresariales, así como el marco de trabajo TOGAF 9.1 y el método ADM para el análisis, diseño y planificación de arquitecturas empresariales. 
 @stop
 @section('objetivos')
 <ul>

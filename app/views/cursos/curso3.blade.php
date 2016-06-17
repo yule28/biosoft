@@ -1,15 +1,16 @@
 @extends ('layouts.cursos')
 @section ('title')
-Modelado de Negocios usando UML y BPMN
+Arquitectura de negocio: Análisis y modelado de empresas
 @stop
 @section('img')
 {{ HTML::image('assets/images/curso/mod-neg.jpg', $alt="Lenguajes de Modelado de Software: UML 2.5", $attributes = array('class' => 'img-responsive'))}}
 @stop
 @section('curso-tit')
-Modelado de Negocios usando UML y BPMN
+Arquitectura de negocio: Análisis y modelado de empresas
 @stop
 @section('descripcion')
-El Modelado de Negocios es un proceso técnico-gerencial que permite modelar y relacionar los elementos más importantes de una empresa, esto es: sus objetivos, procesos de negocio, reglas de negocio, objetos de negocio, actores, estructura organizativa, entre otros. El Modelado de Negocios ayuda a ganar conocimiento de una empresa y de sus procesos de negocio. Es utilizado en amplia variedad de actividades profesionales, entre las que se destacan: Gestión de Procesos de Negocio (BPM), Reingeniería de Procesos, Diseño Organizacional, Desarrollo de Sistemas de Información, Automatización Industrial y Arquitecturas Empresariales. En este curso, se discute la importancia del modelado de negocios en una empresa y se analizan los conceptos, modelos, procesos, técnicas y herramientas del Modelado de Negocios y sus aplicaciones en el contexto empresarial. Se describe un método para elaborar modelos de negocio que utiliza los lenguajes UML 2.5 y BPMN 2.0 para representar distintos aspectos de una empresa.
+El Modelado empresarial es un proceso técnico-gerencial que permite modelar y relacionar los elementos más importantes de una empresa, esto es: sus objetivos, procesos de negocio, reglas de negocio, objetos de negocio, actores, estructura organizativa, entre otros. El Modelado empresarial ayuda a ganar conocimiento de una empresa y de sus procesos de negocio. Es utilizado en amplia variedad de actividades profesionales, entre las que se destacan: Gestión de Procesos de Negocio (BPM), Reingeniería de Procesos, Diseño Organizacional, Desarrollo de Sistemas de Información, Automatización Industrial y Arquitecturas Empresariales. En este curso, usted aprenderá a analizar diseñar y modelar la arquitectura de su empresa, haciendo uso de técnicas modernas del modelado empresarial con el lenguaje UML y su extención para negocios.
+<!-- se discute la importancia del modelado de negocios en una empresa y se analizan los conceptos, modelos, procesos, técnicas y herramientas del Modelado de Negocios y sus aplicaciones en el contexto empresarial. Se describe un método para elaborar modelos de negocio que utiliza los lenguajes UML 2.5 y BPMN 2.0 para representar distintos aspectos de una empresa.-->
 @stop
 @section('objetivos')
 <ul>
@@ -60,7 +61,7 @@ Cuatro (4) días (28 horas).
 <p><h4>Requisitos:</h4>Conocimientos básicos de sistemas de información y de los procesos de una empresa. Es deseable tener conocimientos generales de UML y BPMN.</p>
 @stop
 @section('campos')
-	{{ Form::hidden('tit-curso', 'Modelado de Negocios usando UML y BPMN') }}
+	{{ Form::hidden('tit-curso', 'Arquitectura de negocio: Análisis y modelado de empresas') }}
 	{{-- ruta para regresar al curso luego de enviar el correo--}}
 	{{ Form::hidden('ruta', 'cursos.curso3') }}
 @stop

@@ -1,14 +1,14 @@
 @extends ('layouts.cursos')
 
 @section ('title')
-	Lenguajes de Modelado de Software: UML 2.5
+	Desarrollo de Software con UML
 @stop
 
 @section('img')
 	{{ HTML::image('assets/images/curso/uml.jpg', $alt="Lenguajes de Modelado de Software: UML 2.5", $attributes = array('class' => 'img-responsive')) }}
 @stop
 @section('curso-tit')
-	Lenguajes de Modelado de Software: UML 2.5
+	Desarrollo de Software con UML
 @stop
 @section('descripcion')
 	El desarrollo de software es un proceso que consta de diferentes actividades, entre las que se destacan: el modelado del negocio, el desarrollo de requisitos, el diseño arquitectónico, el diseño detallado, la programación y las pruebas de la aplicación. En cada una de estas actividades, el ingeniero de software debe elaborar diferentes tipos de modelos. El Lenguaje de Modelado Unificado (UML 2.5) y su extensión para modelado de negocios (UML Business) son los dos más utilizados en la Industria de Software para elaborar estos modelos, que son indispensables para analizar, diseñar, programar y probar una aplicación. Este curso discute estos dos lenguajes a la luz de su aplicabilidad en cada una de las actividades mencionadas.
@@ -68,10 +68,16 @@
 	Este curso está dirigido a todos aquellos profesionales que participan en el desarrollo y mantenimiento de software, sistemas de información u otras aplicaciones y que deseen adquirir competencias en el modelado de sistemas de negocio y aplicaciones usando los lenguajes UML 2.5.
 @stop
 @section('horas')
-	Cuatro (4) días (28 horas).
+	Cuatro (3) días (24 horas).
+	<br>
+	Próximo curso: 15-17 JUNIO 2016
+	<br>
+	Inscripciones: atencion@biosoftca.com
+	<br>
+	Tlf: 0274 789 26 69
 @stop
 @section('campos')
-	{{ Form::hidden('tit-curso', 'Lenguajes de Modelado de Software: UML 2.5') }}
+	{{ Form::hidden('tit-curso', 'Desarrollo de Software con UML') }}
 	{{-- ruta para regresar al curso luego de enviar el correo--}}
 	{{ Form::hidden('ruta', 'cursos.curso1') }}
 @stop

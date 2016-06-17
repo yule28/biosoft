@@ -6,7 +6,7 @@
 
 @section ('content')
 	{{ HTML::image('assets/images/capacitacion/cabecera.jpg',
-	$alt="imagen 1", $attributes = array('width' => 1600, 'height' => 241,
+	$alt="imagen 1", $attributes = array('width' => "100%", 'height' => "241px",
 	'class' => 'img-responsive')) }}
 
 

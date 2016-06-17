@@ -27,7 +27,8 @@
 				</div>
 				<h2 class="visible-xs">Ingeniería del Software</h2>
 					<ul>
-						<li><a href="cursos/uml">Lenguaje de Modelado de Software: UML 2.5</a></li>
+						<li><a href="cursos/uml">Desarrollo de Software con UML</a></li>
+						<li><a href="cursos/desoftdd">Desarrollo de Software Guiado por Pruebas (TDD) con Ruby on Rails</a></li>
 						<li><a href="cursos/metodosagiles">Desarrollo de Software: Métodos Ágiles y Balanceados (Scrum, XP y Blue WATCH)
 						</a></li>
 						<li><a href="cursos/modeladonegocios">Modelado de Negocios con UML 2.5 y BPMN 2.0
@@ -62,7 +63,7 @@
 						<li><a href="cursos/fundgestproc">Fundamentos de Gestión de Procesos de Negocio - BPM
 						</a></li>
 						<li><a href="cursos/tallmodbpmn">La Notación de Modelado de Procesos de Negocio - BPMN 2.0</a></li>
-						<li><a href="cursos/modeladonegocios">Modelado de Negocios con UML 2.5 y BPMN 2.0</a>
+						<li><a href="cursos/modeladonegocios">Arquitectura de negocio: Análisis y modelado de empresas</a>
 </li>
 						<li><a href="cursos/gestriesgo">Gestión de Riesgos, Configuración y Calidad
 						</a></li>

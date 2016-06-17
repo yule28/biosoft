@@ -20,6 +20,7 @@
 	<div class="row">
 		<div class="col-md-3 enlaces">
 		<div class="row">
+                    <!--correo-->
 						<a href="contacto">
 						{{ HTML::image('assets/images/contacto/email.png', 
 			$alt="imagen 1", $attributes = array('width' => 60, 'height' => 58, 
@@ -27,13 +28,15 @@
 					</a>
 					</div>
 					<div class="row">
-						<a href="#">
+					<!--facebook-->
+						<a href="https://www.facebook.com/Biosoftca-1622725348051680/" target="_blank">
 						{{ HTML::image('assets/images/contacto/face.png', 
 			$alt="imagen 1", $attributes = array('width' => 60, 'height' => 53, 
 			'class' => 'img-responsive')) }}
 					</a>
 					</div>
 					<div class="row">
+					<!--twitter-->
 						<a href="https://twitter.com/biosoftca" target="_blank">
 						{{ HTML::image('assets/images/contacto/twitter.png', 
 			$alt="imagen 1", $attributes = array('width' => 60, 'height' => 54, 
@@ -41,7 +44,8 @@
 					</a>
 					</div>
 					<div class="row">
-						<a href="#">
+					<!--instagram-->
+						<a href="https://www.instagram.com/biosoftca/" target="_blank">
 						{{ HTML::image('assets/images/contacto/link.png', 
 			$alt="imagen 1", $attributes = array('width' => 60, 'height' => 53, 
 			'class' => 'img-responsive')) }}

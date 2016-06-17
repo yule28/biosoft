@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+	<link href='../assets/images/layout/icon.png' rel='shortcut icon' type='image/png'>
 	<title>@yield('title')</title>
-	<link href='assets/images/layout/icon.png' rel='shortcut icon' type='image/png'>
 	{{ HTML::style('assets/stylesheets/bootstrap/bootstrap.css')}}
 	{{ HTML::style('assets/stylesheets/bootstrapValidator.min.css')}}
 	{{ HTML::style('assets/stylesheets/styles.css')}}
