@@ -6,6 +6,7 @@
 	<link href='assets/images/layout/icon.png' rel='shortcut icon' type='image/png'>
 	<title>@yield('title')</title>
 	{{ HTML::style('assets/stylesheets/styles.css')}}
+	{{ HTML::style('assets/stylesheets/new-styles.css') }}
 	{{ HTML::style('assets/stylesheets/bootstrap/bootstrap.css')}}
 	{{ HTML::style('assets/stylesheets/fraction/fractionslider.css')}}
     <link rel="stylesheet" href="assets/pgwslider/pgwslider.css">

@@ -1,0 +1,25 @@
+/*---------------------- home ----------------*/
+.text-indicadores{
+    font-size: 130%;
+    margin-top: 10%;
+}
+
+.indicadores img{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.por-que{
+    color: #ffffff;
+    background: #555555;
+}
+
+.por-que .row{
+    padding: 5% 0;
+}
+
+.por-que .titulo{
+    font-size: 350%;
+    margin: 5%;
+}
+/*-------------------------------------------- */

@@ -7,76 +7,31 @@
 @section ('content')
 	<div id="gestion">
 		<div class="container">
-			<div class="row indicadores">
-				<div class="col-md-3">
-                    {{ HTML::image('assets/images/inicio/anos.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
-				    <div class="text-center text-indicadores">Más de 9 años de experiencia</div>
-				</div>
-				<div class="col-md-3">
-                    {{ HTML::image('assets/images/inicio/cliente.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
-				    <div class="text-center text-indicadores">Más de 50 clientes felices</div>
-				</div>
-				<div class="col-md-3">
-                    {{ HTML::image('assets/images/inicio/proyectos.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
-				    <div class="text-center text-indicadores">100 proyectos desarrollados</div>
-				</div>
-				<div class="col-md-3">
-                    {{ HTML::image('assets/images/inicio/grupo.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
-				    <div class="text-center text-indicadores">12 profesionales a su dispocición</div>
-				</div>
-				<div class="col-md-3"></div>
-				<div class="col-md-3"></div>
+			<div class="row">
+				<h2>BioSoft Gestión <span>Informática</span> e Ingeniería de <span>Software</span></h2>
 			</div>
-		</div>
-	</div>
-	<div class="por-que">
-		<div class="container">
-		<div class="titulo text-center">Por que nosotros</div>
-			<div class="row">
-                <div class="col-md-2">
-                    {{ HTML::image('assets/images/inicio/check.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
-                </div>
-				<div class="col-md-4">
-					<h4>Tomamos las ideas y las transformamos en software de calidad </h4>
-					<p class="text-justify">Creamos aplicaciones y sistemas
-					acorde a las necesidades de cada empresa. Métodos ágiles y
-					disciplinados que se traducen en desarrollo de software rápido,
-					ordenado y eficaz.</p>
-				</div>
+			<div class="row gest">
 
-				                <div class="col-md-2">
-                    {{ HTML::image('assets/images/inicio/check.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
-                </div>
-				<div class="col-md-4">
-					<h4>Tomamos las ideas y las transformamos en software de calidad </h4>
-					<p class="text-justify">Creamos aplicaciones y sistemas
-					acorde a las necesidades de cada empresa. Métodos ágiles y
-					disciplinados que se traducen en desarrollo de software rápido,
-					ordenado y eficaz.</p>
-				</div>
-			</div><br><br>
-			<div class="row">
-                <div class="col-md-2">
-                    {{ HTML::image('assets/images/inicio/check.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
-                </div>
-				<div class="col-md-4">
-					<h4>Tomamos las ideas y las transformamos en software de calidad </h4>
-					<p class="text-justify">Creamos aplicaciones y sistemas
-					acorde a las necesidades de cada empresa. Métodos ágiles y
-					disciplinados que se traducen en desarrollo de software rápido,
-					ordenado y eficaz.</p>
-				</div>
+					<div class="col-md-4">
+						<p class="text-justify">
+							BioSoft es Gestión Informática e Ingeniería de Software a su medida.
+							Prestamos servicios de Desarrollo, Capacitación y Consultoría generándole
+							valor a su compañía.
+							Nuestro equipo multidisciplinario, con una enorme
+							experiencia, le brinda soluciones rápidas, efectivas,
+							eficaces y según sus necesidades.
+						</p>
+						<p class="eslogan">
+							"En BioSoft somos Talento Venezolano que da vida a sus proyectos."
+						</p>
+						<p class="text-right">{{ HTML::link('equipo', 'conozcanos', array('class' => 'btn btn-success btn-sm','role'=>'button')); }}</p>
+					</div>
+					<div class="col-md-8">
+						{{ HTML::image('assets/images/inicio/gestion.png',
+						$alt="imagen 1", $attributes = array('width' => 784, 'height' => 464,
+						'class' => 'img-responsive')) }}
+					</div>
 
-				                <div class="col-md-2">
-                    {{ HTML::image('assets/images/inicio/check.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
-                </div>
-				<div class="col-md-4">
-					<h4>Tomamos las ideas y las transformamos en software de calidad </h4>
-					<p class="text-justify">Creamos aplicaciones y sistemas
-					acorde a las necesidades de cada empresa. Métodos ágiles y
-					disciplinados que se traducen en desarrollo de software rápido,
-					ordenado y eficaz.</p>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -96,7 +51,9 @@
 					</p>
 				</div>
 				<div class="col-md-8">
-					{{ HTML::image('assets/images/inicio/herramientas.png',	$alt="imagen 1", $attributes = array('width' => 600, 'height' => 370, 'class' => 'img-responsive')) }}
+					{{ HTML::image('assets/images/inicio/herramientas.png',
+					$alt="imagen 1", $attributes = array('width' => 600, 'height' => 370,
+					'class' => 'img-responsive')) }}
 				</div>
 			</div>
 		</div>
