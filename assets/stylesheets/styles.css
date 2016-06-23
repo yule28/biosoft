@@ -144,6 +144,7 @@ body header .logo-biosoft {
 body header .navbar-nav {
   float: right;
   margin-top: 30px;
+  border: 0px;
 }
 /* line 160, ../../../app/assets/sass/paginas/_layout.scss */
 body header .navbar-nav ul li a {

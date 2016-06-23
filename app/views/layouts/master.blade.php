@@ -5,8 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<link href='assets/images/layout/icon.png' rel='shortcut icon' type='image/png'>
 	<title>@yield('title')</title>
-	{{ HTML::style('assets/stylesheets/styles.css')}}
 	{{ HTML::style('assets/stylesheets/bootstrap/bootstrap.css')}}
+	{{ HTML::style('assets/stylesheets/styles.css')}}
+	{{ HTML::style('assets/stylesheets/new-styles.css')}}
 	{{ HTML::style('assets/stylesheets/fraction/fractionslider.css')}}
     <link rel="stylesheet" href="assets/pgwslider/pgwslider.css">
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
