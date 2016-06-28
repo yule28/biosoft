@@ -22,6 +22,10 @@
     font-size: 350%;
     margin: 5%;
 }
+
+.check-list{
+    list-style-image: url("../images/inicio/check-list.png");
+}
 /*-------------------------------------------- */
 /*------------------ Carrousel ----------------*/
     * {
@@ -30,6 +34,7 @@
 
     .slider {
         width: 100%;
+        height: auto;
         margin: 50px auto;
     }
 

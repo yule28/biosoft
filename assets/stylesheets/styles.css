@@ -393,7 +393,7 @@ body footer .footer-der #wrap-footer .row #derechos p {
 
 /* line 146, ../../../app/assets/sass/paginas/_inicio.scss */
 #clientes {
-  background-color: #d2d6d5;
+  background-color: #efefef;
   padding: 3% 0;
 }
 /* line 150, ../../../app/assets/sass/paginas/_inicio.scss */
@@ -405,7 +405,7 @@ body footer .footer-der #wrap-footer .row #derechos p {
 /* line 154, ../../../app/assets/sass/paginas/_inicio.scss */
 #clientes .container h2 span {
   font-weight: bold;
-  color: #6d8e61;
+  color: #94B935;
 }
 /* line 161, ../../../app/assets/sass/paginas/_inicio.scss */
 #clientes .container .col-md-4 p {
