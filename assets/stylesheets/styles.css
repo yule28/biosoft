@@ -144,12 +144,11 @@ body header .logo-biosoft {
 body header .navbar-nav {
   float: right;
   margin-top: 30px;
-  border: 0px;
-}
+  
 /* line 160, ../../../app/assets/sass/paginas/_layout.scss */
 body header .navbar-nav ul li a {
   font-family: "Questrial", sans-serif;
-  font-size: 18px;
+  /*font-size: 18px;*/
   color: #5a5a5a !important;
 }
 @media (min-width: 768px) and (max-width: 1199px) {

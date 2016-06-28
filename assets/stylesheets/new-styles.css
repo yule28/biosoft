@@ -11,7 +11,7 @@ body header .navbar-nav {
 
 /*Estilo Normal de los elementos de la barra de navegación*/
 .navbar-nav > li{
-  border: 1px solid #E44E3C;
+  /*border: 1px solid #E44E3C;*/
   margin: 0 2px;
   float: left;
 }
@@ -42,18 +42,34 @@ body header .navbar-nav {
   color: #FFF;
   }
 
-  /*Estilo Normal de los elementos del submenú*/
-.dropdown-menu > li > a:hover {
-  color: #FFF;
+
+ /*Estilo del submenú servicios*/
+.dropdown-menu {
   background-color: black;
-  border-bottom: 3px solid #E44E3C;
+  padding: 2px;
+  min-width: 150px;
 }
 
+  /*Estilo Normal de los elementos del submenú*/
+.dropdown-menu > li> a{
+  color: #8a9190;
+  font-weight: bold;
+  background-color: black;
+  padding: 5px 15px;
+
+}
+
+
+/*Estilo del Active de los elementos del submenú*/
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+  color: #FFF;
+  background-color: #000;
+  border-bottom: 3px solid #E44E3C;
+}
 
 /*Estilo del Hover de los elementos del submenú*/
-.dropdown-menu > li > a:hover {
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   color: #FFF;
   background-color: black;
   border-bottom: 3px solid #E44E3C;
 }
-
