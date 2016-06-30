@@ -1,5 +1,39 @@
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 	<div class="container-fluid">
+		<div class= "redes">
+			<div class="telefonos">
+				
+				<div class="telelocal">
+					<p>Telf: (+58) 274-7892669</p>
+				</div>
+				<div class="email">
+					<p>atencion@biosoftca.com</p>
+				</div>
+			</div>
+			<div class="correo">
+	        <!--correo-->
+				<a href="contacto"> {{ HTML::image('assets/images/contacto/email.png', $alt="imagen 1", $attributes = array('width' => 30, 'height' => 30, 'class' => 'img-responsive')) }}
+				</a>
+			</div>
+			<div class="instagram">
+			<!--instagram-->
+				<a href="https://www.instagram.com/biosoftca/" target="_blank"> {{ HTML::image('assets/images/contacto/link.png', $alt="imagen 1", $attributes = array('width' => 30, 'height' => 30, 'class' => 'img-responsive')) }}
+				</a>
+			</div>
+
+			<div class="twitter">
+			<!--twitter-->
+				<a href="https://twitter.com/biosoftca" target="_blank"> {{ HTML::image('assets/images/contacto/twitter.png', $alt="imagen 1", $attributes = array('width' => 30, 'height' => 30, 'class' => 'img-responsive')) }}
+				</a>
+			</div>
+			<div class="facebook">
+			<!--facebook-->
+				<a href="https://www.facebook.com/Biosoftca-1622725348051680/" target="_blank"> {{ HTML::image('assets/images/contacto/face.png', $alt="imagen 1", $attributes = array('width' => 30, 'height' => 30, 'class' => 'img-responsive')) }}
+				</a>
+			</div>
+			
+		</div>
+		
 		<div class="navbar-header">
 		  <div class="logo-biosoft">
 		  	{{ HTML::image('assets/images/layout/logo_headernew.png',
@@ -17,7 +51,7 @@
 		<div class="collapse navbar-collapse" id="bs-menu">
 			<ul class="ph-line-nav nav navbar-nav">
 				<li class="{{Request::path() == '/' ? 'active' : '';}}">{{ HTML::link('/', 'INICIO'); }}</li>
-				<li class="{{Request::path() == 'equipo' ? 'active' : '';}}">{{ HTML::link('equipo', 'EMPRESA'); }}</li>
+				<li class="{{Request::path() == 'empresa' ? 'active' : '';}}">{{ HTML::link('empresa', 'EMPRESA'); }}</li>
 				<li class="dropdown">{{ HTML::link('#', 'SERVICIOS', $attributes = array('class' => 'dropdown-toggle', 'data-toggle' => "dropdown", 'role' => "button", 'aria-haspopup' => "true", 'aria-expanded' => "false")); }}
 					<ul class="dropdown-menu">
 						<li class="{{Request::path() == 'consultoria' ? 'active' : '';}}">{{ HTML::link('consultoria', 'CONSULTORIA'); }}</li>

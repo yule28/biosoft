@@ -1,8 +1,13 @@
 /*Estilos del encabezado-barra de navegación*/
 
 body header .navbar {
-  background-color: #1A1F29;
+  background-color: #20232c;
 } 
+
+body header .navbar-nav {
+    margin-top:30px;
+    margin-left: 200px;
+}
 
 /*Estilos del encabezado-barra de navegación*/
 body header .navbar-nav {
@@ -56,9 +61,7 @@ body header .navbar-nav {
   font-weight: bold;
   background-color: black;
   padding: 5px 15px;
-
 }
-
 
 /*Estilo del Active de los elementos del submenú*/
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
@@ -72,4 +75,79 @@ body header .navbar-nav {
   color: #FFF;
   background-color: black;
   border-bottom: 3px solid #E44E3C;
+}
+
+/*Estilo de los vinculos redes sociales */
+
+.redes{
+
+  
+  margin: 7px 0px;
+}
+
+.correo {
+  float:right;
+  padding: 0 3px;
+}
+.facebook {
+   float:right;
+   padding: 0 3px;
+}
+.twitter {
+   float:right;
+   padding: 0 3px;
+}
+.instagram {
+   float:right;
+   padding: 0 3px;
+}
+
+.telefonos{
+  color: #FFF;
+}
+.email {
+float:right;
+padding: 0 20px;
+margin-top: 5px;
+}
+.telelocal {
+float:right;
+padding: 0 3px;
+margin-top: 5px;
+
+}
+
+.telefonos .email >p{
+  font-size: 12px;
+}
+.telefonos .telelocal >p{
+  font-size: 12px;
+}
+
+.img-responsive {
+    max-width: 80%
+  }
+
+@media (max-width: 767px) {
+  /* line 20, ../../../app/assets/sass/paginas/_layout.scss */
+
+  .navbar-toggle {
+    margin-right: 100px;
+    margin-top: 15px;
+}
+}
+
+@media (max-width: 494px) {
+  /* line 155, ../../../app/assets/sass/paginas/_layout.scss */
+ .redes {
+   float:left;
+   margin-left: 100px;  
+  }
+.correo {
+  margin-right: 80px; 
+}
+  .navbar-toggle {
+    margin-top: 20px;
+    
+  } 
 }
