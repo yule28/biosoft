@@ -175,3 +175,42 @@ margin-top: 5px;
 }
 }
 
+body footer {
+  width: 100%;
+  height: auto;
+  background-color: #20232c;
+  color: #818181;
+  padding: 50px 0px 20px 0px;
+}
+
+
+.paginas {
+  margin-top: 40px;
+}
+
+a {
+  color: #E44E3C;
+  font-size: 14px;
+}
+a:hover, a:focus {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#text-derechos {
+  margin-top: 15px;
+  color: #fff;
+}
+
+/*Estilo Normal de los elementos del submenú*/
+.paginas .listapaginas .dropdown .dropdown-menu{
+  background-color: #20232c;
+}
+/*Estilo Normal de los elementos del submenú*/
+.paginas .listapaginas .dropdown .dropdown-menu > li> a{
+  background-color: #20232c;
+  
+}
+
+
+
