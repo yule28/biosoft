@@ -175,6 +175,7 @@ margin-top: 5px;
 }
 }
 
+/*Estilo del Footer */
 body footer {
   width: 100%;
   height: auto;
@@ -184,33 +185,28 @@ body footer {
 }
 
 
-.paginas {
-  margin-top: 40px;
+footer .paginas{
+  padding-left: 10%;
 }
-
-a {
-  color: #E44E3C;
-  font-size: 14px;
+footer .titulo{
+  border-bottom: 4px solid #62B376;
+  font-size: 24px;
 }
-a:hover, a:focus {
-  color: #FFF;
+footer a{
+  font-size: 18px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #818181;
+  text-decoration: none;
+}
+footer a:hover{
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
-#text-derechos {
-  margin-top: 15px;
-  color: #fff;
-}
 
-/*Estilo Normal de los elementos del submenú*/
-.paginas .listapaginas .dropdown .dropdown-menu{
-  background-color: #20232c;
-}
-/*Estilo Normal de los elementos del submenú*/
-.paginas .listapaginas .dropdown .dropdown-menu > li> a{
-  background-color: #20232c;
-  
-}
 
 
 
