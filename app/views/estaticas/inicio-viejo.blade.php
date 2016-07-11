@@ -59,29 +59,7 @@
 		</div>
 	</div>
 	<div id="capacitacion">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 info">
-					<h2>Servicios en <span>Capacitación</span></h2>
-					<h4>BioSoft también es Capacitación Profesional</h4>
-					<p class="text-justify">En BioSoft compartimos nuestros 
-					conocimientos y nuestras ideas. La capacitación de más de 
-					<span>500</span> profesionales de empresas públicas y privadas así 
-					lo comprueban. Descubra nuestro novedoso programa de capacitación 
-					que ahora ofrecemos de manera 100% virtual. Mantener empresas de 
-					vanguardia implica tener personal capacitado e instruido. Elimine 
-					la barrera de sus conocimientos y lleve a su empresa a otro nivel.</p>
-					<p class="text-right">
-						{{ HTML::link('capacitacion', 'más', array('class' => 'btn btn-warning btn-sm','role'=>'button')); }}
-					</p>
-				</div>
-				<div class="col-md-8">
-					{{ HTML::image('assets/images/inicio/laptop.png', 
-					$alt="imagen 1", $attributes = array('width' => 878, 'height' => 566, 
-					'class' => 'img-responsive')) }}
-				</div>
-			</div>
-		</div>
+
 	</div>
 	<div id="consultoria">
 		<div class="container">

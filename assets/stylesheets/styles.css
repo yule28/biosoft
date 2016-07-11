@@ -272,10 +272,23 @@ body footer .footer-der #wrap-footer .row #derechos p {
 #gestion .container > .gest .col-md-4 > p.eslogan {
   font-family: "Questrial", sans-serif;
   font-size: 30px;
-  color: #d57d33;
+  color: #ff7600;
   line-height: 30px;
   font-weight: bold;
 }
+
+/*-------indicadores de gestion---------------------*/
+/* line 1, ../../../app/assets/sass/paginas/_inicio.scss */
+#indicadores {
+  background-color: #f7f7f7;
+  padding: 3% 0;
+}
+/* line 6, ../../../app/assets/sass/paginas/_inicio.scss */
+#indicadores .container .row h2 {
+  font-family: "Questrial", sans-serif;
+  color: #7e7d7d;
+}
+/* line 9, ../../../app/assets/sass/paginas/_inicio.scss */
 
 /* line 39, ../../../app/assets/sass/paginas/_inicio.scss */
 #desarrollo {
@@ -321,7 +334,7 @@ body footer .footer-der #wrap-footer .row #derechos p {
 /* line 78, ../../../app/assets/sass/paginas/_inicio.scss */
 #capacitacion .container .info h2 span {
   font-weight: bold;
-  color: #d57d33;
+  color: #ff7600;
 }
 /* line 83, ../../../app/assets/sass/paginas/_inicio.scss */
 #capacitacion .container .info h4 {
@@ -405,7 +418,7 @@ body footer .footer-der #wrap-footer .row #derechos p {
 /* line 154, ../../../app/assets/sass/paginas/_inicio.scss */
 #clientes .container h2 span {
   font-weight: bold;
-  color: #94B935;
+  color: #94c614;
 }
 /* line 161, ../../../app/assets/sass/paginas/_inicio.scss */
 #clientes .container .col-md-4 p {

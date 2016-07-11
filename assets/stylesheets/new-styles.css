@@ -11,7 +11,7 @@
 
 .por-que{
     color: #ffffff;
-    background: #555555;
+    background: #333;
 }
 
 .por-que .row{
@@ -26,6 +26,50 @@
 .check-list{
     list-style-image: url("../images/inicio/check-list.png");
 }
+/*-------------------------------------------- */
+/*------------------ Empresa ----------------*/
+.sub-menu{
+    color: #FFF;
+    font-size: 16px;
+    /*margin-top:  -100px;*/
+}
+
+.boton{
+    background: rgba(55, 55, 55, .8);
+    padding: 5%;
+    text-align: center;
+    transition: 1.2s all;
+}
+.boton:hover{
+    background: rgba(228, 78, 60, 1);
+}
+
+.sobre{
+    background-color: #FFF;
+    padding: 3%;
+}
+
+.sobre h2{
+    color: #7e7d7d;
+}
+
+.sobre p{
+    font-size: 20px;
+    margin: 10% 0;
+    color: #7e7d7d;
+}
+
+.sobre h2 span{
+    font-weight: bold;
+    color: #96b523;
+}
+
+.sobre p.eslogan {
+    margin: 5%;
+    font-size: 30px;
+    color: #ff7600;
+}
+
 /*-------------------------------------------- */
 /*------------------ Carrousel ----------------*/
     * {

@@ -32,6 +32,11 @@ Route::get('equipo', function()
 	return View::make('estaticas.equipo');
 });
 
+Route::get('empresa', function()
+{
+	return View::make('estaticas.empresa');
+});
+
 Route::get('contacto', function()
 {
 	$mensaje = null;
