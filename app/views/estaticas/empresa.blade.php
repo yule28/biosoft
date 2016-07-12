@@ -7,24 +7,47 @@
 @section ('content')
 	{{ HTML::image('assets/images/empresa/empresa-banner.jpg', $alt="imagen 1", $attributes = array('width' => "100%", 'height' => "241px", 'class' => 'img-responsive hidden-xs')) }}
 
-    <div class="container sub-menu">
+	<div class="sobre">
+	<div class="container text-center sub-menu">
         <div class="row">
             <a href="" style="color:#FFF;"><div class="col-md-4 "><h4 class="boton">Sobre Biosoft</h4></div></a>
             <a href="" style="color:#FFF;"><div class="col-md-4 "><h4 class="boton">Equipo</h4></div></a>
             <a href="" style="color:#FFF;"><div class="col-md-4 "><h4 class="boton">Metodología</h4></div></a>
         </div>
-    </div>
-    <div class="container sobre text-center">
-        <div class="row">
-            <div class="col-md-12"><h2>Sobre <span>Biosoft</span></h2></div>
-            <br>
-            <p class="eslogan">
-                "En BioSoft somos Talento Venezolano que da vida a sus proyectos."
-            </p>
+		<div class="row">
+			<div class="col-md-12"><h2>Sobre <span class="verde">Biosoft</span></h2></div>
+			<br>
+			<p class=" eslogan"><span class="naranja">"En BioSoft somos Talento Venezolano que da vida a sus proyectos."</span>
+			</p>
+			<p>BioSoft es Gestión Informática e Ingeniería de Software a su medida. Prestamos servicios de Desarrollo, Capacitación y Consultoría generándole valor a su compañía. Nuestro equipo multidisciplinario, con una enorme experiencia, le brinda soluciones rápidas, efectivas, eficaces y según sus necesidades.</p>
+		</div>
+		{{ HTML::image('assets/images/empresa/empresa-sobre.jpg', $alt="imagen 1", $attributes = array('width' => "100%", 'height' => "241px", 'class' => 'img-responsive hidden-xs')) }}			
+		</div>
+	</div>
+	<div class="capacidad">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="text-center naranja">Lo que sabemos</h2>
+                    <ul class="check-list">
+                        <li>Ruby On Rails</li>
+                        <li>PHP y Laravel</li>
+                        <li>HTML5, CSS y JavaScript</li>
+                        <li>Bootstrap</li>
+                        <li>Wordpress y Drupal</li>
+                        <li>Modlee</li>
+                        <li>Bases de datos & Integración BD</li>
+                        <li>Métodos balanceados y agiles de desarrollo</li>
+                        <li>Mejores prácticas y herramientas de desarrollo de software</li>
+                        <li>Métodos de enseñanza-aprendizaje </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-center verde">Hacemos</h2>
+                </div>
+            </div>
         </div>
-        {{ HTML::image('assets/images/empresa/empresa-sobre.jpg', $alt="imagen 1", $attributes = array('width' => "100%", 'height' => "241px", 'class' => 'img-responsive hidden-xs')) }}
-        <p>BioSoft es Gestión Informática e Ingeniería de Software a su medida. Prestamos servicios de Desarrollo, Capacitación y Consultoría generándole valor a su compañía. Nuestro equipo multidisciplinario, con una enorme experiencia, le brinda soluciones rápidas, efectivas, eficaces y según sus necesidades.</p>
-    </div>
+    </div>	
 	<div class="por-que">
 		<div class="container">
 		<div class="titulo text-center">Por que nosotros</div>

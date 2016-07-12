@@ -1,3 +1,11 @@
+.verde{
+    color: #96b523;
+}
+
+.naranja{
+    color: #ff7600;    
+}
+
 /*---------------------- home ----------------*/
 .text-indicadores{
     font-size: 130%;
@@ -26,6 +34,10 @@
 .check-list{
     list-style-image: url("../images/inicio/check-list.png");
 }
+
+.check-list li{
+    padding: 4%;
+}
 /*-------------------------------------------- */
 /*------------------ Empresa ----------------*/
 .sub-menu{
@@ -45,7 +57,7 @@
 }
 
 .sobre{
-    background-color: #FFF;
+    background-color: #ffffff;
     padding: 3%;
 }
 
@@ -55,21 +67,26 @@
 
 .sobre p{
     font-size: 20px;
-    margin: 10% 0;
+    margin: 5% 0;
     color: #7e7d7d;
 }
 
 .sobre h2 span{
     font-weight: bold;
-    color: #96b523;
 }
 
 .sobre p.eslogan {
-    margin: 5%;
+    margin: 5% 5% 0 5%;
     font-size: 30px;
-    color: #ff7600;
 }
 
+.capacidad{
+    background: #D2D6D5;
+}
+
+.capacidad ul{
+    padding: 7%;
+}
 /*-------------------------------------------- */
 /*------------------ Carrousel ----------------*/
     * {

@@ -106,12 +106,18 @@
 {{ HTML::script('assets/slick/slick.js') }}
 <script type="text/javascript">
     $(document).on('ready', function() {
-      $(".regular").slick({
+/*      $(".regular").slick({
         dots: true,
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 3
-      });
+      });*/
+    $('.autoplay').slick({
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    });
     });
 </script>
 </html>

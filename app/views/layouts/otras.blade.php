@@ -7,7 +7,7 @@
 	<link href='assets/images/layout/icon.png' rel='shortcut icon' type='image/png'>
 	{{ HTML::style('assets/stylesheets/bootstrap/bootstrap.css')}}
 	{{ HTML::style('assets/stylesheets/bootstrapValidator.min.css')}}
-	{{ HTML::style('assets/stylesheets/styles.css')}}
+	{{ HTML::style('assets/stylesheets/styles.css') }}
 	<!--Estilos pagina nueva-->
 	{{ HTML::style('assets/stylesheets/new-styles.css') }}
 	<script src="//code.jquery.com/jquery.js"></script>

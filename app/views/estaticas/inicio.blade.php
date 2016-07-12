@@ -34,19 +34,19 @@
 	<div id="indicadores">
 		<div class="container">
 			<div class="row indicadores"><br><br><br><br>
-				<div class="col-xs-12 col-sm-3 col-md-3">
+				<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-3 col-md-3">
                     {{ HTML::image('assets/images/inicio/anos.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
 				    <div class="text-center text-indicadores">Más de 9 años de experiencia</div>
 				</div>
-				<div class="col-xs-12 col-sm-3 col-md-3">
+				<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-3 col-md-3">
                     {{ HTML::image('assets/images/inicio/aplicacion.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
 				    <div class="text-center text-indicadores">Más de 17 aplicaciones desarrolladas</div>
 				</div>
-				<div class="col-xs-12 col-sm-3 col-md-3">
+				<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-3 col-md-3">
                     {{ HTML::image('assets/images/inicio/proyectos.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
 				    <div class="text-center text-indicadores">21 proyectos desarrollados</div>
 				</div>
-				<div class="col-xs-12 col-sm-3 col-md-3">
+				<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-3 col-md-3">
                     {{ HTML::image('assets/images/inicio/grupo.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
 				    <div class="text-center text-indicadores">12 profesionales a su disposición</div>
 				</div>
@@ -105,8 +105,8 @@
 				<h2>Nuestros <span>Clientes</span></h2>
 			</div>
 			<div class="row">
-				<div class="col-md-12">
-                <section class="regular ">
+				<div class=" col-md-offset-1 col-md-10">
+                <section class="autoplay ">
                     <div>
                         <img src="assets/images/clientes/cencoex.jpg" alt="">
                     </div>
