@@ -126,11 +126,6 @@ margin-top: 5px;
   font-size: 12px;
 }
 
-.img-responsive {
-    max-width: 80%
-  }
-
-
 
 @media (max-width: 494px) {
 
@@ -173,6 +168,8 @@ margin-top: 5px;
   background-color: #000;
   border-bottom: 3px solid #E44E3C;
 }
+
+
 }
 
 /*Estilo del Footer */
@@ -207,6 +204,100 @@ footer a:hover{
 }
 
 
+/* line 20, ../../../app/assets/sass/paginas/_equipo.scss */
+#equipo .fotos .container h2 {
+  margin: 4% 0;
+  font-family: "museo 500", arial, sans-serif;
+  font-size: 28px;
+  color: #d98034;
+}
+/* line 25, ../../../app/assets/sass/paginas/_equipo.scss */
+#equipo .fotos .container h2 span {
+  font-weight: bold;
+}
 
 
 
+#equipo .fotos .container .integrante .descripcion p {
+    color: #7e7d7d;
+    font-family: "Questrial", sans-serif;
+}
+
+#equipo .fotos .container .integrante .nombre p {
+    color: #7e7d7d;
+    font-family: "Questrial", sans-serif;
+    font-size: 28px;
+  }
+
+  #equipo .fotos .container .integrante .nombre p span {
+    font-weight: bold;
+}
+
+#equipo .fotos .container .integrante {
+    margin-bottom: 4%;
+
+}
+
+#equipo .fotos .container .integrante .imagen .img-responsive {
+    
+    width: 80%;
+    float: right;
+  }
+
+
+
+  @media (max-width: 990px) {
+    #equipo .fotos .container .integrante .imagen .img-responsive {
+    
+  float: left;
+  width: 100%;
+
+  }
+}
+#equipo .experiencia .descripcion p {
+    color: #7e7d7d;
+    font-family: "Questrial", sans-serif;
+    font-size: 16px;
+  }
+
+  .correo >a .img-responsive{
+  max-width: 80%;
+  } 
+  
+  .twitter >a .img-responsive{
+  max-width: 80%;
+  } 
+
+ .instagram >a .img-responsive{
+  max-width: 80%;
+  } 
+
+ .correo >a .img-responsive{
+  max-width: 80%;
+  } 
+
+  .facebook >a .img-responsive{
+  max-width: 80%;
+  } 
+
+#equipo {
+    margin: 2% 0;
+}
+
+/* line 185, ../../../app/assets/sass/paginas/_layout.scss */
+body .wrap-otra {
+  margin-top: 84px;
+  min-height: 
+}
+@media (max-width: 767px) {
+  /* line 185, ../../../app/assets/sass/paginas/_layout.scss */
+  body .wrap-otra {
+    margin-top: 150px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* line 185, ../../../app/assets/sass/paginas/_layout.scss */
+  body .wrap-otra {
+    margin-top: 155px;
+  }
+}
