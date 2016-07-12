@@ -5,8 +5,8 @@
 @stop
 
 @section ('content')
-	{{ HTML::image('assets/images/equipo/cabecera.jpg',
-    	$alt="imagen 1", $attributes = array('width' => '100%', 'height' => 236,'class' => 'img-responsive')) }}
+	{{-- {{ HTML::image('assets/images/equipo/cabecera.jpg',
+    	$alt="imagen 1", $attributes = array('width' => '100%', 'height' => 236,'class' => 'img-responsive')) }} --}}
     <div id="equipo">
     	<div class="container">
     		<div class="row experiencia">
@@ -35,6 +35,9 @@
 				<div class="row integrante">
 					<div class="col-md-6 col-sm-12">
 						<div class="nombre">
+							<div class="linkedin">
+								<a href="https://ve.linkedin.com/in/francisco-zerpa-3520b940" target="_blank"> {{ HTML::image('assets/images/equipo/linkedin.png', $alt="", $attributes = array('width' => 40, 'height' => 40,'class' => 'img-responsive')) }} </a>
+							</div>
     						<p class="text-left">Francisco Zerpa P. <br/>
                                <span>Presidente y Gerente de Desarrollo</span></p>
     					</div>
@@ -48,16 +51,21 @@
     							de CVG EDELCA. Líder de varios proyectos de desarrollo de software.
     							Consultor Nacional de la ONU-FAO.  <br/>
     							Extensa experiencia en desarrollo de software. <br/>
+
     					</div>
     				</div>
 					<div class="col-md-6 col-sm-12 imagen">
 						{{ HTML::image('assets/images/equipo/fz2-picture.jpg', $alt="Francisco Zerpa P.", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
    				</div>
+   				<hr>
    				<!-- Jonas Montilva -->
    				<div class="row integrante">
 					<div class="col-md-6">
 						<div class="nombre">
+							<div class="linkedin">
+								<a href="https://ve.linkedin.com/in/jon%C3%A1s-montilva-a04b9a8a" target="_blank"> {{ HTML::image('assets/images/equipo/linkedin.png', $alt="", $attributes = array('width' => 40, 'height' => 40,'class' => 'img-responsive')) }} </a>
+							</div>
     						<p class="text-left">Jonás A. Montilva C. <br/>
                                <span>Vicepresidente y Gerente de Consultoría</span></p>
     					</div>
@@ -77,13 +85,17 @@
     					</div>
     				</div>
 					<div class="col-md-6 imagen">
-						{{ HTML::image('assets/images/equipo/jm2-picture.jpg', $alt="Jonás A. Montilva C.", $attributes = array('width' => 397, 'height' => 399, 'class' => 'img-responsive')) }}
+						{{ HTML::image('assets/images/equipo/jm-picture.jpg', $alt="Jonás A. Montilva C.", $attributes = array('width' => 397, 'height' => 399, 'class' => 'img-responsive')) }}
 					</div>
 				</div>
+				<hr>
 				<!-- Judith Barrios -->
 				<div class="row integrante">
 					<div class="col-md-6">
 						<div class="nombre">
+							<div class="linkedin">
+								<a href="" target="_blank"> {{ HTML::image('assets/images/equipo/linkedin.png', $alt="", $attributes = array('width' => 40, 'height' => 40,'class' => 'img-responsive')) }} </a>
+							</div>
     						<p class="text-left">Judith del R. Barrios A <br/>
                                <span>Consultora</span></p>
     					</div>
@@ -99,10 +111,14 @@
 						{{ HTML::image('assets/images/equipo/jr-picture.jpg', $alt="Judith del R. Barrios A.", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
 				</div>
+				<hr>
 				<!-- Dulce Rivero -->
 				<div class="row integrante">
 					<div class="col-md-6">
 						<div class="nombre">
+							<div class="linkedin">
+								<a href="https://ve.linkedin.com/in/dulce-milagro-rivero-albarran-430a1126" target="_blank"> {{ HTML::image('assets/images/equipo/linkedin.png', $alt="", $attributes = array('width' => 40, 'height' => 40,'class' => 'img-responsive')) }} </a>
+							</div>
     						<p class="text-left">Dulce Milagro Rivero A. <br/>
                                <span>Consultora</span></p>
     					</div>
@@ -125,10 +141,14 @@
 					{{ HTML::image('assets/images/equipo/dm-picture.jpg',$alt="Dulce Milagro Rivero A.", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
 				</div>
+				<hr>
 				<!-- Isabel Besembel -->
 				<div class="row integrante">
 					<div class="col-md-6">
 						<div class="nombre">
+							<div class="linkedin">
+								<a href="https://ve.linkedin.com/in/isabel-besembel-16856333?trk=pub-pbmap" target="_blank"> {{ HTML::image('assets/images/equipo/linkedin.png', $alt="", $attributes = array('width' => 40, 'height' => 40,'class' => 'img-responsive')) }} </a>
+							</div>
     						<p class="text-left">Isabel M. Besembel C. <br/>
                                <span>Consultora</span></p>
     					</div>
@@ -153,10 +173,14 @@
 					{{ HTML::image('assets/images/equipo/ib-picture.jpg',$alt="Isabel M. Besembel C.", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
 				</div>
+				<hr>
 				<!-- William Montilva -->
 				<div class="row integrante">
 					<div class="col-md-6">
 						<div class="nombre">
+							<div class="linkedin">
+								<a href="" target="_blank"> {{ HTML::image('assets/images/equipo/linkedin.png', $alt="", $attributes = array('width' => 40, 'height' => 40,'class' => 'img-responsive')) }} </a>
+							</div>
     						<p class="text-left">William J. Montilva C. <br/>
                                <span>Consultor</span></p>
     					</div>
@@ -179,20 +203,24 @@
 					{{ HTML::image('assets/images/equipo/wm-picture.jpg',$alt="William J. Montilva C", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
 				</div>
+				<hr>
 				<!-- Marina Emperatriz -->
 				<div class="row integrante">
 					<div class="col-md-6">
 						<div class="nombre">
+							<div class="linkedin">
+								<a href="https://ve.linkedin.com/in/emperatriz-ramirez-a11526121" target="_blank"> {{ HTML::image('assets/images/equipo/linkedin.png', $alt="", $attributes = array('width' => 40, 'height' => 40,'class' => 'img-responsive')) }} </a>
+							</div>
     						<p class="text-left">Emperatriz Ramirez  <br/>
                                <span>Programador</span></p>
     					</div>
     					<div class="descripcion">
     						<p class="text-justify text-left">
-    							Ingeniero de Sistemas (Universidad de los Andes ULA, Venezuela). <br/>
-    							Especialista en Gerencia Pública. <br/>
-    							Experiencia en Analisis y Desarrollo
-    							de Sistemas, Programación web (Dominio HTML, CSS, PHP, Ruby on Rails,
-    							Base de Datos: MySQL, PostgreSQL). <br/>
+    							Ingeniero de Sistemas egresada de la Universidad de los Andes, con más de 8 años de experiencia en el área de análisis y desarrollo de sistemas, con excelentes relaciones interpersonales, habilidad de trabajo en equipo y manejo de personal, capacidad de liderazgo y compromiso, alto sentido de la responsabilidad, facilidad de aprendizaje, adaptabilidad al cambio y espíritu emprendedor.<br/>
+								Experiencia en Análisis y Desarrollo de Sistemas, Programación web (Dominio HTML5, CSS, PHP, Ruby on Rails, Javascript, Boostrap, SQL, XML, JQuery, Git, Base de Datos: MySQL, PostgreSQL).<br/> 
+								Especialista en Gerencia Pública. 
+								Actualmente Estudiante de Postgrado de Computación en la Universidad de los Andes (ULA).
+								Actualmente Programador de BIOSOFT. 
     						</p>
     					</div>
     				</div>
@@ -200,10 +228,14 @@
 					{{ HTML::image('assets/images/equipo/er-picture.jpg',$alt="Emperatriz Ramirez", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
 				</div>
+				<hr>
 				<!-- Yuleima Uzcategui -->
 				<div class="row integrante">
 					<div class="col-md-6">
 						<div class="nombre">
+							<div class="linkedin">
+								<a href="https://ve.linkedin.com/in/yuleima-uzcategui-torrado-015a65120" target="_blank"> {{ HTML::image('assets/images/equipo/linkedin.png', $alt="", $attributes = array('width' => 40, 'height' => 40,'class' => 'img-responsive')) }} </a>
+							</div>
     						<p class="text-left">Yuleima Uzcátegui T.  <br/>
                                <span>Analista de Sistemas</span></p>
     					</div>
@@ -220,10 +252,14 @@
 					{{ HTML::image('assets/images/equipo/yu2-picture.jpg',$alt="Yuleima Uzcátegui T", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
 				</div>
+				<hr>
 				<!-- Jhean Guerrero-->
 				<div class="row integrante">
 					<div class="col-md-6">
 						<div class="nombre">
+							<div class="linkedin">
+								<a href="https://ve.linkedin.com/in/jhean-guerrero-10a9b295" target="_blank"> {{ HTML::image('assets/images/equipo/linkedin.png', $alt="", $attributes = array('width' => 40, 'height' => 40,'class' => 'img-responsive')) }} </a>
+							</div>
     						<p class="text-left">Jhean Carlos Guerrero.  <br/>
                                <span>Programador</span></p>
     					</div>
@@ -240,10 +276,14 @@
 					{{ HTML::image('assets/images/equipo/yu-picture.jpg',$alt="Jhean Carlos Guerrero", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
 				</div>
+				<hr>
 				<!-- Patricia Chouriuo -->
 				<div class="row integrante">
 					<div class="col-md-6">
 						<div class="nombre">
+							<div class="linkedin">
+								<a href="" target="_blank"> {{ HTML::image('assets/images/equipo/linkedin.png', $alt="", $attributes = array('width' => 40, 'height' => 40,'class' => 'img-responsive')) }} </a>
+							</div>
     						<p class="text-left">Patricia Chourio <br/>
                                <span>Contadora-Administradora</span></p>
     					</div>
@@ -262,22 +302,27 @@
 						{{ HTML::image('assets/images/equipo/pc-picture.jpg',$alt="María Patricia Chourio", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
 				</div>
+				<hr>
 				<!-- Paola Chacon -->
 				<div class="row integrante">
 					<div class="col-md-6">
 						<div class="nombre">
+							<div class="linkedin">
+								<a href="https://ve.linkedin.com/in/paola-chac%C3%B3n-montoya-b8a101122" target="_blank"> {{ HTML::image('assets/images/equipo/linkedin.png', $alt="", $attributes = array('width' => 40, 'height' => 40,'class' => 'img-responsive')) }} </a>
+							</div>
     						<p class="text-left">Paola Chacon <br/>
                                <span>Asistente Administrativo</span></p>
     					</div>
     					<div class="descripcion">
     						<p class="text-justify text-left">
     							TSU en administración de empresas mención Gerencias
-    							egresada de Instituto Universitario "Dr.Cristobal Mendoza". <br/>
+    							egresada del IUTCM". <br/>
     							Diplomado en Derecho Internacional y aduanas en la
     							Universidad de los Andes. <br/>
     							Cursando actualmente Master
-    							en Ciencias Gerenciales en el Centro Internacional de
-    							Educación Continua.
+    							en Ciencias Gerenciales en el Centro Internacional de Educación Continua.<br/>
+    							Motivación, liderazgo, disposición y rapidez para aprender o adquirir nuevos conocimientos, capacidad de análisis para resolver problemas, habilidad para trabajar con nuevas tecnologías, adaptable a cualquier situación, proactividad, motivación al logro individual y en equipo.
+
     						</p>
     					</div>
     				</div>
@@ -285,6 +330,8 @@
 					{{ HTML::image('assets/images/equipo/paola2-picture.jpg',$alt="Paola chacon", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
 				</div>
+				<hr>
    			</div>
   		</div>
   	</div>
+@stop 	
