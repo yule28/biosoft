@@ -144,11 +144,11 @@ body header .logo-biosoft {
 body header .navbar-nav {
   float: right;
   margin-top: 30px;
-  
+}
 /* line 160, ../../../app/assets/sass/paginas/_layout.scss */
 body header .navbar-nav ul li a {
   font-family: "Questrial", sans-serif;
-  /*font-size: 18px;*/
+  font-size: 18px;
   color: #5a5a5a !important;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -246,7 +246,7 @@ body footer .footer-der #wrap-footer .row #derechos p {
 /* line 1, ../../../app/assets/sass/paginas/_inicio.scss */
 #gestion {
   background-color: #fff;
-  padding: 5% 0;
+  padding: 3% 0;
 }
 /* line 6, ../../../app/assets/sass/paginas/_inicio.scss */
 #gestion .container .row h2 {
@@ -272,10 +272,23 @@ body footer .footer-der #wrap-footer .row #derechos p {
 #gestion .container > .gest .col-md-4 > p.eslogan {
   font-family: "Questrial", sans-serif;
   font-size: 30px;
-  color: #d57d33;
+  color: #ff7600;
   line-height: 30px;
   font-weight: bold;
 }
+
+/*-------indicadores de gestion---------------------*/
+/* line 1, ../../../app/assets/sass/paginas/_inicio.scss */
+#indicadores {
+  background-color: #f7f7f7;
+  padding: 3% 0;
+}
+/* line 6, ../../../app/assets/sass/paginas/_inicio.scss */
+#indicadores .container .row h2 {
+  font-family: "Questrial", sans-serif;
+  color: #7e7d7d;
+}
+/* line 9, ../../../app/assets/sass/paginas/_inicio.scss */
 
 /* line 39, ../../../app/assets/sass/paginas/_inicio.scss */
 #desarrollo {
@@ -321,7 +334,7 @@ body footer .footer-der #wrap-footer .row #derechos p {
 /* line 78, ../../../app/assets/sass/paginas/_inicio.scss */
 #capacitacion .container .info h2 span {
   font-weight: bold;
-  color: #d57d33;
+  color: #ff7600;
 }
 /* line 83, ../../../app/assets/sass/paginas/_inicio.scss */
 #capacitacion .container .info h4 {
@@ -393,7 +406,7 @@ body footer .footer-der #wrap-footer .row #derechos p {
 
 /* line 146, ../../../app/assets/sass/paginas/_inicio.scss */
 #clientes {
-  background-color: #d2d6d5;
+  background-color: #efefef;
   padding: 3% 0;
 }
 /* line 150, ../../../app/assets/sass/paginas/_inicio.scss */
@@ -405,7 +418,7 @@ body footer .footer-der #wrap-footer .row #derechos p {
 /* line 154, ../../../app/assets/sass/paginas/_inicio.scss */
 #clientes .container h2 span {
   font-weight: bold;
-  color: #6d8e61;
+  color: #94c614;
 }
 /* line 161, ../../../app/assets/sass/paginas/_inicio.scss */
 #clientes .container .col-md-4 p {

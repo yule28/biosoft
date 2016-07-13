@@ -57,8 +57,9 @@ body header .navbar-nav {
 }
 
   /*Estilo Normal de los elementos del submenú*/
-.dropdown-menu > li> a{
-  color: #8a9190;
+
+  body header .navbar-nav ul li a{
+  color: #8a9190 !important;
   font-weight: bold;
   background-color: black;
   padding: 5px 15px;
@@ -189,60 +190,9 @@ margin-top: 5px;
 
 }
 
-/*----------Fin de Media Queries cabecera y barra de navegación-----------------*/
 
-/*Estilo del Footer 
-body footer {
-  width: 100%;
-  height: auto;
-  background-color: #20232c;
-  color: #818181;
-  padding: 50px 0px 20px 0px;
-}
+/*----------Estilos Pag Equipo--------------*/
 
-
-footer .paginas{
-  padding-left: 10%;
-}
-footer .titulo{
-  border-bottom: 4px solid #62B376;
-  font-size: 24px;
-}
-footer a{
-  font-size: 18px;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  color: #818181;
-  text-decoration: none;
-}
-footer a:hover{
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  color: #FFFFFF;
-  text-decoration: none;
-}*/
-
-
-/*------------Estilos Página Equipo--------------------*/
-
-/*#equipo .fotos .container h2 {
-  margin: 4% 0;
-  font-family: "museo 500", arial, sans-serif;
-  font-size: 28px;
-  color: #d98034;
-}*/
-
-/* line 25, ../../../app/assets/sass/paginas/_equipo.scss */
-/*#equipo .fotos .container h2 span {
-  font-weight: bold;
-}*/
-
-
-
-/*#equipo .fotos .container .integrante .descripcion p {
-    color: #7e7d7d;
-    font-family: "Questrial", sans-serif;
-}*/
 
 #equipo .fotos .container .integrante .nombre p {
 
@@ -251,7 +201,7 @@ footer a:hover{
   }
 
   #equipo .fotos .container .integrante .nombre p span {
-    font-weight: bold;
+    
     color: #7e7d7d;
     font-size: 22px;
 }
@@ -261,20 +211,24 @@ footer a:hover{
 
 }
 
-#equipo .fotos .container .integrante .imagen .img-responsive {
+#equipo .fotos .container .integrante .nombre {
+     height: 100px; 
+
+    }
+
+#equipo .fotos .container .integrante .imagen img {
     
     width: 80%;
     margin: 5% auto;
     border-radius: 20px;
-   /* box-shadow: 6px 6px 1px 0px rgba(228,78,60,0.8);*/
-    box-shadow: 6px 6px 1px 0px rgba(150,181,35,0.7);
-   
+    border-right: 1px solid #1a4c80;
+    border-bottom: 1px solid #1a4c80;
   }
 
 
 
   @media (max-width: 990px) {
-    #equipo .fotos .container .integrante .imagen .img-responsive {
+    #equipo .fotos .container .integrante .imagen .img{
     
   float: left;
   width: 100%;
@@ -283,38 +237,34 @@ footer a:hover{
 }
 
 #equipo .experiencia .descripcion p {
-    /* estilo no leecolor: #7e7d7d;
-    font-family: "Questrial", sans-serif;
-    font-size: 16px;*/
-    margin-top: 10%;
+    
+    margin-top: 8%;
+
   }
 
-  
-
-#equipo {
-    margin: 2% 0;
-}
 
 #equipo hr {
   
   margin-bottom: 3%;
-  border: 1px solid #96b523; 
-  border-radius: 400px/2px; 
-  height: 0px; 
+  height: 1px; 
   text-align: center;
+  background: -moz-radial-gradient(center, ellipse cover,  rgba(150,181,35,1) 0%, rgba(150,181,35,1) 54%, rgba(171,195,78,1) 63%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover,  rgba(150,181,35,1) 0%,rgba(150,181,35,1) 54%,rgba(171,195,78,1) 63%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center,  rgba(150,181,35,1) 0%,rgba(150,181,35,1) 54%,rgba(171,195,78,1) 63%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#96b523', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
-  }
+    }
 
-
-  
 .linkedin{
   float: left;
   margin-right: 1%;
 }
 
-
 .linkedin >a .img-responsive{
   max-width: 80%;
   } 
 
-  
+@media (max-width: 767px){
+    #equipo .fotos .container .integrante .nombre {
+    height: 120px;
+}
