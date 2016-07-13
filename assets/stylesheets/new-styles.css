@@ -18,7 +18,6 @@ body header .navbar-nav {
 
 /*Estilo Normal de los elementos de la barra de navegación*/
 .navbar-nav > li{
-  /*border: 1px solid #E44E3C;*/
   margin: 0 2px;
   float: left;
 }
@@ -79,11 +78,9 @@ body header .navbar-nav {
   border-bottom: 3px solid #E44E3C;
 }
 
-/*Estilo de los vinculos redes sociales */
+/*-----------------Estilo de las redes sociales cabecera ------------------------*/
 
 .redes{
-
-  
   margin: 7px 0px;
 }
 
@@ -126,6 +123,29 @@ margin-top: 5px;
   font-size: 12px;
 }
 
+.correo >a .img-responsive{
+  max-width: 80%;
+  } 
+  
+  .twitter >a .img-responsive{
+  max-width: 80%;
+  } 
+
+ .instagram >a .img-responsive{
+  max-width: 80%;
+  } 
+
+ .correo >a .img-responsive{
+  max-width: 80%;
+  } 
+
+  .facebook >a .img-responsive{
+  max-width: 80%;
+  } 
+
+/*---------Final estilos de las redes sociales cabecera ----------*/
+
+/*----------Media Queries Cabecera y barra de navegación-------------*/
 
 @media (max-width: 494px) {
 
@@ -150,8 +170,6 @@ margin-top: 5px;
    width: 50%;
   
   }
-
-
   .navbar-toggle {
     margin-right: 15%;
     margin-top: 3.5%;
@@ -169,10 +187,11 @@ margin-top: 5px;
   border-bottom: 3px solid #E44E3C;
 }
 
-
 }
 
-*/*Estilo del Footer 
+/*----------Fin de Media Queries cabecera y barra de navegación-----------------*/
+
+/*Estilo del Footer 
 body footer {
   width: 100%;
   height: auto;
@@ -204,34 +223,37 @@ footer a:hover{
 }*/
 
 
-line 20, ../../../app/assets/sass/paginas/_equipo.scss 
-#equipo .fotos .container h2 {
+/*------------Estilos Página Equipo--------------------*/
+
+/*#equipo .fotos .container h2 {
   margin: 4% 0;
   font-family: "museo 500", arial, sans-serif;
   font-size: 28px;
   color: #d98034;
-}
+}*/
 
 /* line 25, ../../../app/assets/sass/paginas/_equipo.scss */
-#equipo .fotos .container h2 span {
+/*#equipo .fotos .container h2 span {
   font-weight: bold;
-}
+}*/
 
 
 
-#equipo .fotos .container .integrante .descripcion p {
+/*#equipo .fotos .container .integrante .descripcion p {
     color: #7e7d7d;
     font-family: "Questrial", sans-serif;
-}
+}*/
 
 #equipo .fotos .container .integrante .nombre p {
-    color: #7e7d7d;
-    font-family: "Questrial", sans-serif;
-    font-size: 28px;
+
+    color: #96b523;
+    font-size: 26px; 
   }
 
   #equipo .fotos .container .integrante .nombre p span {
     font-weight: bold;
+    color: #7e7d7d;
+    font-size: 22px;
 }
 
 #equipo .fotos .container .integrante {
@@ -242,7 +264,11 @@ line 20, ../../../app/assets/sass/paginas/_equipo.scss
 #equipo .fotos .container .integrante .imagen .img-responsive {
     
     width: 80%;
-    float: right;
+    margin: 5% auto;
+    border-radius: 20px;
+   /* box-shadow: 6px 6px 1px 0px rgba(228,78,60,0.8);*/
+    box-shadow: 6px 6px 1px 0px rgba(150,181,35,0.7);
+   
   }
 
 
@@ -255,46 +281,40 @@ line 20, ../../../app/assets/sass/paginas/_equipo.scss
 
   }
 }
+
 #equipo .experiencia .descripcion p {
-    color: #7e7d7d;
+    /* estilo no leecolor: #7e7d7d;
     font-family: "Questrial", sans-serif;
-    font-size: 16px;
+    font-size: 16px;*/
+    margin-top: 10%;
   }
 
-  .correo >a .img-responsive{
-  max-width: 80%;
-  } 
   
-  .twitter >a .img-responsive{
-  max-width: 80%;
-  } 
-
- .instagram >a .img-responsive{
-  max-width: 80%;
-  } 
-
- .correo >a .img-responsive{
-  max-width: 80%;
-  } 
-
-  .facebook >a .img-responsive{
-  max-width: 80%;
-  } 
 
 #equipo {
     margin: 2% 0;
 }
 
-#equipo hr{
-  border-color: #96b523;
+#equipo hr {
+  
   margin-bottom: 3%;
-}
+  border: 1px solid #96b523; 
+  border-radius: 400px/2px; 
+  height: 0px; 
+  text-align: center;
 
+  }
+
+
+  
 .linkedin{
   float: left;
-  margin-right: 2%;
+  margin-right: 1%;
 }
 
-/*.container-fluid{
-  background-color: #20232c;
-}
+
+.linkedin >a .img-responsive{
+  max-width: 80%;
+  } 
+
+  

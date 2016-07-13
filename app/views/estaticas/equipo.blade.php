@@ -17,7 +17,7 @@
 							de Software y Sistemas de Información, con formación de 4to y 5to
 							nivel y una extensa experiencia académica y profesional.
 							La mayoría de nuestro equipo son parte del plantel profesoral
-							de una de las mejores universidades venezolanas <span>La Universidad de Los Andes</span>
+							de una de las mejores universidades venezolanas, <span>La Universidad de Los Andes</span>
 						</p>
 					</div>
 				</div>
