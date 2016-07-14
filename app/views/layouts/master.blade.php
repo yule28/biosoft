@@ -8,8 +8,9 @@
 	
     
 	{{ HTML::style('assets/stylesheets/bootstrap/bootstrap.css')}}
-    {{ HTML::style('assets/stylesheets/styles.css')}}
-    {{ HTML::style('assets/stylesheets/new-styles.css')}}
+   {{--  {{ HTML::style('assets/stylesheets/styles.css')}} --}}
+    {{-- {{ HTML::style('assets/stylesheets/new-styles.css')}} --}}
+    {{HTML::style('assets/stylesheets/styles-menu.css')}} 
 	{{ HTML::style('assets/stylesheets/fraction/fractionslider.css')}}
     <link rel="stylesheet" href="assets/pgwslider/pgwslider.css">
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -21,7 +22,7 @@
 <body>
 	<header>
 		<div class="wrap-menu">
-			<?php echo View::make('parciales.menu') ?>
+			<?php echo View::make('parciales.menu-nuevo') ?>
 		</div>
 		<?php echo View::make('parciales.slider') ?>
 	</header>
