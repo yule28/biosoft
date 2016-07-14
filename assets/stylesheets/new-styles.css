@@ -1,19 +1,20 @@
-/*Estilos del encabezado-barra de navegación*/
-
+/*Estilos del encabezado*/
+/*No hay  sólo <header>*/
 body header .navbar {
   background-color: #20232c;   
+  border-color: #20232c;
 } 
 
-body header .navbar-nav {
+/*Estilos del encabezado*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #20232c; 
 
-    margin-left: 26%;
-
-}
-
-
+  }
 /*Estilos del encabezado-barra de navegación*/
 body header .navbar-nav {
-  background-color: #20232c; 
+  /*background-color: #20232c;*/ 
+  margin-top: 20px;
+  margin-left: 30%;
 }
 
 /*Estilo Normal de los elementos de la barra de navegación*/
@@ -40,6 +41,7 @@ body header .navbar-nav {
 .navbar-nav > li > a {
   padding-top: 5px;
   padding-bottom: 5px;
+  font-family: "Questrial", sans-serif
 }
 
 /*Estilo del elemento A cuando abre el submenú servicios*/
@@ -63,7 +65,9 @@ body header .navbar-nav {
   font-weight: bold;
   background-color: black;
   padding: 5px 15px;
+  font-size: 14px;
 }
+
 
 /*Estilo del Active de los elementos del submenú*/
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
@@ -74,9 +78,13 @@ body header .navbar-nav {
 
 /*Estilo del Hover de los elementos del submenú*/
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-  color: #FFF;
+  color: #FFF !important;
   background-color: black;
   border-bottom: 3px solid #E44E3C;
+}
+
+body header .logo-biosoft{
+  margin-left: 5%;
 }
 
 /*-----------------Estilo de las redes sociales cabecera ------------------------*/
@@ -172,8 +180,12 @@ margin-top: 5px;
   
   }
   .navbar-toggle {
-    margin-right: 15%;
-    margin-top: 3.5%;
+    /*margin-right: 15%;
+    margin-top: 3.5%;*/
+
+    margin-right: 10%;
+    margin-top: 6%;
+
   }
 
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -190,7 +202,23 @@ margin-top: 5px;
 
 }
 
+@media (min-width: 1485px) {
+body header .navbar-nav {
+  margin-left: 60%;
+  
+  }
+}
 
+@media (max-width: 305px) {
+
+  .redes {
+   margin-right: 60px;
+ }
+   .navbar-toggle {
+    margin-right: 3%;
+}
+  
+}
 /*----------Estilos Pag Equipo--------------*/
 
 
@@ -219,7 +247,7 @@ margin-top: 5px;
 #equipo .fotos .container .integrante .imagen img {
     
     width: 80%;
-    margin: 5% auto;
+    margin: 6% auto 3% auto;
     border-radius: 20px;
     border-right: 1px solid #1a4c80;
     border-bottom: 1px solid #1a4c80;

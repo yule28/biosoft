@@ -54,7 +54,7 @@
 				<li class="{{Request::path() == 'empresa' ? 'active' : '';}}">{{ HTML::link('empresa', 'EMPRESA'); }}</li>
 				<li class="dropdown">{{ HTML::link('#', 'SERVICIOS', $attributes = array('class' => 'dropdown-toggle', 'data-toggle' => "dropdown", 'role' => "button", 'aria-haspopup' => "true", 'aria-expanded' => "false")); }}
 					<ul class="dropdown-menu">
-						<li class="{{Request::path() == 'consultoria' ? 'active' : '';}}">{{ HTML::link('consultoria', 'CONSULTORIA'); }}</li>
+						<li class="{{Request::path() == 'consultoria' ? 'active' : '';}}">{{ HTML::link('consultoria', 'CONSULTORÍA'); }}</li>
 						<li class="{{Request::path() == 'capacitacion' ? 'active' : '';}}">{{ HTML::link('capacitacion', 'CAPACITACIÓN'); }}</li>
 						<li class="{{Request::path() == 'desarrollo' ? 'active' : '';}}">{{ HTML::link('desarrollo', 'DESARROLLO'); }}</li>
 					</ul>

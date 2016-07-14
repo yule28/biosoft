@@ -76,7 +76,7 @@
     							(ULA, Venezuela) M.Sc. en Computación, Ph.D. en Ciencias de la
     							Computación (University of Leeds, Inglaterra). <br/>
     							Miembro Fundador
-    							del Postgrado en Computación ytt del Consejo de Computación Académica
+    							del Postgrado en Computación y del Consejo de Computación Académica
     							de la ULA. <br/>
     							Sitio:
     							<a href="http://www.webdelprofesor.ula.ve/ingenieria/jonas" target="_blank">
@@ -241,10 +241,12 @@
     					</div>
     					<div class="descripcion">
     						<p class="text-justify text-left">
-    							Ingeniero de Sistemas. <br/>
-    							Especialista en Análisis de Negocio y Requisitos <br/>
-    							Programación web (Dominio HTML, CSS, PHP, Laravel,
-    							Base de Datos: MySQL, PostgreSQL). <br/>
+    							Ingeniero de Sistemas del I.U.P.S.M. <br/>
+    							Más de 4 años de experiencia en modelado de Negocio, Requisitos y Diseño de Software. <br/>
+    							Programación Web (Dominio HTML, CSS, Javascript, PHP, Bootstrap y Laravel, Base de datos MySQL y PostgreSQL). <br/>
+                                Habilidad en la planificación y ejecución de pruebas funcionales y no funcionales de software. 
+                                Participación en proyectos de desarrollo a gran escala en áreas como: Petróleo, Transporte Terrestre, Turismo, Educación, Forestal y Fondos de Financiamiento Público.<br/>
+                                Interés por el aprendizaje continuo y autodidacta. Disfruto de la buena música, comida, baile y de la compañia de familiares y amigos.
     						</p>
     					</div>
     				</div>
