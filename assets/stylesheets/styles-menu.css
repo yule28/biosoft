@@ -1,8 +1,63 @@
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    text-align: center;
+.container-fluid{
+  background-color: black;
 }
+
+.top-cabecera{
+  background-color: white;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+
+background-color: blue;
+}
+
 body header .navbar-nav {
-display: inline-block;
-    float: none;	
-    
+
+  
  }
+
+ .logo-biosoft {
+	margin-top: 5%
+ }
+
+
+ .navbar-header{
+    width: 30%;
+    margin-left: 40%;
+ }
+
+.redes{
+  
+  float: left;
+  margin-top: 3%;
+  margin-left: 10%;
+}
+
+.telefonos{
+  background-color: brown;
+  display: inline-block
+}
+.correo {
+  float:right;
+  padding: 0 3px;
+}
+.facebook {
+   float:right;
+   padding: 0 3px;
+}
+.twitter {
+   float:right;
+   padding: 0 3px;
+}
+.instagram {
+   float:right;
+   padding: 0 3px;
+}
+
+.telefonos{
+  color: #FFF;
+}
+.email {
+float:right;
+padding: 0 20px;
+margin-top: 5px;
+}
