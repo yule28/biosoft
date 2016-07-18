@@ -14,8 +14,15 @@
 Route::get('/', function()
 {
 	//return Redirect::to('inicio/funcion');
-	return View::make('estaticas.inicio');
+	return View::make('estaticas.inicio-nuevo');
 });
+
+//vieja
+/*Route::get('/', function()
+{
+
+	return View::make('estaticas.inicio');
+});*/
 
 Route::get('consultoria', function()
 {

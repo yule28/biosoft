@@ -1,5 +1,5 @@
 .verde{
-    color: #96b523;
+    color: #84B522;
 }
 
 .naranja{
@@ -7,6 +7,35 @@
 }
 
 /*---------------------- home ----------------*/
+.indicador{
+    text-align: center;
+    /*transition: all 0.3s ease-in-out;*/
+}
+
+.indicador:hover img{
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.2);
+    color: #84B522;
+}
+
+.indicador .descripcion{
+    color: #555;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.indicador:hover .descripcion{
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    font-weight: bold;
+    color: #444;
+}
+
+.indicador .titulo{
+    font-size: 2em;
+    color: #84B522;
+}
+
 .text-indicadores{
     font-size: 130%;
     margin-top: 10%;
@@ -14,7 +43,7 @@
 
 .indicadores img{
     width: 50%;
-    margin: 0 auto;
+    margin: 25% auto;
 }
 
 .por-que{
@@ -27,7 +56,7 @@
 }
 
 .por-que .titulo{
-    font-size: 350%;
+    font-size: 300%;
     margin: 5%;
 }
 

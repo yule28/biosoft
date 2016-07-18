@@ -1,4 +1,4 @@
-@extends ('layouts.master')
+@extends ('layouts.master-nuevo')
 
 @section ('title') 
 	Bienvenido a Biosoft

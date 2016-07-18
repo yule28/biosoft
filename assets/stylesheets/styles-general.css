@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+html{
+        font-size: 16px;
+}
+
+body {
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    line-height:1;
+    color: #333333;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin: .8rem 0;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: .7rem 0;
+}
+
+p{
+    font-size: 1rem;
+}
+
+/*----------colors---------------*/
+.verde{
+    color: #84B522;
+}
+
+.naranja{
+    color: #f47010;
+}
+
+.drk-gris{
+    color: #33332F;
+}
+/*-------------------------------*/

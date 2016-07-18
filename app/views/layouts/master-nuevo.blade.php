@@ -5,26 +5,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<link href='assets/images/layout/icon.png' rel='shortcut icon' type='image/png'>
 	<title>@yield('title')</title>
-	<!--Estilos viejos-->
-	{{ HTML::style('assets/stylesheets/styles.css')}}
-	<!--Estilos pagina nueva-->
-	{{ HTML::style('assets/stylesheets/new-styles.css') }}
-	<!--Bootstrap-->
+		<!--Bootstrap-->
 	{{ HTML::style('assets/stylesheets/bootstrap/bootstrap.css')}}
-	{{ HTML::style('assets/stylesheets/fraction/fractionslider.css')}}
+
     <!--Slider Ppal-->
-    {{ HTML::style('assets/pgwslider/pgwslider.css') }}
+
     <!--Carrousel-->
     {{ HTML::style('assets/slick/slick.css') }}
     {{ HTML::style('assets/slick/slick-theme.css') }}
+    <!--Normalize-->
+    {{ HTML::style('assets/normalize/normalize.css') }}
+    <!--Estilos pagina nueva-->
+   {{ HTML::style('assets/stylesheets/styles-general.css')}}
         <!--Jquery-->
     {{ HTML::script('http://code.jquery.com/jquery-2.2.0.min.js') }}
-    <!--Slider Ppal js-->
-    {{ HTML::script('assets/pgwslider/pgwslider.js')}}
     <!--Bootstrap js-->
 	{{ HTML::script('assets/javascripts/bootstrap.js')}}
-    <link rel="stylesheet" type="text/css" href="assets/collageplus/support/examples.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="assets/collageplus/css/transitions.css" media="all" />
+<!--    <link rel="stylesheet" type="text/css" href="assets/collageplus/support/examples.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="assets/collageplus/css/transitions.css" media="all" />-->
 
     <!--[if lt IE 9]>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
