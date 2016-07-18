@@ -46,21 +46,20 @@
 
   </div> <!-- /.container-fluid -->
 
-  <div class="container-fluid">
-    <div class="collapse navbar-collapse" id="bs-menu">
-      <ul class="ph-line-nav nav navbar-nav">
-        <li class="{{Request::path() == '/' ? 'active' : '';}}">{{ HTML::link('/', 'INICIO'); }}</li>
-        <li class="{{Request::path() == 'sobrebio' ? 'active' : '';}}">{{ HTML::link('sobrebio', 'SOBRE BIOSOFT'); }}</li>
-        <li class="{{Request::path() == 'equipo' ? 'active' : '';}}">{{ HTML::link('equipo', 'EQUIPO'); }}</li>
+  <div class="collapse navbar-collapse" id="bs-menu">
+    <ul class="ph-line-nav nav navbar-nav">
+      <li class="{{Request::path() == '/' ? 'active' : '';}}">{{ HTML::link('/', 'INICIO'); }}</li>
+      <li class="{{Request::path() == 'sobrebio' ? 'active' : '';}}">{{ HTML::link('sobrebio', 'SOBRE BIOSOFT'); }}</li>
+      <li class="{{Request::path() == 'equipo' ? 'active' : '';}}">{{ HTML::link('equipo', 'EQUIPO'); }}</li>
 
-        <li class="{{Request::path() == 'metodos' ? 'active' : '';}}">{{ HTML::link('metodos', 'MÉTODOS'); }}</li>
-        <li class="{{Request::path() == 'consultoría' ? 'active' : '';}}">{{ HTML::link('consultoría', 'CONSULTORÍA'); }}</li>
-        <li class="{{Request::path() == 'capacitación' ? 'active' : '';}}">{{ HTML::link('capacitación', 'CAPACITACIÓN'); }}</li>
-        <li class="{{Request::path() == 'desarrollo' ? 'active' : '';}}">{{ HTML::link('desarrollo', 'DESARROLLO'); }}</li>
-        <li class="{{Request::path() == 'portafolio' ? 'active' : '';}}">{{ HTML::link('portafolio', 'PORTAFOLIO'); }}</li>
-        <li class="{{Request::path() == 'contacto' ? 'active' : '';}}">{{ HTML::link('contacto', 'CONTACTO'); }}</li>
-        <div class="effect"></div>
+      <li class="{{Request::path() == 'metodos' ? 'active' : '';}}">{{ HTML::link('metodos', 'MÉTODOS'); }}</li>
+      <li class="{{Request::path() == 'consultoría' ? 'active' : '';}}">{{ HTML::link('consultoría', 'CONSULTORÍA'); }}</li>
+      <li class="{{Request::path() == 'capacitación' ? 'active' : '';}}">{{ HTML::link('capacitación', 'CAPACITACIÓN'); }}</li>
+      <li class="{{Request::path() == 'desarrollo' ? 'active' : '';}}">{{ HTML::link('desarrollo', 'DESARROLLO'); }}</li>
+      <li class="{{Request::path() == 'portafolio' ? 'active' : '';}}">{{ HTML::link('portafolio', 'PORTAFOLIO'); }}</li>
+      <li class="{{Request::path() == 'contacto' ? 'active' : '';}}">{{ HTML::link('contacto', 'CONTACTO'); }}</li>
+      <div class="effect"></div>
       </ul> <!-- /.navbar-nav -->
-    </div> 
-  </div>
+  </div> 
+  
 </nav><!-- /.nav -->

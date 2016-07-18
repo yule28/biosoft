@@ -5,13 +5,16 @@
 .top-cabecera{
   background-color: white;
 }
+
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
 
 background-color: blue;
+text-align: center;
 }
 
 body header .navbar-nav {
-
+display: inline-block;
+float: none;
   
  }
 
