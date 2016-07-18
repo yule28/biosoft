@@ -9,6 +9,14 @@
         </div>
           
       </div> <!-- ./navbar-header -->
+      <div class="telefonos">
+        <div class="telelocal">
+          <p>Telf: (+58) 274-7892669</p>
+        </div>
+        <div class="email">
+          <p>atencion@biosoftca.com</p>
+        </div>
+      </div>
       <div class= "redes">
        
         <div class="correo">
@@ -27,21 +35,13 @@
           <a href="https://twitter.com/biosoftca" target="_blank"> {{ HTML::image('assets/images/contacto/twitter.png', $alt="imagen 1", $attributes = array('width' => 30, 'height' => 30, 'class' => 'img-responsive')) }}
           </a>
         </div>
-        <div class="facebook">
-        <!--facebook-->
-          <a href="https://www.facebook.com/Biosoftca-1622725348051680/" target="_blank"> {{ HTML::image('assets/images/contacto/face.png', $alt="imagen 1", $attributes = array('width' => 30, 'height' => 30, 'class' => 'img-responsive')) }}
+       <div class="facebook"> 
+         <a href="https://www.facebook.com/Biosoftca-1622725348051680/" target="_blank">  
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
           </a>
-        </div>
-      
+      </div> 
       </div>
-     <div class="telefonos">
-        <div class="telelocal">
-          <p>Telf: (+58) 274-7892669</p>
-        </div>
-        <div class="email">
-          <p>atencion@biosoftca.com</p>
-        </div>
-      </div>
+     
     </div> 
 
   </div> <!-- /.container-fluid -->

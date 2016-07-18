@@ -10,8 +10,10 @@
 	{{ HTML::style('assets/stylesheets/bootstrap/bootstrap.css')}}
    {{--  {{ HTML::style('assets/stylesheets/styles.css')}} --}}
     {{-- {{ HTML::style('assets/stylesheets/new-styles.css')}} --}}
+    {{HTML::style('assets/stylesheets/styles-general.css')}} 
     {{HTML::style('assets/stylesheets/styles-menu.css')}} 
 	{{ HTML::style('assets/stylesheets/fraction/fractionslider.css')}}
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/pgwslider/pgwslider.css">
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="assets/pgwslider/pgwslider.js"></script>
