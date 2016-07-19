@@ -46,50 +46,49 @@ body header .navbar-nav {
 
 /*Estilo del div del logo de Biosoft*/
  .logo-biosoft {
-	margin-top: 9%;
-  margin-bottom:3%;
+	width: 35%;
+  margin-left: 37%;
+  display: inline-block;
  }
 
  .logo-biosoft img {
   max-width: 50%;
+  width: 64%;
+  margin-top: 5%;
+  margin-bottom: 0%;
  }
 
-
-/*Estilo del div del logo de Biosoft y del boton menú hamburguesa*/
- .navbar-header{
-  width: 30%;
-  margin-left: 40%;
- }
 
 /*Estilo del div de las redes sociales*/
 .redes{
   
-  float: left;
-  margin-top: 3%;
-  margin-left: 9%;
-  margin-bottom: 2%;
-
+  float: right;
+  margin-top: -3%;
+  margin-right: 4%; 
+  margin-bottom: 1%;
+  display: inline-block;
 }
+
+
 
 /*Estilo del div del telf de contacto y correo contacto*/
 .telefonos{
   width: 30%;
-  background-color:#FFFFFF;
+  background-color: #FFFFFF;
   display: inline-block;
-  margin-top: 1%;
-  margin-left: 2%;
-  box-sizing: border-box;
+  float: right;
 }
 
 .telelocal{
-  width: 45%;
+  
   display: inline-block;
 }
 
 .email{
 
-  width: 45%;
+  width: 35%;
   display: inline-block;
+  float:right;
 
 }
 
@@ -121,10 +120,6 @@ font-size: 14px;
    padding: 0 3px;
 }
 
-.email {
-float:right;
-
-}
 
 .fa{
   color: #33332F;
@@ -132,7 +127,39 @@ float:right;
 }
 
 .navbar-toggle{
-  width: 4%;
+
   display: none;
   float: left;
+  margin-left: 1px;
+}
+
+
+@media (max-width: 1024px) {
+body header .navbar-nav li a {
+  padding: 15px 10px 12px;
+  font-size: 0.7rem;
+  }
+
+}
+
+@media (max-width: 800px){
+  
+  .logo-biosoft {
+    margin-left: 28px;
+  }
+
+  .redes{
+    margin-top: 2px;
+  }
+  /*.telefonos{
+    display: none;
+  }*/
+
+  .telelocal p {
+    font-size: 12px;
+}
+
+ .email p {
+    font-size: 12px;
+}
 }

@@ -7,14 +7,12 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-      <div class="navbar-header">
-        <div class="logo-biosoft">
-          {{ HTML::image('assets/images/layout/logo_headernew.png',
-                    $alt="Biosof c.a", $attributes = array('width' => 212, 'height' => 80,
+      <div class="logo-biosoft">
+        {{ HTML::image('assets/images/layout/logo_headernew.png',
+                  $alt="Biosof c.a", $attributes = array('width' => 212, 'height' => 80,
                     'class' => 'img-responsive')) }}
-        </div>
+      </div>
           
-      </div> <!-- ./navbar-header -->
       <div class="telefonos">
         <div class="telelocal">
           <p>Telf: (+58) 274-7892669</p>
