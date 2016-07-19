@@ -1,6 +1,12 @@
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
     <div class= "top-cabecera">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
       <div class="navbar-header">
         <div class="logo-biosoft">
           {{ HTML::image('assets/images/layout/logo_headernew.png',
@@ -18,28 +24,32 @@
         </div>
       </div>
       <div class= "redes">
-       
+        <!--correo--> 
         <div class="correo">
-            <!--correo-->
-          <a href="contacto"> {{ HTML::image('assets/images/contacto/email.png', $alt="imagen 1", $attributes = array('width' => 30, 'height' => 30, 'class' => 'img-responsive')) }}
+          <a href="contacto"> 
+            <i class="fa fa-envelope" aria-hidden="true"></i>
           </a>
         </div>
-        <div class="instagram">
         <!--instagram-->
-          <a href="https://www.instagram.com/biosoftca/" target="_blank"> {{ HTML::image('assets/images/contacto/link.png', $alt="imagen 1", $attributes = array('width' => 30, 'height' => 30, 'class' => 'img-responsive')) }}
+        <div class="instagram">
+          <a href="https://www.instagram.com/biosoftca/" target="_blank"> 
+            <i class="fa fa-instagram" aria-hidden="true"></i>
           </a>
         </div>
 
-        <div class="twitter">
         <!--twitter-->
-          <a href="https://twitter.com/biosoftca" target="_blank"> {{ HTML::image('assets/images/contacto/twitter.png', $alt="imagen 1", $attributes = array('width' => 30, 'height' => 30, 'class' => 'img-responsive')) }}
+        <div class="twitter">      
+          <a href="https://twitter.com/biosoftca" target="_blank">
+            <i class="fa fa-twitter-square" aria-hidden="true"></i> 
           </a>
         </div>
-       <div class="facebook"> 
+
+        <div class="facebook">
          <a href="https://www.facebook.com/Biosoftca-1622725348051680/" target="_blank">  
             <i class="fa fa-facebook-square" aria-hidden="true"></i>
           </a>
-      </div> 
+        </div>
+     
       </div>
      
     </div> 
