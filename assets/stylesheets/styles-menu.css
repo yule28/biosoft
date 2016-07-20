@@ -46,16 +46,16 @@ body header .navbar-nav {
 
 /*Estilo del div del logo de Biosoft*/
  .logo-biosoft {
-	width: 35%;
-  margin-left: 37%;
-  display: inline-block;
+	   width: 35%;
+    margin-left: 26%;
+    display: inline-block;
+    margin-top: 7px;
  }
 
  .logo-biosoft img {
   max-width: 50%;
   width: 64%;
-  margin-top: 5%;
-  margin-bottom: 0%;
+  margin: auto;
  }
 
 
@@ -64,7 +64,7 @@ body header .navbar-nav {
   
   float: right;
   margin-top: -3%;
-  margin-right: 4%; 
+  
   margin-bottom: 1%;
   display: inline-block;
 }
@@ -73,14 +73,16 @@ body header .navbar-nav {
 
 /*Estilo del div del telf de contacto y correo contacto*/
 .telefonos{
-  width: 30%;
-  background-color: #FFFFFF;
-  display: inline-block;
-  float: right;
+    width: 39%;
+    background-color: #FFFFFF;
+    display: inline-block;
+    float: right;
+    margin-top: 1%;
 }
 
 .telelocal{
   
+  width: 60%;
   display: inline-block;
 }
 
@@ -88,7 +90,7 @@ body header .navbar-nav {
 
   width: 35%;
   display: inline-block;
-  float:right;
+  
 
 }
 
@@ -145,11 +147,11 @@ body header .navbar-nav li a {
 @media (max-width: 800px){
   
   .logo-biosoft {
-    margin-left: 28px;
+    margin-left: 143px;
   }
 
   .redes{
-    margin-top: 2px;
+    margin-top: -12px;
   }
   /*.telefonos{
     display: none;
@@ -161,5 +163,13 @@ body header .navbar-nav li a {
 
  .email p {
     font-size: 12px;
+}
+
+.telefonos{
+  margin-right: 4%
+}
+
+.fa{
+  font-size: 22px;
 }
 }
