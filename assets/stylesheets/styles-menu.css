@@ -55,7 +55,7 @@ body header .navbar-nav {
  .logo-biosoft img {
   max-width: 50%;
   width: 64%;
-  margin: auto;
+  margin-left: 43%;
  }
 
 
@@ -73,23 +73,26 @@ body header .navbar-nav {
 
 /*Estilo del div del telf de contacto y correo contacto*/
 .telefonos{
-    width: 39%;
+    width: 32%;
     background-color: #FFFFFF;
     display: inline-block;
     float: right;
     margin-top: 1%;
+    margin-right: 1%;
 }
 
 .telelocal{
   
-  width: 60%;
+  width: 50%;
   display: inline-block;
 }
 
 .email{
 
-  width: 35%;
+  width: 47%;
   display: inline-block;
+  padding: 0 0 0 3%; 
+  float: right;
   
 
 }
@@ -136,28 +139,19 @@ font-size: 14px;
 }
 
 
+@media (max-width: 1115px) {
+body header .navbar-nav li a {
+  padding: 15px 20px 14px;
+ 
+  }
+ } 
+
 @media (max-width: 1024px) {
 body header .navbar-nav li a {
-  padding: 15px 10px 12px;
+  padding: 14px 15px 10px;
   font-size: 0.7rem;
   }
-
-}
-
-@media (max-width: 800px){
-  
-  .logo-biosoft {
-    margin-left: 143px;
-  }
-
-  .redes{
-    margin-top: -12px;
-  }
-  /*.telefonos{
-    display: none;
-  }*/
-
-  .telelocal p {
+.telelocal p {
     font-size: 12px;
 }
 
@@ -165,11 +159,98 @@ body header .navbar-nav li a {
     font-size: 12px;
 }
 
-.telefonos{
-  margin-right: 4%
+}
+
+@media (max-width: 864px){
+
+  body header .navbar-nav li a {
+  padding: 14px 10px 10px;
+  font-size: 0.7rem;
+  }
+
+  .telefonos{
+    display: none;
+}
+
+.redes{
+  margin-top: 3%;
+  margin-left: 2%
+}
+
+ .telelocal p {
+    font-size: 10px;
+}
+
+ .email p {
+    font-size: 10px;
 }
 
 .fa{
   font-size: 22px;
 }
+
 }
+
+@media (max-width: 767px){
+.navbar-toggle {
+  display: block;
+  }
+
+.fa{
+  font-size: 18px;
+}
+
+.logo-biosoft {
+    
+    margin-left: 8%;
+    margin-right: 2%;
+    margin-top: 18px;
+}
+
+.redes{
+  margin-left: 10%;
+}
+
+.logo-biosoft img{
+  margin-left: 66%;
+  width: 70%;
+  min-width: 70%;
+}
+
+body header .navbar-nav {
+  float: left;
+}
+
+.navbar-nav li a {
+    padding: 9px 10px 4px !important;
+  }
+}
+
+
+@media (max-width: 530px){
+.logo-biosoft{
+
+margin-left: 0%;
+}
+
+.fa{
+  font-size: 16px;
+}
+}
+
+@media (max-width: 330px){
+.redes{
+  display: none;
+}
+
+.logo-biosoft{
+  float: right;
+  width: 60%;
+}
+
+.logo-biosoft img {
+    margin-left: 35%;
+}
+}
+
+
