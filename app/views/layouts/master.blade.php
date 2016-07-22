@@ -13,6 +13,7 @@
     {{HTML::style('assets/stylesheets/styles-general.css')}} 
     <link rel="stylesheet" href="assets/stylesheets/font-awesome/css/font-awesome.min.css">
     {{HTML::style('assets/stylesheets/styles-menu.css')}} 
+    {{HTML::style('assets/stylesheets/styles-footer.css')}} 
 	{{ HTML::style('assets/stylesheets/fraction/fractionslider.css')}}
 	<link rel="stylesheet" href="assets/pgwslider/pgwslider.css">
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -33,7 +34,7 @@
 	</div>
 	<footer>
 		<div class="container">
-			<?php echo View::make('parciales.footer') ?>
+			<?php echo View::make('parciales.footer-nuevo') ?>
 		</div>
 	</footer>
 </body>
