@@ -1,12 +1,12 @@
 <div class= "row">
-	<div class="col-md-3 col-md-offset-1">
+	<div class="lista-left col-md-4 col-sm-5 col-xs-12">
 		{{ HTML::link('sobrebio', 'SOBRE BIOSOFT'); }}<br>
 		{{ HTML::link('equipo', 'EQUIPO'); }}<br>	
 		{{ HTML::link('metodos', 'MÉTODOS'); }}<br>
 		{{ HTML::link('consultoría', 'CONSULTORÍA'); }}
 		
 	</div>
-	<div class="col-md-3 col-md-offset-1">
+	<div class="footer-top col-md-4 col-sm-12">
 		<div class="logo-footer">
 			{{ HTML::image('assets/images/layout/footer_bio-logo.png', $alt="Logo") }}
 		</div>
@@ -38,7 +38,7 @@
 	        </div>  
 		</div>
 	</div>
-	<div class="col-md-3 col-md-offset-1">
+	<div class="lista-right col-md-4 col-sm-12">
 		{{ HTML::link('capacitación', 'CAPACITACIÓN'); }}<br>
 		{{ HTML::link('desarrollo', 'DESARROLLO'); }}<br>
 		{{ HTML::link('portafolio', 'PORTAFOLIO'); }}<br>
@@ -50,10 +50,8 @@
 	<div class="col md-12">
 		<div class="footer-down">
 			<h4 class="titulo-footer"> 
-				<span>
-							
-					Carry For All Mankind
-							
+				<span>		
+					Damos Vida a tus Proyectos		
 				</span> 
 			</h4>
 			<p>Derechos reservados © Copyright 2016</p>

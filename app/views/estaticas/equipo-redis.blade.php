@@ -32,13 +32,11 @@
 				</div>
 
 				<!-- Francisco Zerpa -->
-				<div class="row">
+				<div class="row integrante">
 					<div class="col-md-6 col-sm-12">
 						<div class="nombre">
 							<div class="linkedin">
-								<a href="https://ve.linkedin.com/in/francisco-zerpa-3520b940" target="_blank"> 
-                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                                 </a>
+								<a href="https://ve.linkedin.com/in/francisco-zerpa-3520b940" target="_blank"> {{ HTML::image('assets/images/equipo/linkedin.png', $alt="", $attributes = array('width' => 40, 'height' => 40,'class' => 'img-responsive')) }} </a>
 							</div>
     						<p class="text-left">Francisco Zerpa P. <br/>
                                <span>Presidente y Gerente de Desarrollo</span></p>
@@ -63,12 +61,10 @@
    				<hr>
    				<!-- Jonas Montilva -->
    				<div class="row integrante">
-					<div class="titulo-seccion col-md-6">
+					<div class="col-md-6">
 						<div class="nombre">
 							<div class="linkedin">
-								<a href="https://ve.linkedin.com/in/jon%C3%A1s-montilva-a04b9a8a" target="_blank"> 
-                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                                </a>
+								<a href="https://ve.linkedin.com/in/jon%C3%A1s-montilva-a04b9a8a" target="_blank"> {{ HTML::image('assets/images/equipo/linkedin.png', $alt="", $attributes = array('width' => 40, 'height' => 40,'class' => 'img-responsive')) }} </a>
 							</div>
     						<p class="text-left">Jonás A. Montilva C. <br/>
                                <span>Vicepresidente y Gerente de Consultoría</span></p>
@@ -95,12 +91,10 @@
 				<hr>
 				<!-- Judith Barrios -->
 				<div class="row integrante">
-					<div class="titulo-seccion col-md-6">
+					<div class="col-md-6">
 						<div class="nombre">
 							<div class="linkedin">
-								<a href="" target="_blank"> 
-                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                                 </a>
+								<a href="" target="_blank"> {{ HTML::image('assets/images/equipo/linkedin.png', $alt="", $attributes = array('width' => 40, 'height' => 40,'class' => 'img-responsive')) }} </a>
 							</div>
     						<p class="text-left">Judith del R. Barrios A <br/>
                                <span>Consultora</span></p>
@@ -123,9 +117,7 @@
 					<div class="col-md-6">
 						<div class="nombre">
 							<div class="linkedin">
-								<a href="https://ve.linkedin.com/in/dulce-milagro-rivero-albarran-430a1126" target="_blank"> 
-                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                                 </a>
+								<a href="https://ve.linkedin.com/in/dulce-milagro-rivero-albarran-430a1126" target="_blank"> {{ HTML::image('assets/images/equipo/linkedin.png', $alt="", $attributes = array('width' => 40, 'height' => 40,'class' => 'img-responsive')) }} </a>
 							</div>
     						<p class="text-left">Dulce Milagro Rivero A. <br/>
                                <span>Consultora</span></p>
@@ -155,9 +147,7 @@
 					<div class="col-md-6">
 						<div class="nombre">
 							<div class="linkedin">
-								<a href="https://ve.linkedin.com/in/isabel-besembel-16856333?trk=pub-pbmap" target="_blank"> 
-                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                                </a>
+								<a href="https://ve.linkedin.com/in/isabel-besembel-16856333?trk=pub-pbmap" target="_blank"> {{ HTML::image('assets/images/equipo/linkedin.png', $alt="", $attributes = array('width' => 40, 'height' => 40,'class' => 'img-responsive')) }} </a>
 							</div>
     						<p class="text-left">Isabel M. Besembel C. <br/>
                                <span>Consultora</span></p>
@@ -189,9 +179,7 @@
 					<div class="col-md-6">
 						<div class="nombre">
 							<div class="linkedin">
-								<a href="" target="_blank"> 
-                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                                </a>
+								<a href="" target="_blank"> {{ HTML::image('assets/images/equipo/linkedin.png', $alt="", $attributes = array('width' => 40, 'height' => 40,'class' => 'img-responsive')) }} </a>
 							</div>
     						<p class="text-left">William J. Montilva C. <br/>
                                <span>Consultor</span></p>
@@ -221,9 +209,7 @@
 					<div class="col-md-6">
 						<div class="nombre">
 							<div class="linkedin">
-								<a href="https://ve.linkedin.com/in/emperatriz-ramirez-a11526121" target="_blank"> 
-                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                                 </a>
+								<a href="https://ve.linkedin.com/in/emperatriz-ramirez-a11526121" target="_blank"> {{ HTML::image('assets/images/equipo/linkedin.png', $alt="", $attributes = array('width' => 40, 'height' => 40,'class' => 'img-responsive')) }} </a>
 							</div>
     						<p class="text-left">Emperatriz Ramirez  <br/>
                                <span>Programador</span></p>
@@ -248,9 +234,7 @@
 					<div class="col-md-6">
 						<div class="nombre">
 							<div class="linkedin">
-								<a href="https://ve.linkedin.com/in/yuleima-uzcategui-torrado-015a65120" target="_blank"> 
-                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                                 </a>
+								<a href="https://ve.linkedin.com/in/yuleima-uzcategui-torrado-015a65120" target="_blank"> {{ HTML::image('assets/images/equipo/linkedin.png', $alt="", $attributes = array('width' => 40, 'height' => 40,'class' => 'img-responsive')) }} </a>
 							</div>
     						<p class="text-left">Yuleima Uzcátegui T.  <br/>
                                <span>Analista de Sistemas</span></p>
@@ -276,9 +260,7 @@
 					<div class="col-md-6">
 						<div class="nombre">
 							<div class="linkedin">
-								<a href="https://ve.linkedin.com/in/jhean-guerrero-10a9b295" target="_blank"> 
-                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                                </a>
+								<a href="https://ve.linkedin.com/in/jhean-guerrero-10a9b295" target="_blank"> {{ HTML::image('assets/images/equipo/linkedin.png', $alt="", $attributes = array('width' => 40, 'height' => 40,'class' => 'img-responsive')) }} </a>
 							</div>
     						<p class="text-left">Jhean Carlos Guerrero.  <br/>
                                <span>Programador</span></p>
@@ -302,9 +284,7 @@
 					<div class="col-md-6">
 						<div class="nombre">
 							<div class="linkedin">
-								<a href="" target="_blank"> 
-                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                                </a>
+								<a href="" target="_blank"> {{ HTML::image('assets/images/equipo/linkedin.png', $alt="", $attributes = array('width' => 40, 'height' => 40,'class' => 'img-responsive')) }} </a>
 							</div>
     						<p class="text-left">Patricia Chourio <br/>
                                <span>Contadora-Administradora</span></p>
@@ -330,9 +310,7 @@
 					<div class="col-md-6">
 						<div class="nombre">
 							<div class="linkedin">
-								<a href="https://ve.linkedin.com/in/paola-chac%C3%B3n-montoya-b8a101122" target="_blank">
-                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i> 
-                                </a>
+								<a href="https://ve.linkedin.com/in/paola-chac%C3%B3n-montoya-b8a101122" target="_blank"> {{ HTML::image('assets/images/equipo/linkedin.png', $alt="", $attributes = array('width' => 40, 'height' => 40,'class' => 'img-responsive')) }} </a>
 							</div>
     						<p class="text-left">Paola Chacon <br/>
                                <span>Asistente Administrativo</span></p>
