@@ -130,68 +130,32 @@
 				<h2 class="titulo-seccion">Nuestros <span>Clientes</span></h2>
 			</div>
 			<div class="row">
-				<div class=" col-md-offset-1 col-md-10">
+				<div class="col-md-12">
                 <section class="autoplay ">
-                    <div>
-                        <img src="assets/images/clientes/cencoex.jpg" alt="">
+                   <hr>
+                    <div id="owl-demo" class="owl-carousel">
+                        <div class="item"><img src="assets/images/clientes/cencoex.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/bod.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/univ-lisandro.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/enelven.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/ceisoft.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/bcv.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/ula.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/gasprom.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/caf.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/smurfit.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/pdvsa.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/min-ambiente.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/seniat.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/cvg.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/ena-for.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/farmatodo.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/mad-orinoco.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/intt.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/va-isid.jpg" alt="Owl Image"></div>
+                        <div class="item"><img src="assets/images/clientes/guardianes.jpg" alt="Owl Image"></div>
                     </div>
-                    <div>
-                        <img src="assets/images/clientes/bod.jpg">
-                    </div>
-                    <div>
-                        <img src="assets/images/clientes/univ-lisandro.jpg">
-                    </div>
-                    <div>
-                        <img src="assets/images/clientes/enelven.jpg">
-                    </div>
-                    <div>
-                        <img src="assets/images/clientes/ceisoft.jpg">
-                    </div>
-                    <div>
-                        <img src="assets/images/clientes/bcv.jpg">
-                    </div>
-                    <div>
-                        <img src="assets/images/clientes/ula.jpg">
-                    </div>
-                    <div>
-                        <img src="assets/images/clientes/gasprom.jpg">
-                    </div>
-                    <div>
-                        <img src="assets/images/clientes/caf.jpg">
-                    </div>
-                    <div>
-                        <img src="assets/images/clientes/smurfit.jpg">
-                    </div>
-                    <div>
-                        <img src="assets/images/clientes/pdvsa.jpg">
-                    </div>
-                    <div>
-                        <img src="assets/images/clientes/min-ambiente.jpg">
-                    </div>
-                    <div>
-                        <img src="assets/images/clientes/seniat.jpg">
-                    </div>
-                    <div>
-                        <img src="assets/images/clientes/cvg.jpg">
-                    </div>
-                    <div>
-                        <img src="assets/images/clientes/ena-for.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="assets/images/clientes/farmatodo.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="assets/images/clientes/mad-orinoco.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="assets/images/clientes/intt.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="assets/images/clientes/va-isid.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="assets/images/clientes/guardianes.jpg" alt="">
-                    </div>
+                    <hr>
                 </section>
 				</div>
 			</div>

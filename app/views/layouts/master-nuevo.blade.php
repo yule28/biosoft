@@ -9,8 +9,8 @@
 	{{ HTML::style('assets/stylesheets/bootstrap/bootstrap.css')}}
 
     <!--Carrousel-->
-    {{ HTML::style('assets/slick/slick.css') }}
-    {{ HTML::style('assets/slick/slick-theme.css') }}
+    {{ HTML::style('assets/owl-carousel/owl.carousel.css') }}
+    {{ HTML::style('assets/owl-carousel/owl.theme.css') }}
     <!--Normalize-->
     {{ HTML::style('assets/normalize/normalize.css') }}
     <!--Estilos pagina nueva-->
@@ -112,22 +112,29 @@
 	</footer>
 </body>
 <!--Carrousel js-->
-{{ HTML::script('assets/slick/slick.js') }}
+{{ HTML::script('assets/owl-carousel/owl.carousel.js') }}
 <script type="text/javascript">
-    $(document).on('ready', function() {
-/*      $(".regular").slick({
-        dots: true,
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 3
-      });*/
-    $('.autoplay').slick({
+$(document).ready(function() {
+ 
+  $("#owl-demo").owlCarousel({
+ 
+      autoPlay: 3000, //Set AutoPlay to 3 seconds
+ 
+      items : 5,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3]
+ 
+  });
+ 
+});
+/*    $(document).on('ready', function() {
+        $('.autoplay').slick({
         slidesToShow: 5,
         slidesToScroll: 5,
         adaptiveHeight: true,
         autoplay: true,
         autoplaySpeed: 2000,
     });
-    });
+    });*/
 </script>
 </html>
