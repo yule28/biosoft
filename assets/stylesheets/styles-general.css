@@ -273,11 +273,7 @@ hr {
     border-bottom: 1px solid #1a4c80;
   }
 
-#equipo .titulo-seccion:before, #equipo.titulo-seccion:after{
-    width: 70%;
-    top: -66px;
 
-}
 
   @media (max-width: 990px) {
     #equipo .fotos .container .integrante .imagen .img{

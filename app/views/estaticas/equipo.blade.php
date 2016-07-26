@@ -32,7 +32,7 @@
 				</div>
 
 				<!-- Francisco Zerpa -->
-				<div class="row">
+				<div class="row integrante">
 					<div class="col-md-6 col-sm-12">
 						<div class="nombre">
 							<div class="linkedin">
@@ -43,6 +43,7 @@
     						<p class="text-left">Francisco Zerpa P. <br/>
                                <span>Presidente y Gerente de Desarrollo</span></p>
     					</div>
+                        <hr>
     					<div class="descripcion">
     						<p class="text-justify text-left">
     							Ingeniero de Sistemas (Universidad de Los Andes ULA, Venezuela),
@@ -60,10 +61,10 @@
 						{{ HTML::image('assets/images/equipo/fz2-picture.jpg', $alt="Francisco Zerpa P.", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
    				</div>
-   				<hr>
+   				<hr class="titulo-seccion">
    				<!-- Jonas Montilva -->
    				<div class="row integrante">
-					<div class="titulo-seccion col-md-6">
+					<div class="col-md-6">
 						<div class="nombre">
 							<div class="linkedin">
 								<a href="https://ve.linkedin.com/in/jon%C3%A1s-montilva-a04b9a8a" target="_blank"> 
@@ -92,10 +93,10 @@
 						{{ HTML::image('assets/images/equipo/jm-picture.jpg', $alt="Jonás A. Montilva C.", $attributes = array('width' => 397, 'height' => 399, 'class' => 'img-responsive')) }}
 					</div>
 				</div>
-				<hr>
+				<hr class="titulo-seccion">
 				<!-- Judith Barrios -->
 				<div class="row integrante">
-					<div class="titulo-seccion col-md-6">
+					<div class="col-md-6">
 						<div class="nombre">
 							<div class="linkedin">
 								<a href="" target="_blank"> 
@@ -117,7 +118,7 @@
 						{{ HTML::image('assets/images/equipo/jr-picture.jpg', $alt="Judith del R. Barrios A.", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
 				</div>
-				<hr>
+				<hr class="titulo-seccion">
 				<!-- Dulce Rivero -->
 				<div class="row integrante">
 					<div class="col-md-6">
@@ -149,7 +150,7 @@
 					{{ HTML::image('assets/images/equipo/dm-picture.jpg',$alt="Dulce Milagro Rivero A.", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
 				</div>
-				<hr>
+				<hr class="titulo-seccion">
 				<!-- Isabel Besembel -->
 				<div class="row integrante">
 					<div class="col-md-6">
@@ -183,7 +184,7 @@
 					{{ HTML::image('assets/images/equipo/ib-picture.jpg',$alt="Isabel M. Besembel C.", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
 				</div>
-				<hr>
+				<hr class="titulo-seccion">
 				<!-- William Montilva -->
 				<div class="row integrante">
 					<div class="col-md-6">
@@ -215,7 +216,7 @@
 					{{ HTML::image('assets/images/equipo/wm-picture.jpg',$alt="William J. Montilva C", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
 				</div>
-				<hr>
+				<hr class="titulo-seccion">
 				<!-- Marina Emperatriz -->
 				<div class="row integrante">
 					<div class="col-md-6">
@@ -242,7 +243,7 @@
 					{{ HTML::image('assets/images/equipo/er-picture.jpg',$alt="Emperatriz Ramirez", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
 				</div>
-				<hr>
+				<hr class="titulo-seccion">
 				<!-- Yuleima Uzcategui -->
 				<div class="row integrante">
 					<div class="col-md-6">
@@ -270,7 +271,7 @@
 					{{ HTML::image('assets/images/equipo/yu2-picture.jpg',$alt="Yuleima Uzcátegui T", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
 				</div>
-				<hr>
+				<hr class="titulo-seccion">
 				<!-- Jhean Guerrero-->
 				<div class="row integrante">
 					<div class="col-md-6">
@@ -296,7 +297,7 @@
 					{{ HTML::image('assets/images/equipo/yu-picture.jpg',$alt="Jhean Carlos Guerrero", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
 				</div>
-				<hr>
+				<hr class="titulo-seccion">
 				<!-- Patricia Chouriuo -->
 				<div class="row integrante">
 					<div class="col-md-6">
@@ -324,7 +325,7 @@
 						{{ HTML::image('assets/images/equipo/pc-picture.jpg',$alt="María Patricia Chourio", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
 				</div>
-				<hr>
+				<hr class="titulo-seccion">
 				<!-- Paola Chacon -->
 				<div class="row integrante">
 					<div class="col-md-6">
