@@ -10,7 +10,7 @@
     <div id="equipo">
     	<div class="container">
     		<div class="row experiencia">
-				<div class="col-md-12">
+				<div class="col-md-12 hidden-xs">
 					<div class="descripcion">
 						<p class="text-left">
 							En BIOSOFT trabajamos especialistas en las áreas de Ingeniería
@@ -26,8 +26,8 @@
     	<div class="fotos">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12">
-						<h2>Nuestro <span>Equipo</span></h2>
+					<div class="texto-equipo col-md-12">
+						<h2 class="titulo-seccion">Nuestro <span>Equipo</span></h2>
 					</div>
 				</div>
 
@@ -61,7 +61,7 @@
 						{{ HTML::image('assets/images/equipo/fz2-picture.jpg', $alt="Francisco Zerpa P.", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
    				</div>
-   				<hr class="titulo-seccion">
+   				<hr><br><br><hr><br><br>
    				<!-- Jonas Montilva -->
    				<div class="row integrante">
 					<div class="col-md-6">
@@ -74,6 +74,7 @@
     						<p class="text-left">Jonás A. Montilva C. <br/>
                                <span>Vicepresidente y Gerente de Consultoría</span></p>
     					</div>
+                        <hr>
     					<div class="descripcion">
     						<p class="text-justify text-left">
     							Profesor titular del Departamento de Computación de la Facultad
@@ -93,7 +94,7 @@
 						{{ HTML::image('assets/images/equipo/jm-picture.jpg', $alt="Jonás A. Montilva C.", $attributes = array('width' => 397, 'height' => 399, 'class' => 'img-responsive')) }}
 					</div>
 				</div>
-				<hr class="titulo-seccion">
+				<hr><br><br><hr><br><br>
 				<!-- Judith Barrios -->
 				<div class="row integrante">
 					<div class="col-md-6">
@@ -106,6 +107,7 @@
     						<p class="text-left">Judith del R. Barrios A <br/>
                                <span>Consultora</span></p>
     					</div>
+                        <hr>
     					<div class="descripcion">
     						<p class="text-justify text-left">
     							Profesora titular del Departamento de Computación de la Facultad de Ingeniería de la Universidad de Los Andes (ULA).Ingeniera de Sistemas (ULA, Venezuela).<br/> Magister en Sistemas de Información (Instituto Tecnológico de Monterrey, México).D.E.A. en Bases de Datos. Dra. en Informática .Fue Coordinadora del Laboratorio de Sistemas Computacionales del Dpto. de Computación de la ULA. <br/> Miembro del Grupo de Investigación en Ingeniería de Datos y Conocimiento de la ULA. <br/>Es, actualmente, Coordinadora del Postgrado en Computación de la Facultad de Ingeniería de la ULA. <br/>Sitio:
@@ -118,7 +120,7 @@
 						{{ HTML::image('assets/images/equipo/jr-picture.jpg', $alt="Judith del R. Barrios A.", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
 				</div>
-				<hr class="titulo-seccion">
+				<hr><br><br><hr><br><br>
 				<!-- Dulce Rivero -->
 				<div class="row integrante">
 					<div class="col-md-6">
@@ -131,6 +133,7 @@
     						<p class="text-left">Dulce Milagro Rivero A. <br/>
                                <span>Consultora</span></p>
     					</div>
+                        <hr>
     					<div class="descripcion">
     						<p class="text-justify text-left">
     							Profesora titular del Departamento de Computación de la
@@ -150,7 +153,7 @@
 					{{ HTML::image('assets/images/equipo/dm-picture.jpg',$alt="Dulce Milagro Rivero A.", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
 				</div>
-				<hr class="titulo-seccion">
+				<hr><br><br><hr><br><br>
 				<!-- Isabel Besembel -->
 				<div class="row integrante">
 					<div class="col-md-6">
@@ -163,6 +166,7 @@
     						<p class="text-left">Isabel M. Besembel C. <br/>
                                <span>Consultora</span></p>
     					</div>
+                        <hr>
     					<div class="descripcion">
     						<p class="text-justify text-left">
     							Profesora titular del Departamento de Computación de la Facultad
@@ -184,7 +188,7 @@
 					{{ HTML::image('assets/images/equipo/ib-picture.jpg',$alt="Isabel M. Besembel C.", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
 				</div>
-				<hr class="titulo-seccion">
+				<hr><br><br><hr><br><br>
 				<!-- William Montilva -->
 				<div class="row integrante">
 					<div class="col-md-6">
@@ -197,6 +201,7 @@
     						<p class="text-left">William J. Montilva C. <br/>
                                <span>Consultor</span></p>
     					</div>
+                        <hr>
     					<div class="descripcion">
     						<p class="text-justify text-left">
     							Ingeniero de Sistemas (ULA, Venezuela)Personal Profesional
@@ -216,7 +221,7 @@
 					{{ HTML::image('assets/images/equipo/wm-picture.jpg',$alt="William J. Montilva C", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
 				</div>
-				<hr class="titulo-seccion">
+				<hr><br><br><hr><br><br>
 				<!-- Marina Emperatriz -->
 				<div class="row integrante">
 					<div class="col-md-6">
@@ -229,6 +234,7 @@
     						<p class="text-left">Emperatriz Ramirez  <br/>
                                <span>Programador</span></p>
     					</div>
+                        <hr>
     					<div class="descripcion">
     						<p class="text-justify text-left">
     							Ingeniero de Sistemas egresada de la Universidad de los Andes, con más de 8 años de experiencia en el área de análisis y desarrollo de sistemas, con excelentes relaciones interpersonales, habilidad de trabajo en equipo y manejo de personal, capacidad de liderazgo y compromiso, alto sentido de la responsabilidad, facilidad de aprendizaje, adaptabilidad al cambio y espíritu emprendedor.<br/>
@@ -243,7 +249,7 @@
 					{{ HTML::image('assets/images/equipo/er-picture.jpg',$alt="Emperatriz Ramirez", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
 				</div>
-				<hr class="titulo-seccion">
+				<hr><br><br><hr><br><br>
 				<!-- Yuleima Uzcategui -->
 				<div class="row integrante">
 					<div class="col-md-6">
@@ -256,6 +262,7 @@
     						<p class="text-left">Yuleima Uzcátegui T.  <br/>
                                <span>Analista de Sistemas</span></p>
     					</div>
+                        <hr>
     					<div class="descripcion">
     						<p class="text-justify text-left">
     							Ingeniero de Sistemas del I.U.P.S.M. <br/>
@@ -271,7 +278,7 @@
 					{{ HTML::image('assets/images/equipo/yu2-picture.jpg',$alt="Yuleima Uzcátegui T", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
 				</div>
-				<hr class="titulo-seccion">
+				<hr><br><br><hr><br><br>
 				<!-- Jhean Guerrero-->
 				<div class="row integrante">
 					<div class="col-md-6">
@@ -284,6 +291,7 @@
     						<p class="text-left">Jhean Carlos Guerrero.  <br/>
                                <span>Programador</span></p>
     					</div>
+                        <hr>
     					<div class="descripcion">
     						<p class="text-justify text-left">
     							Ingeniero de Sistemas. <br/>
@@ -297,7 +305,7 @@
 					{{ HTML::image('assets/images/equipo/yu-picture.jpg',$alt="Jhean Carlos Guerrero", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
 				</div>
-				<hr class="titulo-seccion">
+				<hr><br><br><hr><br><br>
 				<!-- Patricia Chouriuo -->
 				<div class="row integrante">
 					<div class="col-md-6">
@@ -310,6 +318,7 @@
     						<p class="text-left">Patricia Chourio <br/>
                                <span>Contadora-Administradora</span></p>
     					</div>
+                        <hr>
     					<div class="descripcion">
     						<p class="text-justify text-left">
     							Contadora-Administradora. <br/>
@@ -325,7 +334,7 @@
 						{{ HTML::image('assets/images/equipo/pc-picture.jpg',$alt="María Patricia Chourio", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }}
 					</div>
 				</div>
-				<hr class="titulo-seccion">
+				<hr><br><br><hr><br><br>
 				<!-- Paola Chacon -->
 				<div class="row integrante">
 					<div class="col-md-6">
@@ -338,6 +347,7 @@
     						<p class="text-left">Paola Chacon <br/>
                                <span>Asistente Administrativo</span></p>
     					</div>
+                        <hr class="lght-gris">
     					<div class="descripcion">
     						<p class="text-justify text-left">
     							TSU en administración de empresas mención Gerencias

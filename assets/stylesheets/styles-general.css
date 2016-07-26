@@ -243,77 +243,68 @@ hr {
 /*-----------------Equipo-------------------*/
 
 
-#equipo .fotos .container .integrante .nombre p {
-
-   color: #96b523; 
-    
-}
-#equipo .fotos .container .integrante .nombre p span {
-    
-    color: #7e7d7d;
-    
+#equipo .nombre p{
+   color: #84B522; 
+   font-weight: bold; 
 }
 
-#equipo .fotos .container .integrante {
+#equipo .nombre p span { 
+    color: #7e7d7d;  
+}
+
+#equipo .integrante {
     margin-bottom: 4%;
-
 }
 
-#equipo .fotos .container .integrante .nombre {
-     height: 100px; 
-
-    }
-
-#equipo .fotos .container .integrante .imagen img {
-    
+#equipo .integrante .imagen img {
     width: 80%;
     margin: 6% auto 3% auto;
     border-radius: 20px;
-    border-right: 1px solid #1a4c80;
-    border-bottom: 1px solid #1a4c80;
-  }
-
-
-
-  @media (max-width: 990px) {
-    #equipo .fotos .container .integrante .imagen .img{
-    
-  float: left;
-  width: 100%;
-
-  }
 }
 
 #equipo .experiencia .descripcion p {
-    
-    margin-top: 8%;
+    margin-top: 17%;
+}
 
-  }
-
-
-#equipo hr {
-  
-  margin-bottom: 3%;
-  height: 1px; 
-  text-align: center;
-  background: -moz-radial-gradient(center, ellipse cover,  rgba(150,181,35,1) 0%, rgba(150,181,35,1) 54%, rgba(171,195,78,1) 63%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
-  background: -webkit-radial-gradient(center, ellipse cover,  rgba(150,181,35,1) 0%,rgba(150,181,35,1) 54%,rgba(171,195,78,1) 63%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: radial-gradient(ellipse at center,  rgba(150,181,35,1) 0%,rgba(150,181,35,1) 54%,rgba(171,195,78,1) 63%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#96b523', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-    }
+.texto-equipo{
+    margin-top: 15px;
+    margin-bottom: 37px;
+}
 
 .linkedin{
   float: left;
   margin-right: 1%;
 }
 
-.linkedin >a .img-responsive{
-  max-width: 80%;
-  } 
-
-@media (max-width: 767px){
-    #equipo .fotos .container .integrante .nombre {
-    height: 120px;
+#equipo .fa:hover{
+    color: #84B522;
 }
+
+  /*------Media Queries de la Pag Equipo*/ 
+
+@media (max-width: 991px) {
+    #equipo .integrante .imagen .img{
+        float: left;
+        width: 100%;
+    }
+
+    #equipo .experiencia .descripcion p {
+    margin-top: 23%;
+    }
+}
+
+@media (max-width: 767px) {
+    .texto-equipo {
+        margin-top: 143px;
+    }
+}
+
+@media (max-width: 400px) {
+    #equipo .titulo-seccion{
+       font-size: 1.1rem; 
+    }
+}
+
+
+
 
