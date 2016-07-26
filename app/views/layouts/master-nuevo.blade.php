@@ -8,8 +8,6 @@
 		<!--Bootstrap-->
 	{{ HTML::style('assets/stylesheets/bootstrap/bootstrap.css')}}
 
-    <!--Slider Ppal-->
-
     <!--Carrousel-->
     {{ HTML::style('assets/slick/slick.css') }}
     {{ HTML::style('assets/slick/slick-theme.css') }}
@@ -33,7 +31,13 @@
     <!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+    <!--Slider Ppal-->
+    {{ HTML::style('/assets/camera/css/camera.css') }}
+    {{ HTML::script('assets/camera/scripts/jquery.min.js') }}
+    {{ HTML::script('assets/camera/scripts/jquery.mobile.customized.min.js') }}
+    {{ HTML::script('assets/camera/scripts/jquery.easing.1.3.js') }}
+    {{ HTML::script('assets/camera/scripts/camera.min.js') }}
+   
     <script src="assets/collageplus/jquery.collagePlus.js"></script>
     <script src="assets/collageplus/extras/jquery.removeWhitespace.js"></script>
     <script src="assets/collageplus/extras/jquery.collageCaption.js"></script>
@@ -71,13 +75,32 @@
     });
 
     </script>
+<script>
+		jQuery(function(){		
+			jQuery('#camera_wrap_1').camera({
+                height: '500px',
+				loader: 'bar',
+				pagination: false,
+                loader: 'bar',
+                time: 2500,
+                transPeriod: 750,
+                navigation: true,
+                playPause: true,
+                pauseOnClick: false,
+                thumbnails: false,
+                hover: false,
+                opacityOnGrid: false,
+                imagePath: 'assets/camera/images/'
+			});
+		});
+</script>
 </head>
 <body>
 	<header>
 		<div class="wrap-menu">
 			<?php echo View::make('parciales.menu') ?>
 		</div>
-		<?php echo View::make('parciales.slider') ?>
+		<?php echo View::make('parciales.camera-slider') ?>
 	</header>
 	<div class="wrap-container">
 			@yield('content')
@@ -88,18 +111,6 @@
 		</div>
 	</footer>
 </body>
-<script>
-    $(document).ready(function() {
-        $('.pgwSlider').pgwSlider({
-            transitionEffect: 'sliding',
-            displayList: false,
-            adaptiveHeight: false,
-            maxHeight: 400,
-            transitionDuration: 1000,
-            intervalDuration: 5000
-        });
-    });
-</script>
 <!--Carrousel js-->
 {{ HTML::script('assets/slick/slick.js') }}
 <script type="text/javascript">
@@ -113,6 +124,7 @@
     $('.autoplay').slick({
         slidesToShow: 5,
         slidesToScroll: 5,
+        adaptiveHeight: true,
         autoplay: true,
         autoplaySpeed: 2000,
     });

@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
-@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i';
+@import 'https://fonts.googleapis.com/css?family=Oswald:300,400,700';
+
 html{
         font-size: 16px;
 }
@@ -8,7 +10,7 @@ html{
 body {
     margin:0;
     font-family: 'Open Sans', sans-serif;
-    line-height:1;
+    line-height:1.5;
     color: #333333;
 }
 
@@ -45,6 +47,9 @@ p{
     font-size: 1rem;
 }
 
+hr{
+    border-bottom: 1px solid #d9d9d9;
+}
 /*----------colors---------------*/
 .verde{
     color: #84B522;
@@ -54,7 +59,195 @@ p{
     color: #f47010;
 }
 
+.lght-gris{
+    color: color: #77776d;    
+}
+
 .drk-gris{
     color: #33332F;
 }
 /*-------------------------------*/
+/*----------- Camera slider-------*/
+		a {
+			color: #f47010;
+		}
+		a:hover {
+			text-decoration: none;
+            color:  #f47010;
+		}
+		#back_to_camera {
+			clear: both;
+			display: block;
+			height: 80px;
+			line-height: 40px;
+			padding: 20px;
+		}
+		.fluid_container {
+			margin: 0 auto;
+			width: 100%;
+            margin-top: 85px;
+		}
+/*--------------------------------*/
+
+.titulo-seccion{
+    position: relative;
+    text-align: center;
+    font-size: 1.625rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.titulo-seccion:before {
+    left: 0%;
+}
+
+.titulo-seccion:after {
+    right: 0%;
+}
+
+.titulo-seccion:before, .titulo-seccion:after{
+    width: 25%;
+    height: 3px;
+    display: block;
+    position: absolute;
+    top: 13px;
+    content: '';
+    background: #33332F;
+}
+
+/*-------------- home-------------*/
+.modulos{
+    margin-bottom: 30px;
+}
+
+.modulos hr{
+    margin: 0px 0px 10px;
+}
+
+.modulos .titulo-verde,
+.modulos .titulo-naranja{
+    color: #33332F;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 800;
+    transition: .5s all;
+    text-transform: uppercase;
+}
+
+.modulos:hover .titulo-verde{
+    color: #84B522;
+    font-size: 0.95rem;
+    font-weight: 800;
+    transition: .5s ease-out;
+}
+
+.modulos:hover .titulo-naranja{
+    color: #f47010;
+    font-size: 0.95rem;
+    font-weight: 800;
+    transition: .5s ease-out;
+}
+
+.modulos p{
+    color: #77776d;
+    font-size: 0.87rem;
+    font-weight: 600;
+}
+
+.modulos:hover p{
+    color: #444;
+    font-size: 0.87rem;
+    font-weight: 600;
+}
+
+.modulos .ind-icons{
+    opacity: .6;
+    transition: .5s ease-out;
+}
+
+.modulos:hover .ind-icons{
+    opacity: 1;
+    transition: .5s all;
+}
+
+.porque img {
+    max-width: 300px;
+}
+
+.porque h3 {
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    color: #FFFFFF;
+    margin-top: 0px;
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 0%;
+}
+
+.porque h3.capacitacion:before {
+    width: 50%;
+    height: 3px;
+    margin-top: -10px;
+    display: block;
+    position: absolute;
+    left: 100%;
+    content: '';
+    background: #fff;
+    opacity: 0;
+    transition: .3s linear;
+}
+
+.porque h3.capacitacion:after {
+    width: 50%;
+    height: 3px;
+    margin-top: 7px;
+    display: block;
+    position: absolute;
+    left: -50%;
+    content: '';
+    background: #fff;
+    opacity: 0;
+    transition: .3s linear;
+}
+.porque:hover h3.capacitacion:before {
+    left: 25%;
+    opacity: 1;
+}
+
+.porque:hover h3.capacitacion:after {
+    left: 25%;
+    opacity: 1;
+}
+
+.check-list{
+    list-style-image: url(../images/inicio/check-list.png);
+    text-align: left;
+    min-height: 280px;
+}
+
+.check-list li{
+    padding: 10px 0px;
+}
+/*---------------------------------*/
+@media screen and (max-width: 1024px){
+
+    .check-list{
+        min-height: 310px;
+    }
+    
+}
+@media screen and (max-width: 800px){
+
+    .check-list{
+        min-height: auto;
+    }
+    
+}
+@media screen and (max-width: 680px){
+
+    .titulo-seccion:before, .titulo-seccion:after{
+    width: 15%;
+    }
+    
+}

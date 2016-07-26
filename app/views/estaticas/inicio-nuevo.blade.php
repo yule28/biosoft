@@ -5,162 +5,129 @@
 @stop
 
 @section ('content')
-	<div id="gestion">
-		<div class="container">
-			<div class="row">
-				<h2>BioSoft Gestión <span>Informática</span> e Ingeniería de <span>Software</span></h2>
+	<div class="container">
+	    <div class="row">
+		    <div class="col-md-12">
+			    <h2 class="titulo-seccion">Indicadores de calidad</h2>
+			    <div class="row text-center">
+			        <div class="col-xs-6 col-sm-4 col-md-2 modulos">
+			        	{{ HTML::image('assets/images/inicio/numero.png', $alt="Disciplinas y áreas que cubre", $attributes = array('class' => 'ind-icons')) }}
+                        <hr>
+			            <p class="titulo">
+				            Experiencia
+			            </p>
+			            <p class="descripcion text-center">
+				            Tenemos 10 años de trabajo en el área.
+			            </p>
+                    </div>
+			        <div class="col-xs-6 col-sm-4 col-md-2 modulos">
+			        	{{ HTML::image('assets/images/inicio/icon.png', $alt="Disciplinas y áreas que cubre", $attributes = array('class' => 'ind-icons')) }}
+                        <hr>
+			            <p class="titulo">
+				            Desarrollos
+			            </p>
+			            <p class="descripcion text-center">
+				            Contamos con 17 aplicaciones creadas.
+			            </p>
+                    </div>
+			        <div class="col-xs-6 col-sm-4 col-md-2 modulos">
+			        	{{ HTML::image('assets/images/inicio/idea.png', $alt="Disciplinas y áreas que cubre", $attributes = array('class' => 'ind-icons')) }}
+                        <hr>
+			            <p class="titulo">
+				            Consultoría
+			            </p>
+			            <p class="descripcion text-center">
+				            Hemos realizado 12 cosultorías a empresas.
+			            </p>
+                    </div>
+			        <div class="col-xs-6 col-sm-4 col-md-2 modulos">
+			        	{{ HTML::image('assets/images/inicio/grupo.png', $alt="Disciplinas y áreas que cubre", $attributes = array('class' => 'ind-icons')) }}
+                        <hr>
+			            <p class="titulo">
+				            Personal
+			            </p>
+			            <p class="descripcion text-center">
+				            Somos un equipo de 12 expertos a su dispocición.
+			            </p>
+                    </div>
+			        <div class="col-xs-6 col-sm-4 col-md-2 modulos">
+			        	{{ HTML::image('assets/images/inicio/curso.png', $alt="Disciplinas y áreas que cubre", $attributes = array('class' => 'ind-icons')) }}
+                        <hr>
+			            <p class="titulo">
+				            Cursos
+			            </p>
+			            <p class="descripcion text-center">
+				            Más de 100 cursos impartidos en el país.
+			            </p>
+                    </div>
+			        <div class="col-xs-6 col-sm-4 col-md-2 modulos">
+			        	{{ HTML::image('assets/images/inicio/multitud.png', $alt="Disciplinas y áreas que cubre", $attributes = array('class' => 'ind-icons')) }}
+                        <hr>
+			            <p class="titulo">
+				            Participantes
+			            </p>
+			            <p class="descripcion text-center">
+				            Mas de 1000 participantes certificados.
+			            </p>
+                    </div>
+			    </div>
 			</div>
-			<div class="row gest">
-					<div class="col-md-4">
-						<p class="text-justify">
-							BioSoft es Gestión Informática e Ingeniería de Software a su medida.
-							Prestamos servicios de Desarrollo, Capacitación y Consultoría generándole
-							valor a su compañía.
-							Nuestro equipo multidisciplinario, con una enorme
-							experiencia, le brinda soluciones rápidas, efectivas,
-							eficaces y según sus necesidades.
-						</p>
-						<p class="eslogan">
-							"En BioSoft somos Talento Venezolano que da vida a sus proyectos."
-						</p>
-				    </div>
-					<div class="col-md-8">
-						{{ HTML::image('assets/images/inicio/ing-soft.jpg',	$alt="imagen 1", $attributes = array('width' => 584, 'height' => 264, 'class' => 'img-responsive', 'style' => 'margin: 5% auto; border-radius:10px;')) }}
-					</div>
-
+        </div>
+        	    <div class="row">
+		    <div class="col-md-12">
+			    <h2 class="titulo-seccion">Por qué nosotros</h2>
+			    <div class="row text-center">
+			        <div class="col-md-4 porque">
+			        	{{ HTML::image('assets/images/inicio/consultoria.jpg', $alt="Disciplinas y áreas que cubre", $attributes = array('class' => 'ind-icons')) }}
+                        <hr>
+			            <h3 class="capacitacion">
+				            CONSULTORÍA
+			            </h3>
+                       <ul class="check-list">
+                            <li>Alineamos las TIC al negocio</li>
+                            <li>Tenemos alta experiencia profesional y estudios de 4to y 5to nivel</li>
+                            <li>Asesoramos a grandes empresas nacionales e internacionales</li>
+                            <li>Nos enfocamos en tecnologías de punta: BPM, SOA, Arquitecturas empresariales</li>
+                        </ul>
+                        <hr>
+                    </div>
+			        <div class="col-md-4 porque">
+			        	{{ HTML::image('assets/images/inicio/capacitacion.jpg', $alt="Disciplinas y áreas que cubre", $attributes = array('class' => 'ind-icons')) }}
+                        <hr>
+			            <h3 class="capacitacion">
+				            CAPACITACIÓN
+			            </h3>
+                        <ul class="check-list">
+                            <li>Contamos con profesores de 4to y 5to nivel académico</li>
+                            <li>Tenemos experiencia de 20 años en formación de profesionales en Ingeniería de Software</li>
+                            <li>Orientamos la capacitación a la práctica profesional</li>
+                            <li>Capacitamos para que seas competitivo en tecnologías de información</li>
+                        </ul>
+                        <hr>
+                    </div>
+			        <div class="col-md-4 porque">
+			        	{{ HTML::image('assets/images/inicio/desarrollo.jpg', $alt="Disciplinas y áreas que cubre", $attributes = array('class' => 'ind-icons')) }}
+                        <hr>
+			            <h3 class="capacitacion">
+				            DESARROLLO DE SOFTWARE
+			            </h3>
+                        <ul class="check-list">
+                            <li>Tenemos experiencia de 20 años en desarrollo de software</li>
+                            <li>Nos especializamos en aplicaciones web para soportar procesos de negocio</li>
+                            <li>Usamos métodos ágiles, herramientas CASE y lenguaje de modelado UML</li>
+                            <li>Desarrollamos software guiado por pruebas</li>
+                            <li>Programamos en Ruby on Rails</li>
+                        </ul>
+                        <hr>
+                    </div>
+			    </div>
 			</div>
-		</div>
-	</div>
-	<div id="indicadores" class="row">
-    <div class="container">
-	    <div class="col-md-4 indicador">
-			{{ HTML::image('assets/images/diplomados/img-d1/metodologia.jpg', $alt="Disciplinas y áreas que cubre", $attributes = array('class' => 'dip-icons')) }}
-			<p class="titulo">
-				Metodología
-			</p>
-			<p class="descripcion text-center">
-				Ofrecido bajo la modalidad interactiva a distancia usando una plataforma tecnológica de última generación.
-			</p>
-		</div>
-		<div class="col-md-4 indicador">
-			{{ HTML::image('assets/images/inicio/anos.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }}
-			<p class="titulo">
-				Metodología
-			</p>
-			<p class="descripcion text-center">
-				Ofrecido bajo la modalidad interactiva a distancia usando una plataforma tecnológica de última generación.
-			</p>
-		</div>
-		<div class="col-md-4 indicador">
-			{{ HTML::image('assets/images/inicio/anos.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }}
-			<p class="titulo">
-				Metodología
-			</p>
-			<p class="descripcion text-center">
-				Ofrecido bajo la modalidad interactiva a distancia usando una plataforma tecnológica de última generación.
-			</p>
-		</div>
-		<div class="col-md-4 indicador">
-			{{ HTML::image('assets/images/inicio/anos.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }}
-			<p class="titulo">
-				Metodología
-			</p>
-			<p class="descripcion text-center">
-				Ofrecido bajo la modalidad interactiva a distancia usando una plataforma tecnológica de última generación.
-			</p>
-		</div>
-		<div class="col-md-4 indicador">
-			{{ HTML::image('assets/images/inicio/anos.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }}
-			<p class="titulo">
-				Metodología
-			</p>
-			<p class="descripcion text-center">
-				Ofrecido bajo la modalidad interactiva a distancia usando una plataforma tecnológica de última generación.
-			</p>
-		</div>
-		<div class="col-md-4 indicador">
-			{{ HTML::image('assets/images/inicio/anos.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }}
-			<p class="titulo">
-				Metodología
-			</p>
-			<p class="descripcion text-center">
-				Ofrecido bajo la modalidad interactiva a distancia usando una plataforma tecnológica de última generación.
-			</p>
-		</div>
+        </div>
     </div>
-    </div>
-	<div id="indicadores">
-		<div class="container">
-			<div class="row indicadores"><br><br><br><br>
-				<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-3 col-md-3">
-                    {{ HTML::image('assets/images/inicio/anos.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
-                    <div class="text-center text-indicadores">Más de 9 años de experiencia</div>
-				</div>
-				<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-3 col-md-3">
-                    {{ HTML::image('assets/images/inicio/aplicacion.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
-				    <div class="text-center text-indicadores">Más de 17 aplicaciones desarrolladas</div>
-				</div>
-				<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-3 col-md-3">
-                    {{ HTML::image('assets/images/inicio/proyectos.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
-				    <div class="text-center text-indicadores">21 proyectos desarrollados</div>
-				</div>
-				<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-3 col-md-3">
-                    {{ HTML::image('assets/images/inicio/grupo.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
-				    <div class="text-center text-indicadores">12 profesionales a su disposición</div>
-				</div>
-			</div>
-			<br><br><br><br>
-		</div>
-	</div>
-	<div class="por-que">
-		<div class="container">
-		<div class="titulo text-center">Por qué nosotros</div>
-			<div class="row">
-                <div class="hidden-xs col-sm-2 col-md-1">
-                    {{ HTML::image('assets/images/inicio/consultoria.png', $alt='9 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
-                </div>
-				<div class="col-xs-offset-1 col-xs-9 col-sm-offset-0 col-sm-8 col-md-3">
-					<h4>CONSULTORÍA </h4>
-					<ul class="check-list">
-					    <li>Alineamos las TIC al negocio</li>
-					    <li>Tenemos alta experiencia profesional y estudios de 4to y 5to nivel</li>
-					    <li>Asesoramos a grandes empresas nacionales e internacionales</li>
-					    <li>Nos enfocamos en tecnologías de punta: BPM, SOA, Arquitecturas empresariales</li>
-					</ul>
-				</div>
-
-				<div class="hidden-xs col-sm-2 col-md-1">
-                    {{ HTML::image('assets/images/inicio/capacitacion.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
-                </div>
-				<div class="col-xs-offset-1 col-xs-9 col-sm-offset-0 col-sm-8 col-md-3">
-					<h4>CAPACITACIÓN</h4>
-					<ul class="check-list">
-					    <li>Contamos con profesores de 4to y 5to nivel académico</li>
-					    <li>Tenemos experiencia de 20 años en formación de profesionales en Ingeniería de Software</li>
-					    <li>Orientamos la capacitación a la práctica profesional</li>
-					    <li>Capacitamos para que seas competitivo en tecnologías de información</li>
-					</ul>
-				</div>
-                <div class="hidden-xs col-sm-2 col-md-1">
-                    {{ HTML::image('assets/images/inicio/desarrollo.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
-                </div>
-				<div class="col-xs-offset-1 col-xs-9 col-sm-offset-0 col-sm-8 col-md-3">
-					<h4>DESARROLLO DE SOFTWARE</h4>
-					<ul class="check-list">
-					    <li>Tenemos experiencia de 20 años en desarrollo de software</li>
-					    <li>Nos especializamos en aplicaciones web para soportar procesos de negocio</li>
-					    <li>Usamos métodos ágiles, herramientas CASE y lenguaje de modelado UML</li>
-					    <li>Desarrollamos software guiado por pruebas</li>
-					    <li>Programamos en Ruby on Rails</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
 	<div id="clientes">
 		<div class="container">
 			<div class="row">
-				<h2>Nuestros <span>Clientes</span></h2>
+				<h2 class="titulo-seccion">Nuestros <span>Clientes</span></h2>
 			</div>
 			<div class="row">
 				<div class=" col-md-offset-1 col-md-10">
