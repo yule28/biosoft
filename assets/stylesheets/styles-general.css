@@ -256,11 +256,11 @@ hr {
     margin-bottom: 4%;
 }
 
-#equipo .integrante .imagen img {
+/*#equipo .integrante .imagen img {
     width: 80%;
     margin: 6% auto 3% auto;
     border-radius: 20px;
-}
+}*/
 
 #equipo .experiencia .descripcion p {
     margin-top: 17%;
@@ -271,9 +271,9 @@ hr {
     margin-bottom: 37px;
 }
 
-/*CAMBIO.linkedin{
+.linkedin{
   float: left;
-  margin-right: 1%;*/
+  margin-right: 1%;
 }
 
 #equipo .fa:hover{
@@ -283,9 +283,9 @@ hr {
   /*------Media Queries de la Pag Equipo*/ 
 
 @media (max-width: 991px) {
-    #equipo .integrante .imagen .img{
+    #equipo .avatar{
         float: left;
-        width: 100%;
+        
     }
 
     #equipo .experiencia .descripcion p {
@@ -310,26 +310,18 @@ hr {
 
 .avatar {
     /* cambia estos dos valores para definir el tamaño de tu círculo */
-    height: 250px;
-    width: 250px;
+    height: 270px;
+    width: 270px;
     /* los siguientes valores son independientes del tamaño del círculo */
     background-repeat: no-repeat;
     background-position: 50%;
     border-radius: 50%;
     background-size: 100% auto;
-    text-align: center;
+    margin-top: 53px;
+    margin-left:5%;  
 }
 
-
-.avatar image{
-    width: 397px;
-    height: 399px;
+.text-perfil{
 
 }
-
-.redes-integrante{
-    text-align: right;
-    
-}
-
 
