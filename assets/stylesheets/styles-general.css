@@ -283,10 +283,25 @@ hr {
   /*------Media Queries de la Pag Equipo*/ 
 
 @media (max-width: 991px) {
-    #equipo .avatar{
-        float: left;
-        
+    .avatar{
+        margin: auto !important;
+        margin-bottom: 2% !important;
+    } 
+
+    #equipo .nombre{
+        text-align: center !important;
+        margin-top:2%; 
     }
+
+    #equipo .nombre .linkedin{
+        float: none;
+    }
+
+    #equipo .nombre .text-left{
+        text-align: center;
+    }
+}
+
 
     #equipo .experiencia .descripcion p {
     margin-top: 23%;
@@ -318,7 +333,7 @@ hr {
     border-radius: 50%;
     background-size: 100% auto;
     margin-top: 53px;
-    margin-left:5%;  
+    margin-left:10%;  
 }
 
 .text-perfil{
