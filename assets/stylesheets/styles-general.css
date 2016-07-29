@@ -256,12 +256,6 @@ hr {
     margin-bottom: 4%;
 }
 
-/*#equipo .integrante .imagen img {
-    width: 80%;
-    margin: 6% auto 3% auto;
-    border-radius: 20px;
-}*/
-
 #equipo .experiencia .descripcion p {
     margin-top: 17%;
 }
@@ -278,6 +272,19 @@ hr {
 
 #equipo .fa:hover{
     color: #84B522;
+}
+
+.avatar {
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 270px;
+    width: 270px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    margin-top: 53px;
+    margin-left:10%;  
 }
 
   /*------Media Queries de la Pag Equipo*/ 
@@ -302,7 +309,6 @@ hr {
     }
 }
 
-
     #equipo .experiencia .descripcion p {
     margin-top: 23%;
     }
@@ -321,22 +327,6 @@ hr {
 }
 
 
-/*------------------Pag Equipo Opción 2------------------------*/
 
-.avatar {
-    /* cambia estos dos valores para definir el tamaño de tu círculo */
-    height: 270px;
-    width: 270px;
-    /* los siguientes valores son independientes del tamaño del círculo */
-    background-repeat: no-repeat;
-    background-position: 50%;
-    border-radius: 50%;
-    background-size: 100% auto;
-    margin-top: 53px;
-    margin-left:10%;  
-}
 
-.text-perfil{
-
-}
 

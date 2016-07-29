@@ -157,8 +157,8 @@
                             </p>
                         </div>
                     </div>
-             </div>
-             <hr><br><br>
+                </div>
+                <hr><br><br>
              <!-- Isabel Besembel -->
                 <div class="row integrante">
                     <div class="col-md-4 col-md-offset-2 col-sm-12">
@@ -229,7 +229,7 @@
                     </div>
                 </div>
                 <hr><br><br>
-                !-- Marina Emperatriz -->
+                <!--Marina Emperatriz -->
                 <div class="row integrante">
                     <div class="col-md-4 col-md-offset-2 col-sm-12">
                         <div class="avatar img-responsive" style="background-image: url(assets/images/equipo/er-picture.jpg)"></div>
@@ -260,7 +260,11 @@
                 <hr><br><br>
                 <!-- Yuleima Uzcategui -->
                 <div class="row integrante">
-                    <div class="col-md-4 col-md-offset-2 col-sm-12">
+                    <div class="col-sm-12 col-md-6 col-md-push-6">
+                    {{-- {{ HTML::image('assets/images/equipo/yu2-picture.jpg',$alt="Yuleima Uzcátegui T", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }} --}}
+                        <div class="avatar img-responsive" style="background-image: url(assets/images/equipo/yu-picture.jpg)"></div>
+                    </div>
+                    <div class="col sm-12 col-md-offset-2 col-md-4 col-md-pull-6">
                         <div class="nombre">
                             <div class="linkedin">
                                 <a href="https://ve.linkedin.com/in/yuleima-uzcategui-torrado-015a65120" target="_blank"> 
@@ -281,11 +285,9 @@
                                 
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-12">
-                    {{-- {{ HTML::image('assets/images/equipo/yu2-picture.jpg',$alt="Yuleima Uzcátegui T", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }} --}}
-                        <div class="avatar img-responsive" style="background-image: url(assets/images/equipo/yu2-picture.jpg)"></div>
-                    </div>
-                    <hr><br><br>
+                    
+                 </div>   
+                <hr><br><br>
                 <!-- Jhean Guerrero-->
                 <div class="row integrante">
                     <div class="col-md-4 col-md-offset-2 col-sm-12">
@@ -312,8 +314,70 @@
                             </p>
                         </div>
                     </div>
+                </div>
+                <hr><br><br>
+                <!-- Patricia Chouriuo -->
+                <div class="row integrante">
+                    <div class="col-sm-12 col-md-6 col-md-push-6">
+                        {{-- {{ HTML::image('assets/images/equipo/pc-picture.jpg',$alt="María Patricia Chourio", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }} --}}
+                        <div class="avatar img-responsive" style="background-image: url(assets/images/equipo/pc-picture.jpg)"></div>
+                    </div>
+                    <div class="col sm-12 col-md-offset-2 col-md-4 col-md-pull-6">
+                        <div class="nombre">
+                            <div class="linkedin">
+                                <a href="" target="_blank"> 
+                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <p class="text-left">Patricia Chourio <br/>
+                               <span>Contadora-Administradora</span></p>
+                        </div>
+                        <hr>
+                        <div class="descripcion">
+                            <p class="text-justify text-left">
+                                Contadora-Administradora. <br/>
+                                Especialista en Aduanas y Comercio Exterior (I.E.C.E.X). <br/>
+                                Lic. Administración (ULA). <br/>
+                                Lic. Contador Público (ULA). <br/>
+                                TSU. Informática (IUTE). <br/>
+                                Diplomado en Componente Docente (UNEFA). <br/>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr><br><br>
+                <!-- Paola Chacon -->
+                <div class="row integrante">
+                    <div class="col-md-4 col-md-offset-2 col-sm-12">
+                   {{--  {{ HTML::image('assets/images/equipo/paola-picture.jpg',$alt="Paola chacon", $attributes = array('width' => 397, 'height' => 399,'class' => 'img-responsive')) }} --}}
+                        <div class="avatar img-responsive" style="background-image: url(assets/images/equipo/paola-picture.jpg)"></div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="nombre">
+                            <div class="linkedin">
+                                <a href="https://ve.linkedin.com/in/paola-chac%C3%B3n-montoya-b8a101122" target="_blank">
+                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i> 
+                                </a>
+                            </div>
+                            <p class="text-left">Paola Chacon <br/>
+                               <span>Asistente Administrativo</span></p>
+                        </div>
+                        <hr class="lght-gris">
+                        <div class="descripcion">
+                            <p class="text-justify text-left">
+                                TSU en administración de empresas mención Gerencias
+                                egresada del IUTCM". <br/>
+                                Diplomado en Derecho Internacional y aduanas en la
+                                Universidad de los Andes. <br/>
+                                Cursando actualmente Master
+                                en Ciencias Gerenciales en el Centro Internacional de Educación Continua.<br/>
+                                Motivación, liderazgo, disposición y rapidez para aprender o adquirir nuevos conocimientos, capacidad de análisis para resolver problemas, habilidad para trabajar con nuevas tecnologías, adaptable a cualquier situación, proactividad, motivación al logro individual y en equipo.
+
+                            </p>
+                        </div>
+                    </div>
                     
                 </div>
             </div>
 
-   				
+@stop 				
