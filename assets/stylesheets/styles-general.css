@@ -47,11 +47,7 @@ p{
     font-size: 1rem;
 }
 
-<<<<<<< HEAD
 hr {
-=======
-hr{
->>>>>>> refs/remotes/seven07ve/master
     border-bottom: 1px solid #d9d9d9;
 }
 /*----------colors---------------*/
@@ -125,10 +121,7 @@ hr{
 }
 
 .modulos hr{
-<<<<<<< HEAD
     border-bottom: 1px solid #d9d9d9;
-=======
->>>>>>> refs/remotes/seven07ve/master
     margin: 0px 0px 10px;
 }
 
@@ -178,10 +171,6 @@ hr{
     transition: .5s all;
 }
 
-<<<<<<< HEAD
-.porque img {
-    max-width: 300px;
-=======
 .porque{
     background-color: #f4f3f0;
     border: 1px solid #e2e1db;
@@ -189,8 +178,7 @@ hr{
 }
 
 .porque img {
-    max-width: 340px;
->>>>>>> refs/remotes/seven07ve/master
+    max-width: 300px;
 }
 
 .porque h3 {
@@ -242,26 +230,14 @@ hr{
 .check-list{
     list-style-image: url(../images/inicio/check-list.png);
     text-align: left;
-<<<<<<< HEAD
-=======
     min-height: 280px;
->>>>>>> refs/remotes/seven07ve/master
 }
 
 .check-list li{
     padding: 10px 0px;
 }
-<<<<<<< HEAD
+
 /*---------------------------------*/
-
-@media screen and (max-width: 680px){
-
-    .titulo-seccion:before, .titulo-seccion:after{
-    width: 15%;
-    }
-    
-}
-
 
 /*-----------------Equipo-------------------*/
 
@@ -309,49 +285,6 @@ hr{
     margin-top: 53px;
     margin-left:10%;  
 }
-
-  /*------Media Queries de la Pag Equipo*/ 
-
-@media (max-width: 991px) {
-    .avatar{
-        margin: auto !important;
-        margin-bottom: 2% !important;
-    } 
-
-    #equipo .nombre{
-        text-align: center !important;
-        margin-top:2%; 
-    }
-
-    #equipo .nombre .linkedin{
-        float: none;
-    }
-
-    #equipo .nombre .text-left{
-        text-align: center;
-    }
-}
-
-    #equipo .experiencia .descripcion p {
-    margin-top: 23%;
-    }
-}
-
-@media (max-width: 767px) {
-    .texto-equipo {
-        margin-top: 143px;
-    }
-}
-
-@media (max-width: 400px) {
-    #equipo .titulo-seccion{
-       font-size: 1.1rem; 
-    }
-}
-
-
-
-
 
 =======
 
@@ -449,6 +382,32 @@ hr{
     }
     
 }
+
+@media (max-width: 991px) {
+    .avatar{
+        margin: auto !important;
+        margin-bottom: 2% !important;
+    } 
+
+    #equipo .nombre{
+        text-align: center !important;
+        margin-top:2%; 
+    }
+
+    #equipo .nombre .linkedin{
+        float: none;
+    }
+
+    #equipo .nombre .text-left{
+        text-align: center;
+    }
+}
+
+    #equipo .experiencia .descripcion p {
+    margin-top: 23%;
+    }
+}
+
 @media screen and (max-width: 800px){
 
     .check-list{
@@ -456,16 +415,29 @@ hr{
     }
     
 }
+
+@media (max-width: 767px) {
+    .texto-equipo {
+        margin-top: 143px;
+    }
+}
+
 @media screen and (max-width: 680px){
 
     .titulo-seccion:before, .titulo-seccion:after{
     width: 15%;
     }
 }
+
+@media (max-width: 400px) {
+    #equipo .titulo-seccion{
+       font-size: 1.1rem; 
+    }
+}
+
 @media screen and (max-width: 320px){
 
     h4.boton{
         font-size: 12px;
     }
 }
->>>>>>> refs/remotes/seven07ve/master

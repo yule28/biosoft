@@ -26,12 +26,7 @@
 <body>
 	<header>
 		<div class="wrap-menu">
-<<<<<<< HEAD
 			<?php echo View::make('parciales.menu-nuevo') ?>
-=======
-			<?php //echo View::make('parciales.menu-nuevo') ?>
-			<?php echo View::make('parciales.menu') ?>
->>>>>>> refs/remotes/seven07ve/master
 		</div>
 	</header>
 	<div class="wrap-container wrap-otra">
@@ -39,12 +34,7 @@
 	</div>
 	<footer>
 		<div class="container">
-<<<<<<< HEAD
 			<?php echo View::make('parciales.footer-nuevo') ?>
-=======
-			<?php //echo View::make('parciales.footer-nuevo') ?>
-			<?php echo View::make('parciales.footer') ?>
->>>>>>> refs/remotes/seven07ve/master
 		</div>
 	</footer>
 </body>

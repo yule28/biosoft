@@ -39,15 +39,16 @@ Route::get('equipo', function()
 	return View::make('estaticas.equipo');
 });
 
-<<<<<<< HEAD
+
 Route::get('metodos', function()
 {
     return View::make('estaticas.metodos');
-=======
+});
+
 Route::get('empresa', function()
 {
 	return View::make('estaticas.empresa');
->>>>>>> refs/remotes/seven07ve/master
+
 });
 
 Route::get('contacto', function()
