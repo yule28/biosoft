@@ -11,7 +11,6 @@
 				<h2>BioSoft Gestión <span>Informática</span> e Ingeniería de <span>Software</span></h2>
 			</div>
 			<div class="row gest">
-
 					<div class="col-md-4">
 						<p class="text-justify">
 							BioSoft es Gestión Informática e Ingeniería de Software a su medida.
@@ -24,145 +23,137 @@
 						<p class="eslogan">
 							"En BioSoft somos Talento Venezolano que da vida a sus proyectos."
 						</p>
-						<p class="text-right">{{ HTML::link('equipo', 'conozcanos', array('class' => 'btn btn-success btn-sm','role'=>'button')); }}</p>
-					</div>
+				    </div>
 					<div class="col-md-8">
-						{{ HTML::image('assets/images/inicio/gestion.png',
-						$alt="imagen 1", $attributes = array('width' => 784, 'height' => 464,
-						'class' => 'img-responsive')) }}
+						{{ HTML::image('assets/images/inicio/ing-soft.jpg',	$alt="imagen 1", $attributes = array('width' => 584, 'height' => 264, 'class' => 'img-responsive', 'style' => 'margin: 5% auto; border-radius:10px;')) }}
 					</div>
 
 			</div>
 		</div>
 	</div>
-	<div id="desarrollo">
+	<div id="indicadores" class="row">
+    <div class="container">
+	    <div class="col-md-4 indicador">
+			{{ HTML::image('assets/images/diplomados/img-d1/metodologia.jpg', $alt="Disciplinas y áreas que cubre", $attributes = array('class' => 'dip-icons')) }}
+			<p class="titulo">
+				Metodología
+			</p>
+			<p class="descripcion text-center">
+				Ofrecido bajo la modalidad interactiva a distancia usando una plataforma tecnológica de última generación.
+			</p>
+		</div>
+		<div class="col-md-4 indicador">
+			{{ HTML::image('assets/images/inicio/anos.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }}
+			<p class="titulo">
+				Metodología
+			</p>
+			<p class="descripcion text-center">
+				Ofrecido bajo la modalidad interactiva a distancia usando una plataforma tecnológica de última generación.
+			</p>
+		</div>
+		<div class="col-md-4 indicador">
+			{{ HTML::image('assets/images/inicio/anos.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }}
+			<p class="titulo">
+				Metodología
+			</p>
+			<p class="descripcion text-center">
+				Ofrecido bajo la modalidad interactiva a distancia usando una plataforma tecnológica de última generación.
+			</p>
+		</div>
+		<div class="col-md-4 indicador">
+			{{ HTML::image('assets/images/inicio/anos.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }}
+			<p class="titulo">
+				Metodología
+			</p>
+			<p class="descripcion text-center">
+				Ofrecido bajo la modalidad interactiva a distancia usando una plataforma tecnológica de última generación.
+			</p>
+		</div>
+		<div class="col-md-4 indicador">
+			{{ HTML::image('assets/images/inicio/anos.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }}
+			<p class="titulo">
+				Metodología
+			</p>
+			<p class="descripcion text-center">
+				Ofrecido bajo la modalidad interactiva a distancia usando una plataforma tecnológica de última generación.
+			</p>
+		</div>
+		<div class="col-md-4 indicador">
+			{{ HTML::image('assets/images/inicio/anos.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }}
+			<p class="titulo">
+				Metodología
+			</p>
+			<p class="descripcion text-center">
+				Ofrecido bajo la modalidad interactiva a distancia usando una plataforma tecnológica de última generación.
+			</p>
+		</div>
+    </div>
+    </div>
+	<div id="indicadores">
 		<div class="container">
-			<div class="row des">
-				<div class="col-md-4">
-					<h2>Servicios en <span>Desarrollo</span></h2>
-					<h4>Tomamos las ideas y las transformamos en software de calidad </h4>
-					<p class="text-justify">Creamos aplicaciones y sistemas
-					acorde a las necesidades de cada empresa. Métodos ágiles y
-					disciplinados que se traducen en desarrollo de software rápido,
-					ordenado y eficaz.</p>
-					<p>Conoce más acerca de nuestro método de desarrollo.</p>
-					<p class="text-right">
-						{{ HTML::link('desarrollo', 'más', array('class' => 'btn btn-default btn-sm','role'=>'button')); }}
-					</p>
+			<div class="row indicadores"><br><br><br><br>
+				<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-3 col-md-3">
+                    {{ HTML::image('assets/images/inicio/anos.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
+                    <div class="text-center text-indicadores">Más de 9 años de experiencia</div>
 				</div>
-				<div class="col-md-8">
-					{{ HTML::image('assets/images/inicio/herramientas.png',
-					$alt="imagen 1", $attributes = array('width' => 600, 'height' => 370,
-					'class' => 'img-responsive')) }}
+				<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-3 col-md-3">
+                    {{ HTML::image('assets/images/inicio/aplicacion.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
+				    <div class="text-center text-indicadores">Más de 17 aplicaciones desarrolladas</div>
+				</div>
+				<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-3 col-md-3">
+                    {{ HTML::image('assets/images/inicio/proyectos.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
+				    <div class="text-center text-indicadores">21 proyectos desarrollados</div>
+				</div>
+				<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-3 col-md-3">
+                    {{ HTML::image('assets/images/inicio/grupo.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
+				    <div class="text-center text-indicadores">12 profesionales a su disposición</div>
 				</div>
 			</div>
+			<br><br><br><br>
 		</div>
 	</div>
-	<div id="capacitacion">
+	<div class="por-que">
 		<div class="container">
+		<div class="titulo text-center">Por qué nosotros</div>
 			<div class="row">
-				<div class="col-md-4 info">
-					<h2>Servicios en <span>Capacitación</span></h2>
-					<h4>BioSoft también es Capacitación Profesional</h4>
-					<p class="text-justify">En BioSoft compartimos nuestros 
-					conocimientos y nuestras ideas. La capacitación de más de 
-					<span>500</span> profesionales de empresas públicas y privadas así 
-					lo comprueban. Descubra nuestro novedoso programa de capacitación 
-					que ahora ofrecemos de manera 100% virtual. Mantener empresas de 
-					vanguardia implica tener personal capacitado e instruido. Elimine 
-					la barrera de sus conocimientos y lleve a su empresa a otro nivel.</p>
-					<p class="text-right">
-						{{ HTML::link('capacitacion', 'más', array('class' => 'btn btn-warning btn-sm','role'=>'button')); }}
-					</p>
+                <div class="hidden-xs col-sm-2 col-md-1">
+                    {{ HTML::image('assets/images/inicio/consultoria.png', $alt='9 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
+                </div>
+				<div class="col-xs-offset-1 col-xs-9 col-sm-offset-0 col-sm-8 col-md-3">
+					<h4>CONSULTORÍA </h4>
+					<ul class="check-list">
+					    <li>Alineamos las TIC al negocio</li>
+					    <li>Tenemos alta experiencia profesional y estudios de 4to y 5to nivel</li>
+					    <li>Asesoramos a grandes empresas nacionales e internacionales</li>
+					    <li>Nos enfocamos en tecnologías de punta: BPM, SOA, Arquitecturas empresariales</li>
+					</ul>
 				</div>
-				<div class="col-md-8">
-					{{ HTML::image('assets/images/inicio/laptop.png', 
-					$alt="imagen 1", $attributes = array('width' => 878, 'height' => 566, 
-					'class' => 'img-responsive')) }}
+
+				<div class="hidden-xs col-sm-2 col-md-1">
+                    {{ HTML::image('assets/images/inicio/capacitacion.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
+                </div>
+				<div class="col-xs-offset-1 col-xs-9 col-sm-offset-0 col-sm-8 col-md-3">
+					<h4>CAPACITACIÓN</h4>
+					<ul class="check-list">
+					    <li>Contamos con profesores de 4to y 5to nivel académico</li>
+					    <li>Tenemos experiencia de 20 años en formación de profesionales en Ingeniería de Software</li>
+					    <li>Orientamos la capacitación a la práctica profesional</li>
+					    <li>Capacitamos para que seas competitivo en tecnologías de información</li>
+					</ul>
 				</div>
-			</div>
-		</div>
-	</div>
-	<div id="consultoria">
-		<div class="container">
-			<h2>Servicios en <span>Consultoria</span></h2>
-			<div class="row">
-			  	<div class="col-sm-5 col-md-3">
-					<div class="thumbnail">
-					  {{ HTML::image('assets/images/inicio/modelado.png', 
-					  $alt="imagen 1", $attributes = array('width' => 238, 'height' => 168, 
-					  'class' => 'img-responsive')) }}	
-					  <div class="caption">
-					    <h4>Modelado y Gestion de
-							Procesos de Negocio</h4>
-					    <p class="text-justify">Analice, modele, mejore y automatice
-					     los procesos de su empresa. Represente gráficamente los 
-					     procesos de negocio, los objetivos del negocio, las actividades, 
-					     las reglas del negocio, la estructura organizacional, entre otros, 
-					     para una mejor toma de decisiones</p>
-					    <p class="text-right">
-							{{ HTML::link('consultoria', 'más', array('class' => 'btn btn-primary btn-sm','role'=>'button')); }}
-					    </p>
-					  </div><!-- end caption -->
-					</div><!-- end thumbnail -->
-				</div><!-- end col-sm-6 col-md-4 -->
-
-			    <div class="col-sm-5 col-md-3">
-			      <div class="thumbnail">
-			        {{ HTML::image('assets/images/inicio/arquitectura.png', 
-			        $alt="imagen 1", $attributes = array('width' => 238, 'height' => 168, 
-			        'class' => 'img-responsive')) }}	
-			        <div class="caption">
-			          <h4>Arquitectura Orientada
-						a Servicios SOA</h4>
-			          <p class="text-justify">Soluciones informáticas basadas en el 
-			          concepto de servicio. Establezca una mejor alineación entre los 
-			          procesos del negocio y los sistemas de información. Mejore la 
-			          interoperabilidad de sus aplicaciones y desarrolle soluciones en el 
-			          mejor tiempo posible</p>
-			          <p class="text-right">
-			          	{{ HTML::link('consultoria', 'más', array('class' => 'btn btn-primary btn-sm','role'=>'button')); }}
-			          </p>
-			        </div><!-- end caption -->
-			      </div><!-- end thumbnail -->
-			    </div><!-- end col-sm-6 col-md-4 -->
-
-		        <div class="col-sm-5 col-md-3">
-		          <div class="thumbnail">
-		            {{ HTML::image('assets/images/inicio/planificacion.png', 
-		            $alt="imagen 1", $attributes = array('width' => 238, 'height' => 168, 
-		            'class' => 'img-responsive')) }}	
-		            <div class="caption">
-		              <h4>Planificación de 
-						Arquitectura Empresarial</h4>
-		              <p class="text-justify">Elabore la planificación de la Arquitectura 
-		              Empresarial de su compañía con métodos de vanguardia y envergadura. 
-		              Lleve a cabo la alineación de los procesos de negocio, los sistemas 
-		              de información, las bases de datos y las tecnologías de la información 
-		              y comunicación de su empresa</p>
-		              <p class="text-right">
-		              	{{ HTML::link('consultoria', 'más', array('class' => 'btn btn-primary btn-sm','role'=>'button')); }}
-		              </p>
-		            </div><!-- end caption -->
-		          </div><!-- end thumbnail -->
-		        </div><!-- end col-sm-6 col-md-4 -->
-
-                <div class="col-sm-5 col-md-3">
-                  <div class="thumbnail">
-                    {{ HTML::image('assets/images/inicio/desarrollo.png', 
-                    $alt="imagen 1", $attributes = array('width' => 238, 'height' => 168, 
-                    'class' => 'img-responsive')) }}	
-                    <div class="caption">
-                      <h4>Desarrollo <span>Ágil</span> y Balanceado de Aplicaciones Empresariales</h4>
-                      <p class="text-justify">Conozca el método <span>Blue WATCH</span> y 
-                      disponga de aplicaciones de calidad en el menor tiempo posible. 
-                      Desarrollo de software rápido, ordenado y eficaz.</p>
-                      <p class="text-right">
-                      	{{ HTML::link('desarrollo', 'más', array('class' => 'btn btn-primary btn-sm','role'=>'button')); }}
-                      </p>
-                    </div><!-- end caption -->
-                  </div><!-- end thumbnail -->
-                </div><!-- end col-sm-6 col-md-4 -->
+                <div class="hidden-xs col-sm-2 col-md-1">
+                    {{ HTML::image('assets/images/inicio/desarrollo.png', $alt='15 años de experiencia', $attributes = array('title' => '9 años de experiencia', 'class' => 'img-responsive')) }} 
+                </div>
+				<div class="col-xs-offset-1 col-xs-9 col-sm-offset-0 col-sm-8 col-md-3">
+					<h4>DESARROLLO DE SOFTWARE</h4>
+					<ul class="check-list">
+					    <li>Tenemos experiencia de 20 años en desarrollo de software</li>
+					    <li>Nos especializamos en aplicaciones web para soportar procesos de negocio</li>
+					    <li>Usamos métodos ágiles, herramientas CASE y lenguaje de modelado UML</li>
+					    <li>Desarrollamos software guiado por pruebas</li>
+					    <li>Programamos en Ruby on Rails</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -172,15 +163,116 @@
 				<h2>Nuestros <span>Clientes</span></h2>
 			</div>
 			<div class="row">
-				<div class="col-md-4">
-					<p class="text-justify">En BioSoft contamos con una cartera de <span>clientes</span> amplia de <span>empresas</span> públicas y privadas, que nos han escogido para suplir sus necesidades en la Gestión Informática de su compañía y que dan aval de nuestro trabajo.</p>
-				</div>
-				<div class="col-md-8">
-					{{ HTML::image('assets/images/inicio/clientes.png', 
-						$alt="imagen 1", $attributes = array('width' => 729, 'height' => 420, 
-						'class' => 'img-responsive')) }}
+				<div class=" col-md-offset-1 col-md-10">
+                <section class="autoplay ">
+                    <div>
+                        <img src="assets/images/clientes/cencoex.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="assets/images/clientes/bod.jpg">
+                    </div>
+                    <div>
+                        <img src="assets/images/clientes/univ-lisandro.jpg">
+                    </div>
+                    <div>
+                        <img src="assets/images/clientes/enelven.jpg">
+                    </div>
+                    <div>
+                        <img src="assets/images/clientes/ceisoft.jpg">
+                    </div>
+                    <div>
+                        <img src="assets/images/clientes/bcv.jpg">
+                    </div>
+                    <div>
+                        <img src="assets/images/clientes/ula.jpg">
+                    </div>
+                    <div>
+                        <img src="assets/images/clientes/gasprom.jpg">
+                    </div>
+                    <div>
+                        <img src="assets/images/clientes/caf.jpg">
+                    </div>
+                    <div>
+                        <img src="assets/images/clientes/smurfit.jpg">
+                    </div>
+                    <div>
+                        <img src="assets/images/clientes/pdvsa.jpg">
+                    </div>
+                    <div>
+                        <img src="assets/images/clientes/min-ambiente.jpg">
+                    </div>
+                    <div>
+                        <img src="assets/images/clientes/seniat.jpg">
+                    </div>
+                    <div>
+                        <img src="assets/images/clientes/cvg.jpg">
+                    </div>
+                    <div>
+                        <img src="assets/images/clientes/ena-for.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="assets/images/clientes/farmatodo.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="assets/images/clientes/mad-orinoco.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="assets/images/clientes/intt.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="assets/images/clientes/va-isid.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="assets/images/clientes/guardianes.jpg" alt="">
+                    </div>
+                </section>
 				</div>
 			</div>
 		</div>
 	</div>
+    <div id="capacitacion">
+        <div class="container">
+        <div class="row info">
+				<h2>Algunos de nuestros<span>Trabajos</span></h2>
+		</div>
+        <section class="Collage effect-parent">
+            <div class="Image_Wrapper" data-caption="SHiMed es una aplicación web, bajo la plataforma Ruby on Rails y PostgreSQL, que  permite el registro de los actores de salud.">
+                <a><img src="assets/collageplus/thumbs/SHIMED.png"></a>
+            </div>
+            <div class="Image_Wrapper" data-caption="SHiMed es una aplicación web, bajo la plataforma Ruby on Rails y PostgreSQL, que  permite el registro de los actores de salud.">
+                <a><img src="assets/collageplus/thumbs/SHIMED2.png"></a>
+            </div>
+            <div class="Image_Wrapper" data-caption="SIGETT es un sistema de información empresarial que soporta los principales procesos del negocio del área de transporte público terrestre y de servicios conexos">
+                <a><img src="assets/collageplus/thumbs/SIGTT.png"></a>
+            </div>
+            <div class="Image_Wrapper" data-caption="SIGETT es un sistema de información empresarial que soporta los principales procesos del negocio del área de transporte público terrestre y de servicios conexos">
+                           <a><img src="assets/collageplus/thumbs/SIGTT2.png"></a>
+            </div>
+            <div class="Image_Wrapper" data-caption="El Sistema de Manejo Productivo del Bosque Tropical (SIMAPRO) es parte de un sistema de información empresarial que soporta los procesos del negocio de planificación, aprovechamiento y manejo forestal de la Empresa Nacional Forestal">
+                <a><img src="assets/collageplus/thumbs/Simapro.png"></a>
+            </div>
+            <div class="Image_Wrapper" data-caption="El Sistema de Manejo Productivo del Bosque Tropical (SIMAPRO) es parte de un sistema de información empresarial que soporta los procesos del negocio de planificación, aprovechamiento y manejo forestal de la Empresa Nacional Forestal">
+                <a><img src="assets/collageplus/thumbs/Simapro2.png"></a>
+            </div>
+            <div class="Image_Wrapper" data-caption="Rediseño de  la página web del Instituto Nacional de Transporte Terrestre.">
+                <a><img src="assets/collageplus/thumbs/Web-INTT.png"></a>
+            </div>
+            <div class="Image_Wrapper" data-caption="Aplicación para la gestión de eventos de todo tipo.">
+                <a><img src="assets/collageplus/thumbs/eventos.jpg"></a>
+            </div>
+            <div class="Image_Wrapper" data-caption="El Sistema para el Seguimiento y Evaluación de Proyectos (SSEP) es un sistema de información que apoya la gestión de los planes, proyectos y programas de la Dirección General de Cuencas Hidrográficas del MINEA.">
+                <a><img src="assets/collageplus/thumbs/SSEP.jpg"></a>
+            </div>
+            <div class="Image_Wrapper" data-caption="Portal instruccional desarrollado con el apoyo técnico de Biosoft C.A., el apoyo académico del Grupo GIDyC de la ULA, y el FONACIT.">
+                <a><img src="assets/collageplus/thumbs/e-praxis.jpg"></a>
+            </div>
+            <div class="Image_Wrapper" data-caption="Mall Rental es una aplicación web para la gestión de alquileres de centros comerciales que operan bajo el modelo de negocios de alquiler de locales.">
+                <a><img src="assets/collageplus/thumbs/mallRenta.jpg"></a>
+            </div>
+            <div class="Image_Wrapper" >
+                <a><img src="assets/collageplus/thumbs/blanco.jpg"></a>
+            </div>
+        </section>
+	    </div>
+    </div>
 @stop
