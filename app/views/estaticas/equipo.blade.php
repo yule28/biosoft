@@ -116,7 +116,7 @@
                         <hr>
                         <div class="descripcion">
                             <p class="text-justify text-left">
-                                Profesora titular del Departamento de Computación de la Facultad de Ingeniería de la Universidad de Los Andes (ULA). Ingeniera de Sistemas (ULA, Venezuela).<br/> Magister en Sistemas de Información (Instituto Tecnológico de Monterrey, México).D.E.A. en Bases de Datos. Dra. en Informática. Fue Coordinadora del Laboratorio de Sistemas Computacionales del Dpto. de Computación de la ULA. <br/> Miembro del Grupo de Investigación en Ingeniería de Datos y Conocimiento de la ULA. <br/>Es, actualmente, Coordinadora del Postgrado en Computación de la Facultad de Ingeniería de la ULA. <br/>Sitio:
+                                Profesora titular del Departamento de Computación de la Facultad de Ingeniería de la Universidad de Los Andes (ULA). Ingeniera de Sistemas (ULA, Venezuela).<br/> Magister en Sistemas de Información (Instituto Tecnológico de Monterrey, México).D.E.A. en Bases de Datos. Dra. en Informática. Fue Coordinadora del Laboratorio de Sistemas Computacionales del Dpto. de Computación de la ULA. <br/> Miembro del Grupo de Investigación en Ingeniería de Datos y Conocimiento de la ULA. <br...(line truncated)...
                                 <a href="http://www.webdelprofesor.ula.ve/ingenieria/ijudith/" target="_blank">
                                 Web del Profesor</a>
                             </p>

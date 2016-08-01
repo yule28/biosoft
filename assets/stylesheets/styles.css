@@ -246,7 +246,11 @@ body footer .footer-der #wrap-footer .row #derechos p {
 
 /* line 1, ../../../app/assets/sass/paginas/_inicio.scss */
 #gestion {
+<<<<<<< HEAD
+  background-color: #fff;
+=======
   background-color: #f7f7f7;
+>>>>>>> refs/remotes/seven07ve/master
   padding: 3% 0;
 }
 /* line 6, ../../../app/assets/sass/paginas/_inicio.scss */
@@ -281,13 +285,21 @@ body footer .footer-der #wrap-footer .row #derechos p {
 /*-------indicadores de gestion---------------------*/
 /* line 1, ../../../app/assets/sass/paginas/_inicio.scss */
 #indicadores {
+<<<<<<< HEAD
+  background-color: #f7f7f7;
+=======
   background-color: #FFFFFF;
+>>>>>>> refs/remotes/seven07ve/master
   padding: 3% 0;
 }
 /* line 6, ../../../app/assets/sass/paginas/_inicio.scss */
 #indicadores .container .row h2 {
   font-family: "Questrial", sans-serif;
+<<<<<<< HEAD
+  color: #7e7d7d;
+=======
   color: #555555;
+>>>>>>> refs/remotes/seven07ve/master
 }
 /* line 9, ../../../app/assets/sass/paginas/_inicio.scss */
 

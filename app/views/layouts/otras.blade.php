@@ -26,8 +26,7 @@
 <body>
 	<header>
 		<div class="wrap-menu">
-			<?php //echo View::make('parciales.menu-nuevo') ?>
-			<?php echo View::make('parciales.menu') ?>
+			<?php echo View::make('parciales.menu-nuevo') ?>
 		</div>
 	</header>
 	<div class="wrap-container wrap-otra">
@@ -35,8 +34,7 @@
 	</div>
 	<footer>
 		<div class="container">
-			<?php //echo View::make('parciales.footer-nuevo') ?>
-			<?php echo View::make('parciales.footer') ?>
+			<?php echo View::make('parciales.footer-nuevo') ?>
 		</div>
 	</footer>
 </body>

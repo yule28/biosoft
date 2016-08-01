@@ -39,9 +39,16 @@ Route::get('equipo', function()
 	return View::make('estaticas.equipo');
 });
 
+
+Route::get('metodos', function()
+{
+    return View::make('estaticas.metodos');
+});
+
 Route::get('empresa', function()
 {
 	return View::make('estaticas.empresa');
+
 });
 
 Route::get('contacto', function()

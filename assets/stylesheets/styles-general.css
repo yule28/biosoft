@@ -47,7 +47,7 @@ p{
     font-size: 1rem;
 }
 
-hr{
+hr {
     border-bottom: 1px solid #d9d9d9;
 }
 /*----------colors---------------*/
@@ -121,6 +121,7 @@ hr{
 }
 
 .modulos hr{
+    border-bottom: 1px solid #d9d9d9;
     margin: 0px 0px 10px;
 }
 
@@ -177,7 +178,7 @@ hr{
 }
 
 .porque img {
-    max-width: 340px;
+    max-width: 300px;
 }
 
 .porque h3 {
@@ -235,6 +236,57 @@ hr{
 .check-list li{
     padding: 10px 0px;
 }
+
+/*---------------------------------*/
+
+/*-----------------Equipo-------------------*/
+
+
+#equipo .nombre p{
+   color: #84B522; 
+   font-weight: bold; 
+}
+
+#equipo .nombre p span { 
+    color: #7e7d7d;  
+}
+
+#equipo .integrante {
+    margin-bottom: 4%;
+}
+
+#equipo .experiencia .descripcion p {
+    margin-top: 17%;
+}
+
+.texto-equipo{
+    margin-top: 15px;
+    margin-bottom: 37px;
+}
+
+.linkedin{
+  float: left;
+  margin-right: 1%;
+}
+
+#equipo .fa:hover{
+    color: #84B522;
+}
+
+.avatar {
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 270px;
+    width: 270px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    margin-top: 53px;
+    margin-left:10%;  
+}
+
+=======
 
 .trabajos{
     background-color: #f4f3f0;
@@ -330,6 +382,32 @@ hr{
     }
     
 }
+
+@media (max-width: 991px) {
+    .avatar{
+        margin: auto !important;
+        margin-bottom: 2% !important;
+    } 
+
+    #equipo .nombre{
+        text-align: center !important;
+        margin-top:2%; 
+    }
+
+    #equipo .nombre .linkedin{
+        float: none;
+    }
+
+    #equipo .nombre .text-left{
+        text-align: center;
+    }
+}
+
+    #equipo .experiencia .descripcion p {
+    margin-top: 23%;
+    }
+}
+
 @media screen and (max-width: 800px){
 
     .check-list{
@@ -337,12 +415,26 @@ hr{
     }
     
 }
+
+@media (max-width: 767px) {
+    .texto-equipo {
+        margin-top: 143px;
+    }
+}
+
 @media screen and (max-width: 680px){
 
     .titulo-seccion:before, .titulo-seccion:after{
     width: 15%;
     }
 }
+
+@media (max-width: 400px) {
+    #equipo .titulo-seccion{
+       font-size: 1.1rem; 
+    }
+}
+
 @media screen and (max-width: 320px){
 
     h4.boton{
