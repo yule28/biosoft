@@ -10,38 +10,24 @@
 	<div class="container sobre">
 	<div class="text-center sub-menu">
         <div class="row">
-            <a href="" style="color:#FFF;"><div class="col-xs-4 "><h4 class="boton">Sobre Biosoft</h4></div></a>
-            <a href="" style="color:#FFF;"><div class="col-xs-4 "><h4 class="boton">Equipo</h4></div></a>
-            <a href="" style="color:#FFF;"><div class="col-xs-4 "><h4 class="boton">Metodología</h4></div></a>
+            <a href="" style="color:#FFF;"><div class="col-md-4 "><h4 class="boton">Sobre Biosoft</h4></div></a>
+            <a href="" style="color:#FFF;"><div class="col-md-4 "><h4 class="boton">Equipo</h4></div></a>
+            <a href="" style="color:#FFF;"><div class="col-md-4 "><h4 class="boton">Metodología</h4></div></a>
         </div>
     </div>
     <div class="row">
-       <h2 class="titulo-seccion">Sobre Biosoft</h2>
-        <div class="col-md-12">
-                <br>
-                <p class="eslogan text-center"><span class="naranja">"En BioSoft somos Talento Venezolano que da vida a sus proyectos."</span>
-                </p>
-                <hr>
-            <div class="row">
-                <div class="col-xs-12 col-md-offset-1 col-md-10">
-                    {{ HTML::image('assets/images/empresa/empresa-sobre.jpg', $alt="imagen 1", $attributes = array('width' => "100%", 'height' => "241px", 'class' => 'img-responsive sobre-img')) }}
-                </div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-xs-12 col-md-offset-1 col-md-10">
-                    <p class="text-justify">BioSoft es Gestión Informática e Ingeniería de Software a su medida. Prestamos servicios de Desarrollo, Capacitación y Consultoría generándole valor a su compañía. Nuestro equipo multidisciplinario, con una enorme experiencia, le brinda soluciones rápidas, efectivas, eficaces y según sus necesidades.</p>
-                </div>
-            </div>
-                <hr>
-                <br>
-        </div>
+        <div class="col-md-12"><h2 class="titulo-seccion">Sobre Biosoft</h2></div>
+        <br>
+        <p class="eslogan"><span class="naranja">"En BioSoft somos Talento Venezolano que da vida a sus proyectos."</span>
+        </p>
+        <p>BioSoft es Gestión Informática e Ingeniería de Software a su medida. Prestamos servicios de Desarrollo, Capacitación y Consultoría generándole valor a su compañía. Nuestro equipo multidisciplinario, con una enorme experiencia, le brinda soluciones rápidas, efectivas, eficaces y según sus necesidades.</p>
     </div>
+		{{ HTML::image('assets/images/empresa/empresa-sobre.jpg', $alt="imagen 1", $attributes = array('width' => "100%", 'height' => "241px", 'class' => 'img-responsive hidden-xs')) }}
 	</div>
 	<div class="capacidad">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-6">
                     <h2 class="text-center naranja">Lo que sabemos</h2>
                     <ul class="check-list">
                         <li>Ruby On Rails</li>
@@ -56,9 +42,7 @@
                         <li>Métodos de enseñanza-aprendizaje </li>
                     </ul>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-6">
                     <h2 class="text-center verde">Hacemos</h2>
                 </div>
             </div>

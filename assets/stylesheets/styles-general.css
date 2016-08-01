@@ -170,8 +170,14 @@ hr{
     transition: .5s all;
 }
 
+.porque{
+    background-color: #f4f3f0;
+    border: 1px solid #e2e1db;
+    padding: 10px;
+}
+
 .porque img {
-    max-width: 300px;
+    max-width: 340px;
 }
 
 .porque h3 {
@@ -229,7 +235,94 @@ hr{
 .check-list li{
     padding: 10px 0px;
 }
+
+.trabajos{
+    background-color: #f4f3f0;
+    border: 1px solid #e2e1db;
+    padding: 10px 0px;
+    min-height: 600px;
+}
+
+.trabajos .titulo-verde,
+.trabajos .titulo-naranja{
+    color: #33332F;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 2rem;
+    transition: .5s all;
+}
+
+.trabajos:hover .titulo-verde{
+    color: #84B522;
+    font-size: 0.95rem;
+    font-weight: 800;
+    transition: .5s ease-out;
+}
+
+.trabajos:hover .titulo-naranja{
+    color: #f47010;
+    font-size: 1.2rem;
+    font-weight: 800;
+    transition: .5s ease-out;
+}
+
+.trabajos hr{
+    width: 90%;
+}
+
+.trabajos img{
+    max-width: 340px;
+}
+
+.trabajos p{
+    padding: 20px;
+    text-align: justify;
+}
 /*---------------------------------*/
+/*------------------ Empresa ----------------*/
+.sub-menu{
+    color: #FFF;
+    font-size: 16px;
+    /*margin-top:  -100px;*/
+}
+
+.boton{
+    background: #33332f;
+    padding: 5%;
+    text-align: center;
+    transition: 1.2s all;
+}
+.boton:hover{
+    background: rgba(228, 78, 60, 1);
+}
+
+.sobre{
+    padding: 3% 0px;
+}
+
+.sobre-img{
+    margin: 3% 0;
+}
+
+.sobre p{
+    font-size: 20px;
+}
+
+.sobre h2 span{
+    font-weight: bold;
+}
+
+.sobre p.eslogan {
+    margin-bottom: 5%;
+    font-size: 30px;
+}
+
+
+/*-------------------------------------------- */
+
+/*--------------------------------------------*/
 @media screen and (max-width: 1024px){
 
     .check-list{
@@ -249,5 +342,10 @@ hr{
     .titulo-seccion:before, .titulo-seccion:after{
     width: 15%;
     }
-    
+}
+@media screen and (max-width: 320px){
+
+    h4.boton{
+        font-size: 12px;
+    }
 }
