@@ -14,8 +14,15 @@
 Route::get('/', function()
 {
 	//return Redirect::to('inicio/funcion');
-	return View::make('estaticas.inicio');
+	return View::make('estaticas.inicio-nuevo');
 });
+
+//vieja
+/*Route::get('/', function()
+{
+
+	return View::make('estaticas.inicio');
+});*/
 
 Route::get('consultoria', function()
 {
@@ -30,6 +37,18 @@ Route::get('desarrollo', function()
 Route::get('equipo', function()
 {
 	return View::make('estaticas.equipo');
+});
+
+
+Route::get('metodos', function()
+{
+    return View::make('estaticas.metodos');
+});
+
+Route::get('empresa', function()
+{
+	return View::make('estaticas.empresa');
+
 });
 
 Route::get('contacto', function()

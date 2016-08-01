@@ -1,0 +1,274 @@
+
+/*Estilo del contenedor de la cabecera*/
+.container-fluid{
+  background-color: #FFFFFF;
+}
+
+.navbar-default{
+font-family: 'Montserrat', sans-serif;
+}
+/*Estilo del div de la parte superior de la cabecera*/
+.top-cabecera{
+  background-color: white;
+  box-sizing: border-box;
+}
+
+/*Estilo del div de la barra de navaegación*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+
+background-color: #33332F;
+text-align: center;
+line-height: 1.0;
+}
+
+/*Estilo de la barra de navehgación*/
+body header .navbar-nav {
+  display: inline-block;
+  float: none; 
+ }
+
+/*Estilo de los li-a barra de nav*/
+  body header .navbar-nav li a {
+  padding: 15px 25px 14px;
+  font-size: 0.8rem;
+  color: #eee !important;
+}
+
+/*Estilos del Hover de los elementos de la barra de navegación*/
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #84B522  !important;
+  background-color: #000;
+  border-bottom: 1px solid #84B522 ;
+}
+    
+/*Estilos del Active de los elementos de la barra de navegación*/
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #84B522  !important;
+  background-color: #000;
+  border-bottom: 1px solid #84B522;
+  
+}
+
+/*Estilo del div del logo de Biosoft*/
+ .logo-biosoft {
+	   width: 35%;
+    margin-left: 26%;
+    display: inline-block;
+    margin-top: 7px;
+ }
+
+ .logo-biosoft img {
+  max-width: 50%;
+  width: 64%;
+  margin-left: 43%;
+ }
+
+
+/*Estilo del div de las redes sociales*/
+.redes{
+  
+  float: right;
+  margin-top: -3%;
+  
+  margin-bottom: 1%;
+  display: inline-block;
+}
+
+
+
+/*Estilo del div del telf de contacto y correo contacto*/
+.telefonos{
+    width: 32%;
+    background-color: #FFFFFF;
+    display: inline-block;
+    float: right;
+    margin-top: 1%;
+    margin-right: 1%;
+}
+
+.telelocal{
+  
+  width: 50%;
+  display: inline-block;
+}
+
+.email{
+
+  width: 47%;
+  display: inline-block;
+  padding: 0 0 0 3%; 
+  float: right;
+  
+
+}
+
+.telelocal p{
+font-size: 14px;
+}
+
+.email p{
+font-size: 14px;
+}
+/*Estilo de los  div de las redes sociales*/
+.correo {
+  float:right;
+  padding: 0 3px;
+}
+
+.twitter {
+   float:right;
+   padding: 0 3px;
+}
+
+.facebook {
+    float: right;
+    padding: 0 3px;
+
+  }
+.instagram {
+   float:right;
+   padding: 0 3px;
+}
+
+
+.fa{
+  color: #33332F;
+  font-size: 26px;
+}
+
+.navbar-toggle{
+
+  display: none;
+  float: left;
+  margin-left: 1px;
+}
+
+
+@media (max-width: 1290px) {
+body header .navbar-nav li a {
+  padding: 15px 20px 14px;
+ 
+  }
+ } 
+
+@media (max-width: 1145px) {
+body header .navbar-nav li a {
+  padding: 14px 15px 10px;
+  font-size: 0.7rem;
+  }
+.telelocal p {
+    font-size: 12px;
+}
+
+ .email p {
+    font-size: 12px;
+}
+
+}
+
+@media (max-width: 970px){
+
+  body header .navbar-nav li a {
+  padding: 14px 9px 10px;
+  font-size: 0.66rem;
+  }
+
+  .telefonos{
+    display: none;
+}
+
+.redes{
+  margin-top: 3%;
+  margin-left: 2%
+}
+
+ .telelocal p {
+    font-size: 10px;
+}
+
+ .email p {
+    font-size: 10px;
+}
+
+.fa{
+  font-size: 22px;
+}
+
+}
+
+@media (max-width: 767px){
+.navbar-toggle {
+  display: block;
+  }
+
+.fa{
+  font-size: 18px;
+}
+
+.logo-biosoft {
+    
+    margin-left: 8%;
+    margin-right: 2%;
+    margin-top: 18px;
+}
+
+.redes{
+  margin-left: 10%;
+}
+
+.logo-biosoft img{
+  margin-left: 66%;
+  width: 70%;
+  min-width: 70%;
+}
+
+body header .navbar-nav {
+  float: left;
+}
+
+.navbar-nav li a {
+    padding: 9px 10px 4px !important;
+  }
+}
+
+
+@media (max-width: 530px){
+.logo-biosoft{
+
+margin-left: 0%;
+}
+
+.fa{
+  font-size: 16px;
+}
+}
+
+@media (max-width: 330px){
+.redes{
+  display: none;
+}
+
+.logo-biosoft{
+  float: right;
+  width: 60%;
+}
+
+.logo-biosoft img {
+    margin-left: 35%;
+}
+}
+
+
+/*@media (min-width: 1800px){
+.telelocal p {
+    font-size: 20px;
+}
+
+.email p{
+  font-size: 20px;
+}
+
+.redes{
+  margin-right: 6%;
+}
+}*/

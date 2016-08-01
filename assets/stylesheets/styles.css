@@ -1,5 +1,6 @@
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
 @import url(http://fonts.googleapis.com/css?family=Questrial);
+
 @font-face {
   font-family: "museo 300";
   src: url("../fonts/museo300regular.ttf");
@@ -245,13 +246,17 @@ body footer .footer-der #wrap-footer .row #derechos p {
 
 /* line 1, ../../../app/assets/sass/paginas/_inicio.scss */
 #gestion {
+<<<<<<< HEAD
   background-color: #fff;
-  padding: 5% 0;
+=======
+  background-color: #f7f7f7;
+>>>>>>> refs/remotes/seven07ve/master
+  padding: 3% 0;
 }
 /* line 6, ../../../app/assets/sass/paginas/_inicio.scss */
 #gestion .container .row h2 {
   font-family: "Questrial", sans-serif;
-  color: #7e7d7d;
+  color: #555555;
 }
 /* line 9, ../../../app/assets/sass/paginas/_inicio.scss */
 #gestion .container .row h2 span {
@@ -261,7 +266,7 @@ body footer .footer-der #wrap-footer .row #derechos p {
 /* line 17, ../../../app/assets/sass/paginas/_inicio.scss */
 #gestion .container > .gest .col-md-4 > p {
   margin: 10% 0;
-  color: #7e7d7d;
+  color: #555555;
 }
 /* line 20, ../../../app/assets/sass/paginas/_inicio.scss */
 #gestion .container > .gest .col-md-4 > p a {
@@ -272,10 +277,31 @@ body footer .footer-der #wrap-footer .row #derechos p {
 #gestion .container > .gest .col-md-4 > p.eslogan {
   font-family: "Questrial", sans-serif;
   font-size: 30px;
-  color: #d57d33;
+  color: #ff7600;
   line-height: 30px;
   font-weight: bold;
 }
+
+/*-------indicadores de gestion---------------------*/
+/* line 1, ../../../app/assets/sass/paginas/_inicio.scss */
+#indicadores {
+<<<<<<< HEAD
+  background-color: #f7f7f7;
+=======
+  background-color: #FFFFFF;
+>>>>>>> refs/remotes/seven07ve/master
+  padding: 3% 0;
+}
+/* line 6, ../../../app/assets/sass/paginas/_inicio.scss */
+#indicadores .container .row h2 {
+  font-family: "Questrial", sans-serif;
+<<<<<<< HEAD
+  color: #7e7d7d;
+=======
+  color: #555555;
+>>>>>>> refs/remotes/seven07ve/master
+}
+/* line 9, ../../../app/assets/sass/paginas/_inicio.scss */
 
 /* line 39, ../../../app/assets/sass/paginas/_inicio.scss */
 #desarrollo {
@@ -321,18 +347,18 @@ body footer .footer-der #wrap-footer .row #derechos p {
 /* line 78, ../../../app/assets/sass/paginas/_inicio.scss */
 #capacitacion .container .info h2 span {
   font-weight: bold;
-  color: #d57d33;
+  color: #ff7600;
 }
 /* line 83, ../../../app/assets/sass/paginas/_inicio.scss */
 #capacitacion .container .info h4 {
   font-family: "Questrial", sans-serif;
   margin: 10% 0;
-  color: #7e7d7d;
+  color: #555555;
 }
 /* line 88, ../../../app/assets/sass/paginas/_inicio.scss */
 #capacitacion .container .info p {
   margin-top: 10%;
-  color: #7e7d7d;
+  color: #555555;
 }
 /* line 89, ../../../app/assets/sass/paginas/_inicio.scss */
 #capacitacion .container .info p span {
@@ -368,7 +394,7 @@ body footer .footer-der #wrap-footer .row #derechos p {
 #consultoria .container .row .thumbnail .caption h4 {
   height: 60px;
   font-family: "Questrial", sans-serif;
-  color: #7e7d7d;
+  color: #555555;
   font-weight: bold;
 }
 /* line 124, ../../../app/assets/sass/paginas/_inicio.scss */
@@ -379,7 +405,7 @@ body footer .footer-der #wrap-footer .row #derechos p {
 #consultoria .container .row .thumbnail .caption p {
   height: 230px;
   font-family: "Questrial", sans-serif;
-  color: #7e7d7d;
+  color: #555555;
 }
 /* line 132, ../../../app/assets/sass/paginas/_inicio.scss */
 #consultoria .container .row .thumbnail .caption p span {
@@ -393,7 +419,7 @@ body footer .footer-der #wrap-footer .row #derechos p {
 
 /* line 146, ../../../app/assets/sass/paginas/_inicio.scss */
 #clientes {
-  background-color: #d2d6d5;
+  background-color: #efefef;
   padding: 3% 0;
 }
 /* line 150, ../../../app/assets/sass/paginas/_inicio.scss */
@@ -405,13 +431,13 @@ body footer .footer-der #wrap-footer .row #derechos p {
 /* line 154, ../../../app/assets/sass/paginas/_inicio.scss */
 #clientes .container h2 span {
   font-weight: bold;
-  color: #6d8e61;
+  color: #94c614;
 }
 /* line 161, ../../../app/assets/sass/paginas/_inicio.scss */
 #clientes .container .col-md-4 p {
   margin-top: 30%;
   margin-right: 10%;
-  color: #7e7d7d;
+  color: #555555;
   font-family: "Questrial", sans-serif;
   line-height: 24px;
 }
@@ -439,7 +465,7 @@ body footer .footer-der #wrap-footer .row #derechos p {
 }
 /* line 14, ../../../app/assets/sass/paginas/_consultoria.scss */
 #modelado .container > .cuerpo p {
-  color: #7e7d7d;
+  color: #555555;
   font-family: "Questrial", sans-serif;
   font-size: 16px;
 }
@@ -510,7 +536,7 @@ body footer .footer-der #wrap-footer .row #derechos p {
 }
 /* line 80, ../../../app/assets/sass/paginas/_consultoria.scss */
 #planificacion .container > .cuerpo .der p {
-  color: #7e7d7d;
+  color: #555555;
   font-family: "Questrial", sans-serif;
   font-size: 16px;
 }
@@ -572,7 +598,7 @@ body footer .footer-der #wrap-footer .row #derechos p {
   margin: 5% 0;
   font-family: "Questrial", sans-serif;
   font-size: 16px;
-  color: #7e7d7d;
+  color: #555555;
 }
 /* line 11, ../../../app/assets/sass/paginas/_capacitacion.scss */
 #epraxis .container p > span.mayus {
@@ -751,7 +777,7 @@ body footer .footer-der #wrap-footer .row #derechos p {
 }
 /* line 14, ../../../app/assets/sass/paginas/_desarrollo.scss */
 #biowatch .container .row .col-md-6 p {
-  color: #7e7d7d;
+  color: #555555;
 }
 /* line 16, ../../../app/assets/sass/paginas/_desarrollo.scss */
 #biowatch .container .row .col-md-6 p span {
@@ -884,7 +910,7 @@ body footer .footer-der #wrap-footer .row #derechos p {
 }
 /* line 5, ../../../app/assets/sass/paginas/_equipo.scss */
 #equipo .experiencia .descripcion p {
-  color: #7e7d7d;
+  color: #555555;
   font-family: "Questrial", sans-serif;
   font-size: 16px;
 }
@@ -927,7 +953,7 @@ body footer .footer-der #wrap-footer .row #derechos p {
 }
 /* line 44, ../../../app/assets/sass/paginas/_equipo.scss */
 #equipo .fotos .container .integrante .nombre p {
-  color: #7e7d7d;
+  color: #555555;
   font-family: "Questrial", sans-serif;
   font-size: 25px;
 }
@@ -949,7 +975,7 @@ body footer .footer-der #wrap-footer .row #derechos p {
 }
 /* line 62, ../../../app/assets/sass/paginas/_equipo.scss */
 #equipo .fotos .container .integrante .descripcion p {
-  color: #7e7d7d;
+  color: #555555;
   font-family: "Questrial", sans-serif;
 }
 /*----------------------------------- jhean capacitacion -------------------------------*/
@@ -1122,7 +1148,7 @@ body footer .container .row #footer-logo {
 /* line 6, ../../../app/assets/sass/paginas/_inicio.scss */
 #diplomado .container .row h2 {
   font-family: "Questrial", sans-serif;
-  color: #7e7d7d;
+  color: #555555;
 }
 .thumbnail h4 {
   font-family: "Questrial", sans-serif;
@@ -1137,7 +1163,7 @@ body footer .container .row #footer-logo {
 /* line 17, ../../../app/assets/sass/paginas/_inicio.scss */
 #diplomado .container > .gest .col-md-4 > p {
   margin: 10% 0;
-  color: #7e7d7d;
+  color: #555555;
 }
 /* line 20, ../../../app/assets/sass/paginas/_inicio.scss */
 #diplomado .container > .gest .col-md-4 > p a {

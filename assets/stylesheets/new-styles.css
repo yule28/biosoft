@@ -1,0 +1,444 @@
+<<<<<<< HEAD
+/*Estilos del encabezado*/
+/*No hay  sólo <header>*/
+body header .navbar {
+  background-color: #20232c;   
+  border-color: #20232c;
+} 
+
+/*Estilos del encabezado*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #20232c; 
+
+  }
+/*Estilos del encabezado-barra de navegación*/
+body header .navbar-nav {
+  /*background-color: #20232c;*/ 
+  margin-top: 20px;
+  margin-left: 30%;
+}
+
+/*Estilo Normal de los elementos de la barra de navegación*/
+.navbar-nav > li{
+  margin: 0 2px;
+  float: left;
+}
+
+/*Estilos del Hover de los elementos de la barra de navegación*/
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #FFF;
+  background-color: black;
+  border-bottom: 3px solid #E44E3C;
+}
+    
+/*Estilos del Active de los elementos de la barra de navegación*/
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #FFF;
+  background-color: #000;
+  border-bottom: 3px solid #E44E3C;
+}
+
+/*Estilos de los elemento A de la barra de navegación*/
+.navbar-nav > li > a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: "Questrial", sans-serif
+}
+
+/*Estilo del elemento A cuando abre el submenú servicios*/
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background-color: #000;
+  color: #FFF;
+  }
+
+
+ /*Estilo del submenú servicios*/
+.dropdown-menu {
+  background-color: black;
+  padding: 2px;
+  min-width: 150px;
+}
+
+  /*Estilo Normal de los elementos del submenú*/
+
+  body header .navbar-nav ul li a{
+  color: #8a9190 !important;
+  font-weight: bold;
+  background-color: black;
+  padding: 5px 15px;
+  font-size: 14px;
+}
+
+
+/*Estilo del Active de los elementos del submenú*/
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+  color: #FFF;
+  background-color: #000;
+  border-bottom: 3px solid #E44E3C;
+}
+
+/*Estilo del Hover de los elementos del submenú*/
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  color: #FFF !important;
+  background-color: black;
+  border-bottom: 3px solid #E44E3C;
+}
+
+body header .logo-biosoft{
+  margin-left: 8%;
+}
+
+/*-----------------Estilo de las redes sociales cabecera ------------------------*/
+
+.redes{
+  margin: 7px 0px;
+}
+
+.correo {
+  float:right;
+  padding: 0 3px;
+}
+.facebook {
+   float:right;
+   padding: 0 3px;
+}
+.twitter {
+   float:right;
+   padding: 0 3px;
+}
+.instagram {
+   float:right;
+   padding: 0 3px;
+}
+
+.telefonos{
+  color: #FFF;
+}
+.email {
+float:right;
+padding: 0 20px;
+margin-top: 5px;
+}
+.telelocal {
+float:right;
+padding: 0 3px;
+margin-top: 5px;
+
+}
+
+.telefonos .email >p{
+  font-size: 12px;
+}
+.telefonos .telelocal >p{
+  font-size: 12px;
+}
+
+.correo >a .img-responsive{
+  max-width: 80%;
+  } 
+  
+  .twitter >a .img-responsive{
+  max-width: 80%;
+  } 
+
+ .instagram >a .img-responsive{
+  max-width: 80%;
+  } 
+
+ .correo >a .img-responsive{
+  max-width: 80%;
+  } 
+
+  .facebook >a .img-responsive{
+  max-width: 80%;
+  } 
+
+/*---------Final estilos de las redes sociales cabecera ----------*/
+
+/*----------Media Queries Cabecera y barra de navegación-------------*/
+
+@media (max-width: 494px) {
+
+ .redes {
+   margin-right:130px;
+  }
+.telefonos{
+  display: none;
+}
+  
+}
+
+@media (max-width: 767px) {
+
+
+  body header .navbar-nav {
+    float: left;
+    margin-top: 0;
+    margin: 7.5px -15px;
+  }
+  .navbar-nav > li{
+   width: 50%;
+  
+  }
+  .navbar-toggle {
+    /*margin-right: 15%;
+    margin-top: 3.5%;*/
+
+    margin-right: 10%;
+    margin-top: 6%;
+
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #FFF;
+    background-color: black;
+    border-bottom: 3px solid #E44E3C;
+  }
+
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus{
+  color: #FFF;
+  background-color: #000;
+  border-bottom: 3px solid #E44E3C;
+}
+
+}
+
+@media (min-width: 1485px) {
+body header .navbar-nav {
+  margin-left: 60%;
+  
+  }
+}
+
+@media (max-width: 305px) {
+
+  .redes {
+   margin-right: 60px;
+ }
+   .navbar-toggle {
+    margin-right: 3%;
+}
+  
+}
+/*----------Estilos Pag Equipo--------------*/
+
+
+#equipo .fotos .container .integrante .nombre p {
+
+    color: #96b523;
+    font-size: 26px; 
+  }
+
+  #equipo .fotos .container .integrante .nombre p span {
+    
+    color: #7e7d7d;
+    font-size: 22px;
+}
+
+#equipo .fotos .container .integrante {
+    margin-bottom: 4%;
+
+}
+
+#equipo .fotos .container .integrante .nombre {
+     height: 100px; 
+
+    }
+
+#equipo .fotos .container .integrante .imagen img {
+    
+    width: 80%;
+    margin: 6% auto 3% auto;
+    border-radius: 20px;
+    border-right: 1px solid #1a4c80;
+    border-bottom: 1px solid #1a4c80;
+  }
+
+
+
+  @media (max-width: 990px) {
+    #equipo .fotos .container .integrante .imagen .img{
+    
+  float: left;
+  width: 100%;
+
+  }
+}
+
+#equipo .experiencia .descripcion p {
+    
+    margin-top: 8%;
+
+  }
+
+
+#equipo hr {
+  
+  margin-bottom: 3%;
+  height: 1px; 
+  text-align: center;
+  background: -moz-radial-gradient(center, ellipse cover,  rgba(150,181,35,1) 0%, rgba(150,181,35,1) 54%, rgba(171,195,78,1) 63%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover,  rgba(150,181,35,1) 0%,rgba(150,181,35,1) 54%,rgba(171,195,78,1) 63%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center,  rgba(150,181,35,1) 0%,rgba(150,181,35,1) 54%,rgba(171,195,78,1) 63%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#96b523', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    }
+
+.linkedin{
+  float: left;
+  margin-right: 1%;
+}
+
+.linkedin >a .img-responsive{
+  max-width: 80%;
+  } 
+
+@media (max-width: 767px){
+    #equipo .fotos .container .integrante .nombre {
+    height: 120px;
+}
+=======
+.verde{
+    color: #84B522;
+}
+
+.naranja{
+    color: #ff7600;    
+}
+
+/*---------------------- home ----------------*/
+.indicador{
+    text-align: center;
+    /*transition: all 0.3s ease-in-out;*/
+}
+
+.indicador:hover img{
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.2);
+    color: #84B522;
+}
+
+.indicador .descripcion{
+    color: #555;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.indicador:hover .descripcion{
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    font-weight: bold;
+    color: #444;
+}
+
+.indicador .titulo{
+    font-size: 2em;
+    color: #84B522;
+}
+
+.text-indicadores{
+    font-size: 130%;
+    margin-top: 10%;
+}
+
+.indicadores img{
+    width: 50%;
+    margin: 25% auto;
+}
+
+.por-que{
+    color: #ffffff;
+    background: #333;
+}
+
+.por-que .row{
+    padding: 5% 0;
+}
+
+.por-que .titulo{
+    font-size: 300%;
+    margin: 5%;
+}
+
+.check-list{
+    list-style-image: url("../images/inicio/check-list.png");
+}
+
+.check-list li{
+    padding: 4%;
+}
+/*-------------------------------------------- */
+/*------------------ Empresa ----------------*/
+.sub-menu{
+    color: #FFF;
+    font-size: 16px;
+    /*margin-top:  -100px;*/
+}
+
+.boton{
+    background: rgba(55, 55, 55, .8);
+    padding: 5%;
+    text-align: center;
+    transition: 1.2s all;
+}
+.boton:hover{
+    background: rgba(228, 78, 60, 1);
+}
+
+.sobre{
+    background-color: #ffffff;
+    padding: 3%;
+}
+
+.sobre h2{
+    color: #7e7d7d;
+}
+
+.sobre p{
+    font-size: 20px;
+    margin: 5% 0;
+    color: #7e7d7d;
+}
+
+.sobre h2 span{
+    font-weight: bold;
+}
+
+.sobre p.eslogan {
+    margin: 5% 5% 0 5%;
+    font-size: 30px;
+}
+
+.capacidad{
+    background: #D2D6D5;
+}
+
+.capacidad ul{
+    padding: 7%;
+}
+/*-------------------------------------------- */
+/*------------------ Carrousel ----------------*/
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 100%;
+        height: auto;
+        margin: 50px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: black;
+    }
+/*--------------------------------------------*/
+>>>>>>> refs/remotes/seven07ve/master

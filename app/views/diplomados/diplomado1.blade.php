@@ -9,11 +9,11 @@
 	<h1 class="hidden-xs hidden-sm titulo-md">Cursos Certificados y Diplomado en Gestión de Procesos de Negocio (BPM) e Ingeniería de Requisitos</h1>
 	<h1 class="hidden-xs hidden-md hidden-lg titulo-sm">Cursos Certificados y Diplomado en Gestión de Procesos de Negocio (BPM) e Ingeniería de Requisitos</h1>
 	<h1 class="hidden-sm hidden-md hidden-lg titulo-xs">Cursos Certificados y Diplomado en Gestión de Procesos de Negocio (BPM) e Ingeniería de Requisitos</h1>
-	<a href="http://www.va-isid.org/course/index.php?categoryid=33" class="descr-dip-link"><h2 class="hidden-xs hidden-sm  sub-titulo-md"><span>Inscripciones abiertas.<br>Inicio: 04 de abril de 2016</span></h2></a>
+	<a href="http://www.va-isid.org/course/index.php?categoryid=33" class="descr-dip-link"><h2 class="hidden-xs hidden-sm  sub-titulo-md"><span>Inscripciones abiertas todo el año.<br>Comience  ahora</span></h2></a>
 	<h2 class="hidden-xs hidden-sm  sub-titulo-md">En <span>alianza</span> con el Instituto Superior de Investigación y Desarrollo <span><a href="http://www.va-isid.org/" style="color:#3594D6; text-decoration: none;">VA-ISID</a></span><br> y la Universidad de Nueva Esparta <span>UNE</span></h2>
-	<a href="http://www.va-isid.org/course/index.php?categoryid=33" class="descr-dip-link"><h2 class="hidden-xs hidden-md hidden-lg sub-titulo-sm"><span>Inscripciones abiertas.<br>Incio: 11 de enero de 2016</span></h2></a>
+	<a href="http://www.va-isid.org/course/index.php?categoryid=33" class="descr-dip-link"><h2 class="hidden-xs hidden-md hidden-lg sub-titulo-sm"><span>Inscripciones abiertas todo el año.<br>Comience  ahora</span></h2></a>
 	<h2 class="hidden-xs hidden-md hidden-lg sub-titulo-sm">En <span>alianza</span> con el Instituto Superior de Investigación y Desarrollo <span><a href="http://www.va-isid.org/" style="color:#3594D6; text-decoration: none;">VA-ISID</a></span><br> y la Universidad de Nueva Esparta <span>UNE</span></h2>
-	<a href="http://www.va-isid.org/course/index.php?categoryid=33" class="descr-dip-link"><h2 class="hidden-sm hidden-md hidden-lg sub-titulo-xs"><span>Inscripciones abiertas.<br>Incio: 11 de enero de 2016</span></h2></a>
+	<a href="http://www.va-isid.org/course/index.php?categoryid=33" class="descr-dip-link"><h2 class="hidden-sm hidden-md hidden-lg sub-titulo-xs"><span>Inscripciones abiertas todo el año.<br>Comience  ahora</span></h2></a>
 	<h2 class="hidden-sm hidden-md hidden-lg sub-titulo-xs">En <span>alianza</span> con el Instituto Superior de Investigación y Desarrollo <span><a href="http://www.va-isid.org/" style="color:#3594D6; text-decoration: none;">VA-ISID</a></span> y la Universidad de Nueva Esparta <span>UNE</span></h2>
 </div>
 <div id="">

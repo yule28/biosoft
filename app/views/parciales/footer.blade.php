@@ -10,10 +10,11 @@
 	</div>
 	<div class="col-md-4 hidden-xs hidden-sm paginas">
 		<span class="titulo">Páginas</span><br><br>
+		{{ HTML::link('empresa', 'Empresa') }}<br>
 		{{ HTML::link('consultoria', 'Consultoria') }}<br>
 		{{ HTML::link('capacitacion', 'Capacitación') }}<br>
 		{{ HTML::link('desarrollo', 'Desarrollo') }}<br>
-		{{ HTML::link('equipo', 'Equipo') }}<br>
+		{{ HTML::link('portafolio', 'Portafolio') }}<br>
 		{{ HTML::link('contacto', 'Contacto') }}
 	</div>
 	<div class="col-md-4 hidden-xs hidden-sm">

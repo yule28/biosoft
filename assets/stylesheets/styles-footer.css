@@ -1,0 +1,162 @@
+
+body footer {
+    width: 100%;
+    height: auto;
+    background-color: #33332F;
+    color: #818181;
+    padding: 50px 0px 20px 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+footer .fa{
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+footer .fa:hover{
+	color:#84B522;
+}
+
+.facebook-footer{
+	float: left;
+	padding: 0 4px;
+}
+
+.twitter-footer{
+	float: left;
+	padding: 0 4px;
+}
+
+
+.instagram-footer{
+	float: left;
+	padding: 0 4px;
+}
+
+
+.correo-footer{
+	float: left;
+	padding: 0 4px;
+}
+
+.logo-footer{
+	margin-bottom: 15px;
+}
+
+
+.titulo-footer{
+	margin-top: 30px;
+	position: relative;
+	text-align: center;
+}
+.titulo-footer:before, .titulo-footer:after{
+    width: 32%;
+    height: 3px;
+    display: block;
+    position: absolute;
+    content: '';
+    background: #969888;
+}
+
+.titulo-footer:before {
+    left: 0%;
+    top: 10px;
+}
+
+.titulo-footer:after {
+    right: 0%;
+    top: 12px;
+}
+
+
+.footer-down p{
+	font-size: 12px;
+	text-align: center;
+}
+
+.footer-down h4 {
+	margin-top: 6%;
+	margin-bottom: 3%;
+}
+
+
+
+footer a{
+	font-size: 0.8rem;
+  	color: #eee;
+}
+
+footer a:hover{
+	color: #84B522 
+}
+
+footer .lista-left, .lista-right{
+	text-align: center;
+	
+}
+footer .lista-left a{
+	display: inline-block;
+	margin: 0px 0px 10px 0px;
+
+}
+
+footer .lista-right a{
+	display: inline-block;
+	margin: 0px 0px 10px 0px;
+	}
+
+footer h4 span{
+	color: #eee;
+
+}
+
+footer .footer-top {
+	text-align: center;
+}
+
+.redes-footer{
+	text-align: center;
+	display: inline-block;
+}
+
+@media (max-width: 1024px) {
+	footer .fa{
+	font-size: 17px;
+	}
+}
+
+@media (max-width: 992px) {
+	footer .lista-right{
+		display: none;
+	}
+	footer .lista-left{
+		display: none;
+	}
+	.titulo-footer:before, .titulo-footer:after{
+    width: 23%;
+	}
+}
+
+/*Media queries*/
+
+@media (max-width: 600px) {
+	footer h4 span{
+	font-size: 15px;
+	}
+}
+
+@media (max-width: 464px) {
+	.titulo-footer:before, .titulo-footer:after{
+    width: 17%;
+	}
+}
+
+@media (max-width: 330px) {
+	footer h4 span{
+	font-size: 13px;
+	}
+	.titulo-footer:before, .titulo-footer:after{
+    width: 12%;
+	}
+}

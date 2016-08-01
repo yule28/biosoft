@@ -1,4 +1,4 @@
-<div style="margin-top: 85px; display:flex;">
+<div style="margin-top: 80px; display:flex;">
     <ul class="pgwSlider">
         <li>
             <a href="cursos/uml" target="_blank"><img src="assets/images/slider/slider_uml.jpg" ></a>
